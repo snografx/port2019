@@ -1,0 +1,33 @@
+.section-l {
+    flex-direction: row;
+
+    img {
+        text-align: left;
+    }
+}
+
+.section-r {
+    flex-direction: row-reverse;
+
+    img {
+        text-align: right;
+    }
+}
+
+.section-c {
+    flex-direction: column;
+
+    .about {
+        margin: 0 8%;
+        border: $debug4;
+        text-align: center;
+    }
+
+    img {
+        text-align: center;
+    }
+
+    ul li {
+        float: inherit;
+    }
+}

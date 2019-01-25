@@ -5,8 +5,9 @@ import Home from './views/Home.vue'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
+  //mode: 'history',
+  base: process.env.BASE_URL,
+  routes: [{
       path: '/',
       name: 'home',
       component: Home
@@ -17,7 +18,44 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      component: () => import( /* webpackChunkName: "about" */ './views/About.vue')
+    },
+    {
+      path: '/cityplanner',
+      name: 'cityplanner',
+      component: () => import( /* webpackChunkName: "about" */ './views/CityPlanner.vue')
+    },
+    {
+      path: '/panorama',
+      name: 'panorama',
+      component: () => import( /* webpackChunkName: "about" */ './views/Panorama.vue')
+    },
+    {
+      path: '/minstad',
+      name: 'minstad',
+      component: () => import( /* webpackChunkName: "about" */ './views/MinStad.vue')
+    },
+    {
+      path: '/snografx',
+      name: 'snografx',
+      component: () => import( /* webpackChunkName: "about" */ './views/Snografx.vue')
+    },
+    {
+      path: '/datamanager',
+      name: 'datamanager',
+      component: () => import( /* webpackChunkName: "about" */ './views/DataManager.vue')
+    },
+  ],
+
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return {
+        x: 0,
+        y: 0
+      }
     }
-  ]
+  }
+
 })

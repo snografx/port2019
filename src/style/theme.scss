@@ -1,0 +1,103 @@
+// Colours
+
+$theme: light;
+
+$base1: #ffffff;
+$base2: whitesmoke;
+$contrast: #06232B;
+$theme1: #22B1C9;
+$theme2: #AB9989;
+
+@if $theme !=light {
+    $base1: black;
+    $base2: #222;
+    $contrast: whitesmoke;
+    $theme1: #AB9989;
+    $theme2: #22B1C9;
+}
+
+
+$background: $base1;
+$text: $contrast;
+$headline: $theme1;
+$tag: $theme2;
+$link: lighten($theme1, 0%);
+$link-active: lighten($theme1, 20%);
+$link-hover: $theme2;
+
+// Breaks & Width
+
+$width: 1200px;
+$break: "(max-width: 620px)";
+$herobreak: "(max-width: 920px)";
+$mobilebreak: "(max-width: 440px)";
+$minibreak: "(max-width: 330px)";
+
+// Debug 
+$debug: off;
+
+$debug1: dashed 1px cyan;
+$debug2: dashed 1px magenta;
+$debug3: dashed 1px gold;
+$debug4: dashed 1px lime;
+
+@if $debug !=on {
+    $debug1: dashed 1px transparent;
+    $debug2: dashed 1px transparent;
+    $debug3: dashed 1px transparent;
+    $debug4: dashed 1px transparent;
+}
+
+@mixin transition($duration) {
+    -webkit-transition: $duration;
+    -moz-transition: $duration;
+    -ms-transition: $duration;
+    -o-transition: $duration;
+    transition: $duration;
+}
+
+
+
+
+@mixin orpheus {
+    font-family: orpheuspro, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@mixin sofia($weight) {
+    font-family: sofia-pro, serif;
+    font-weight: $weight;
+    font-style: normal;
+}
+
+
+/* Ref
+
+font-family: orpheuspro, serif;
+    font-weight: 500;
+    font-style: normal;
+
+font-family: sofia-pro,sans-serif;
+font-weight: 300;
+font-style: normal;
+
+font-family: sofia-pro,sans-serif;
+font-weight: 300;
+font-style: italic;
+
+font-family: sofia-pro,sans-serif;
+font-weight: 500;
+font-style: normal;
+
+*/
+
+@mixin linear-gradient($from, $to) {
+    background: $to;
+    background: -moz-linear-gradient(top, $from 0%, $to 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $from), color-stop(100%, $to));
+    background: -webkit-linear-gradient(top, $from 0%, $to 100%);
+    background: -o-linear-gradient(top, $from 0%, $to 100%);
+    background: linear-gradient(to bottom, $from 0%, $to 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#{$from}, endColorstr=#{$to})
+}

@@ -1,0 +1,20 @@
+.case {
+    @if $alignment==left {
+        flex-direction: row;
+    }
+
+    @else {
+        flex-direction: row-reverse;
+    }
+
+    img {
+        @if $alignment==left {
+            text-align: left;
+        }
+
+        @else {
+            text-align: right;
+        }
+
+    }
+}
