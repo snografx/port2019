@@ -2,8 +2,7 @@
   <div>
     <Title
       title="CityPlanner"
-      blurb="CityPlanner is Agency9's flagship product. It is a web application used for urban planning and publishing 3D scenes to web, mobile, touch-tables, virtual reality, and more. ​​​​​​​There is even a component for public communication. 
-"
+      blurb="CityPlanner is Agency9's flagship product. It is a web application used for urban planning and publishing 3D scenes to web, mobile, touch-tables, virtual reality, and more. ​​​​​​​There is even a component for public communication."
       tags="Product &amp; Interface Design for Web/Showroom/VR, Logo &amp; Branding, Publicity"
     />
 
