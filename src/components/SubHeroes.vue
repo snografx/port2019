@@ -16,7 +16,7 @@
       <div class="subhero">
         <div class="subtitle">Project Editor</div>
         <div class="list">Web Interface
-          <br>User Exerience
+          <br>User Experience
           <br>Case Studies
         </div>
         <div class="more">Learn More…

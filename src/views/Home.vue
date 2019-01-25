@@ -2,7 +2,7 @@
   <div class="home">
     <Title
       title="Ciao, I'm Julian Minervini"
-      blurb="I am a multidisciplinary designer from Stockholm with over 15 years of experience. I specialise creating digital products, simple visual design, and developing usable interfaces."
+      blurb="I am a multidisciplinary designer from Stockholm with over 15 years of experience. I specialise creating digital products with elegant visual design and usable interfaces."
       tags="Visual, Interface, Motion, Experience"
     />
     <HeroCityPlanner/>

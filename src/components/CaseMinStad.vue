@@ -10,7 +10,7 @@
         <router-link to="/minstad">Min Stad Göteborg</router-link>
       </h1>
       <h4>2016</h4>
-      <p>Min Stad is an app designed for the City of Gothenburg. The municipality publishs planning and cultural information while cultivating feedback and ideas from the community. Visitors mark map positions, choose categories, and leave comments.</p>
+      <p>Min Stad is an app designed for the City of Gothenburg. The municipality publishes planning and cultural information while cultivating feedback and ideas from the community. Visitors mark map positions, choose categories, and leave comments.</p>
 
       <div class="case-links">
         <router-link to="/minstad">
