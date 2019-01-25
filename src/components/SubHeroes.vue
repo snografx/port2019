@@ -6,7 +6,6 @@
         <div class="list">Brand &amp; Identity
           <br>Iconography
           <br>Motion Graphics
-          <br>
         </div>
         <div class="more">Learn More…
           <br>
@@ -19,7 +18,6 @@
         <div class="list">Web Interface
           <br>User Exerience
           <br>Case Studies
-          <br>
         </div>
         <div class="more">Learn More…
           <br>
@@ -32,7 +30,6 @@
         <div class="list">Web &amp; Mobile UI
           <br>User Experience
           <br>Case Studies
-          <br>
         </div>
         <div class="more">Learn More…
           <br>
