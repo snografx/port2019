@@ -1,6 +1,6 @@
 <template>
   <div class="subheroes subheroes-desktop">
-    <a href="#">
+    <router-link to="/cp-visual.design">
       <div class="subhero">
         <div class="subtitle">Visual Design</div>
         <div class="list">Brand &amp; Identity
@@ -12,8 +12,8 @@
           <br>
         </div>
       </div>
-    </a>
-    <a href="#">
+    </router-link>
+    <router-link to="/cp-project.editor">
       <div class="subhero">
         <div class="subtitle">Project Editor</div>
         <div class="list">Web Interface
@@ -25,8 +25,8 @@
           <br>
         </div>
       </div>
-    </a>
-    <a href="#">
+    </router-link>
+    <router-link to="/cp-public.view">
       <div class="subhero">
         <div class="subtitle">Public View</div>
         <div class="list">Web &amp; Mobile UI
@@ -38,7 +38,7 @@
           <br>
         </div>
       </div>
-    </a>
+    </router-link>
   </div>
 </template>
 

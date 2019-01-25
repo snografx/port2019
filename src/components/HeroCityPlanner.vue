@@ -9,7 +9,7 @@
     </div>
     <div class="about">
       <h1>
-        <router-link to="/cityplanner">CityPlanner</router-link>
+        <router-link to="/cp-visual.design">CityPlanner</router-link>
       </h1>
       <h4>2014 &mdash; Present</h4>
       <p>CityPlanner is a web app where users create urban planning projects in real 3D cities. These interactive projects are published to web, mobile, touch-tables, and virtual reality.</p>
@@ -17,15 +17,15 @@
       <h4 class="subheroes-title mobile-only">Case Studies</h4>
 
       <div class="subheroes-mobile">
-        <a href="#">
+        <router-link to="/cp-visual.design">
           <div class="subhero">Visual Design</div>
-        </a>
-        <a href="#">
+        </router-link>
+        <router-link to="/cp-project.editor">
           <div class="subhero">Project Editor</div>
-        </a>
-        <a href="#">
+        </router-link>
+        <router-link to="/cp-public.view">
           <div class="subhero">Public View</div>
-        </a>
+        </router-link>
       </div>
 
       <h4 class="mobile-only">External Links</h4>
