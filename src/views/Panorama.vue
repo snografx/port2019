@@ -7,6 +7,11 @@
       Viewpoints are exported from the fully 3D world to create a focused on the rails experience."
       tags="Product &amp; Interface Design for Web/Showroom/VR, Logo &amp; Branding, Publicity"
     />
+
+    <div class="page">
+      <h1>Soon…</h1>
+    </div>
+    
   </div>
 </template>
 

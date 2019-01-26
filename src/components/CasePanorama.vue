@@ -10,8 +10,8 @@
         <router-link to="/panorama">360° Panorama</router-link>
       </h1>
       <h4>2018 &mdash; Present</h4>
-      <p>360° Panorama is CityPlanner for low-end and mobile devices. It uses exported viewpoints from CityPlanner's fully 3D world to create a focused on-the-rails experience.  </p>
-      
+      <p>360° Panorama is CityPlanner for low-end and mobile devices. It uses exported viewpoints from CityPlanner's fully 3D world to create a focused on-the-rails experience.</p>
+
       <div class="case-links">
         <router-link to="/panorama">
           <div class="case-link">Case Study</div>
@@ -31,6 +31,6 @@ export default {};
 </script>
 
  <style lang="scss" scoped>
-$alignment: left;
+$alignment: right;
 @import "@/style/case-logic.scss";
 </style>

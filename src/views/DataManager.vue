@@ -8,8 +8,9 @@
     />
 
     <div class="page">
-      <h1>Case Study: Snö</h1>
+      <h1>Soon…</h1>
     </div>
+    
   </div>
 </template>
 

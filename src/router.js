@@ -21,6 +21,21 @@ export default new Router({
       component: () => import( /* webpackChunkName: "about" */ './views/About.vue')
     },
     {
+      path: '/cp-visual.design',
+      name: 'cp-visual.design',
+      component: () => import( /* webpackChunkName: "about" */ './views/CPVisualDesign.vue')
+    },
+    {
+      path: '/cp-project.editor',
+      name: 'cp-project.editor',
+      component: () => import( /* webpackChunkName: "about" */ './views/CPProjectEditor.vue')
+    },
+    {
+      path: '/cp-public.view',
+      name: 'cp-public.view',
+      component: () => import( /* webpackChunkName: "about" */ './views/CPPublicView.vue')
+    },
+    {
       path: '/cityplanner',
       name: 'cityplanner',
       component: () => import( /* webpackChunkName: "about" */ './views/CityPlanner.vue')
@@ -44,6 +59,16 @@ export default new Router({
       path: '/datamanager',
       name: 'datamanager',
       component: () => import( /* webpackChunkName: "about" */ './views/DataManager.vue')
+    },
+    {
+      path: '/template',
+      name: 'template',
+      component: () => import( /* webpackChunkName: "about" */ './views/Template.vue')
+    },
+    {
+      path: '/template.single',
+      name: 'template.single',
+      component: () => import( /* webpackChunkName: "about" */ './views/TemplateSingle.vue')
     },
   ],
 

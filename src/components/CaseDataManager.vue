@@ -31,6 +31,6 @@ export default {};
 </script>
 
  <style lang="scss" scoped>
-$alignment: left;
+$alignment: right;
 @import "@/style/case-logic.scss";
 </style>

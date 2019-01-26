@@ -1,16 +1,15 @@
 <template>
   <div>
     <Title
-      title="Snögrafx"
+      title="Project Editor"
       blurb="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur velit nulla voluptatibus dolor. Aut eius laborum ab, cumque dolor fugiat. Praesentium ipsam labore maiores voluptates, atque quasi ratione corporis incidunt?
 "
-      tags="Product &amp; Interface Design for Web/Showroom/VR, Logo &amp; Branding, Publicity"
+      tags="CityPlanner…"
     />
 
     <div class="page">
       <h1>Soon…</h1>
     </div>
-    
   </div>
 </template>
 
