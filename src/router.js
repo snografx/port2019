@@ -60,6 +60,16 @@ export default new Router({
       name: 'datamanager',
       component: () => import( /* webpackChunkName: "about" */ './views/DataManager.vue')
     },
+    {
+      path: '/template',
+      name: 'template',
+      component: () => import( /* webpackChunkName: "about" */ './views/Template.vue')
+    },
+    {
+      path: '/template.single',
+      name: 'template.single',
+      component: () => import( /* webpackChunkName: "about" */ './views/TemplateSingle.vue')
+    },
   ],
 
   scrollBehavior(to, from, savedPosition) {

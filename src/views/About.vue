@@ -5,13 +5,12 @@
       blurb="
       Ciao! My name is Julian and I'm a designer. I have the ability and experience to carry projects through all aspects of the design and development process – including management, hands-on creative work, and taking the critical responsibility for cohesion, quality, and delivery.
       "
-      tags=""
+      tags
     />
 
     <div class="page">
       <h1>Soon…</h1>
     </div>
-
   </div>
 </template>
 
