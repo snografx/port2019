@@ -104,11 +104,17 @@ body {
 
 // UNIVERSAL
 
-.row-contrast {
+.text-shrink p {
+  font-size: 0.9rem !important;
+}
+
+.case:nth-of-type(odd) {
   background: $base2;
 }
 
 // RESPONSIVE
+
+
 
 .mobile-only {
   display: none;

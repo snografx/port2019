@@ -1,5 +1,5 @@
 <template>
-  <div class="case">
+  <div class="case case-index">
     <div class="device">
       <router-link to="/datamanager">
         <img src="@/assets/CaseDataManager-DropF1.png">

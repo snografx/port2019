@@ -17,7 +17,7 @@
         <div class="subtitle">Project Editor</div>
         <div class="list">Web Interface
           <br>User Experience
-          <br>Case Studies
+          <br>Case Study
         </div>
         <div class="more">Learn More…
           <br>
@@ -29,7 +29,7 @@
         <div class="subtitle">Public View</div>
         <div class="list">Web &amp; Mobile UI
           <br>User Experience
-          <br>Case Studies
+          <br>Case Study
         </div>
         <div class="more">Learn More…
           <br>

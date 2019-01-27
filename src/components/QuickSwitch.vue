@@ -10,29 +10,29 @@
       <div class="projects-pop" v-show="projects">
         <div class="projects-popped">
           <div class="head-pop">CityPlanner</div>
-          <div @click="projects = !projects">
+          <div class="pop-link" @click="projects = !projects">
             <router-link to="/cp-visual.design" @click="projects = !projects">Visual Design</router-link>
           </div>
-          <div @click="projects = !projects">
+          <div class="pop-link" @click="projects = !projects">
             <router-link to="/cp-project.editor" @click="projects = !projects">Project Editor</router-link>
           </div>
-          <div @click="projects = !projects">
+          <div class="pop-link" @click="projects = !projects">
             <router-link to="/cp-public.view" @click="projects = !projects">Public View</router-link>
           </div>
           <div class="head-pop">Other Cases</div>
           <div @click="projects = !projects">
             <router-link to="/panorama" @click="projects = !projects">360° Panorama</router-link>
           </div>
-          <div @click="projects = !projects">
+          <div class="pop-link" @click="projects = !projects">
             <router-link to="/minstad">Min Stad</router-link>
           </div>
-          <div @click="projects = !projects">
+          <div class="pop-link" @click="projects = !projects">
             <router-link to="/datamanager">DataManager</router-link>
           </div>
-          <div @click="projects = !projects">
+          <div class="pop-link" @click="projects = !projects">
             <router-link to="/snografx">Snögrafx</router-link>
           </div>
-          <div class="close-pop pointer" @click="projects = !projects">&#xd7;</div>
+          <div class="pop-link close-pop pointer" @click="projects = !projects">&#xd7;</div>
         </div>
         <nav class="fab-container">
           <a class="pointer" @click="projects = !projects">

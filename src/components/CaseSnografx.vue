@@ -1,5 +1,5 @@
 <template>
-  <div class="case row-contrast">
+  <div class="case case-index row-contrast">
     <div class="device">
       <router-link to="/snografx">
         <img src="@/assets/CaseSnografx-DropF1.png">

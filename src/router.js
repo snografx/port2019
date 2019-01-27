@@ -61,13 +61,13 @@ export default new Router({
       component: () => import( /* webpackChunkName: "about" */ './views/DataManager.vue')
     },
     {
-      path: '/template',
-      name: 'template',
+      path: '/template.logic',
+      name: 'template.logic',
       component: () => import( /* webpackChunkName: "about" */ './views/Template.vue')
     },
     {
-      path: '/template.single',
-      name: 'template.single',
+      path: '/template',
+      name: 'template',
       component: () => import( /* webpackChunkName: "about" */ './views/TemplateSingle.vue')
     },
   ],
