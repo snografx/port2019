@@ -29,6 +29,16 @@
      @media #{$minibreak} {
        transform: scale(.8);
      }
+
+
+
+     div.pop-link {
+       @include transition(0.3s);
+
+       &:hover {
+         transform: scale(1.1);
+       }
+     }
    }
 
    div a {
@@ -41,6 +51,7 @@
        font-size: 1.4rem;
        line-height: 2.0rem;
      }
+
    }
 
    .close-pop {
