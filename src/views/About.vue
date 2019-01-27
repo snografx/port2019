@@ -4,10 +4,21 @@
       title="A Concise Biography"
       blurb="
       Ciao! My name is Julian and I'm a designer. I have the ability and experience to carry projects through all aspects of the design and development process – including management, hands-on creative work, and taking the critical responsibility for cohesion, quality, and delivery."
-      tags="Skip to <a href='#'>What</a>"
     />
 
-    <div class="case case-left">
+    <div class="anchor-links">
+      <h4>Skip to</h4>
+      <div class="skip-links case-links">
+        <a href="#" v-scroll-to="'#cv'">
+          <div class="case-link">CV</div>
+        </a>
+        <a href="#" v-scroll-to="'#skills'">
+          <div class="case-link">Skills</div>
+        </a>
+      </div>
+    </div>
+
+    <div id="cv" class="case case-left">
       <div class="visual">
         <img src="@/assets/CaseSnografx-DropF1.png">
       </div>
@@ -19,7 +30,9 @@
       </div>
     </div>
 
-    <div class="case case-right row-contrast">
+    <ArrowUp/>
+
+    <div id="skills" class="case case-right row-contrast">
       <div class="visual">
         <img src="@/assets/CaseDataManager-DropF1.png">
       </div>
@@ -29,12 +42,14 @@
         <h6>Illustrator, After Effects, XD, Figma, Zeplin, Visual Studio Code</h6>
       </div>
     </div>
+
+    <ArrowUp/>
   </div>
 </template>
 
 <script>
 import Title from "@/components/Title.vue";
-import ArrowUp from "@/components/Title.vue";
+import ArrowUp from "@/components/ArrowUp.vue";
 
 export default {
   name: "home",
