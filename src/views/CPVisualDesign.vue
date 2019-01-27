@@ -14,11 +14,17 @@
         <a href="#" v-scroll-to="'#icon'">
           <div class="case-link">Icon Design</div>
         </a>
+        <a href="#" v-scroll-to="'#style'">
+          <div class="case-link">Style Guide</div>
+        </a>
         <a href="#" v-scroll-to="'#motion'">
           <div class="case-link">Motion Graphics</div>
         </a>
         <a href="#" v-scroll-to="'#publicity'">
           <div class="case-link">Publicity</div>
+        </a>
+        <a href="#" v-scroll-to="'#print'">
+          <div class="case-link">Print</div>
         </a>
       </div>
     </div>
@@ -84,7 +90,37 @@
         <p>CityPlanner icons are custom designed. Because our product uses so many unique concepts an open source library would leave too many gaps. This also facilitated building a strong visual brand.</p>
         <p>When adding features based on existing concepts, I do a quick study of possible and existing solutions before translating the best design language to our own dialect.</p>
         <p>The CityPlanner logo tapers to 60° angle. Angles of 60° and 30° were therefore used as a unifying design element wherever possible – in both interface and publicity.</p>
-        <h6>Tools: Illustrator, CorelDraw</h6>
+        <h6>Tools: Illustrator, Icon Jar, CorelDraw</h6>
+      </div>
+    </div>
+
+    <ArrowUp/>
+
+    <div id="style" class="case case-left">
+      <div class="visual">
+        <div class="carousel-container">
+          <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
+            <slide>
+              <img src="@/assets/CasePanorama-DropF1.png">
+            </slide>
+            <slide>
+              <img src="@/assets/CaseMinStad-DropF1.png">
+            </slide>
+            <slide>
+              <img src="@/assets/CaseDataManager-DropF1.png">
+            </slide>
+            <slide>
+              <img src="@/assets/CaseSnografx-DropF1.png">
+            </slide>
+          </carousel>
+        </div>
+      </div>
+      <div class="about">
+        <h1>Style Guide</h1>
+        <h4>Colour, Typography, Press Kit</h4>
+        <p>I create a style guide for our organisation, software, and customers. Agency9's original pea-green was refreshing into a modern hue, with an additional shade added for depth and emphasis. Yellow from the Editor UI became a defining trademark, along with an 8-colour category palette. Different complementary typefaces were selected to represent the company, software, and marketing message.</p>
+        <p>The consistent use of colour and type focus our message in communications and project design. A Press Kit is available on cityplanneronline.com</p>
+        <h6>Tools: WordPress, Illustrator, Sketch</h6>
       </div>
     </div>
 
@@ -146,13 +182,15 @@
 
     <ArrowUp/>
 
-    <div class="case case-text row-contrast">
+    <div id="print" class="case case-centre row-contrast">
+      <div class="visual">
+        <img src="@/assets/CaseMinStad-DropF1.png">
+      </div>
       <div class="about">
-        <h1>Luxembourg</h1>
-        <h4>Text Only</h4>
-        <p>The 6th arrondissement of Paris (VIe arrondissement) is one of the 20 arrondissements of the capital city of France. In spoken French, this arrondissement is referred to as sixième.</p>
-        <p>The arrondissement, called Luxembourg, is situated on the left bank of the River Seine. It includes world-famous educational institutions such as the École des Beaux-Arts de Paris and the Académie française, the seat of the French Senate as well as a concentration of some of Paris's most famous monuments such as Saint-Germain Abbey and square, St. Sulpice Church and square, the Pont des Arts, and the Jardin du Luxembourg.</p>
-        <h6>Neptune, Mercury, Earth</h6>
+        <h1>Print Design</h1>
+        <h4>Cards, Rollups, Posters, Exhibitions</h4>
+        <p>I am also experienced in print design, so during my time at Agency9 I occasionally designed items for our company and customers. These items include business cards, flyers, rollups, and posters. I was also involved in the design of exhibitions spaces.</p>
+        <h6>Tools: InDesign, Illustrator, CorelDraw</h6>
       </div>
     </div>
 
