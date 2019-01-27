@@ -214,8 +214,6 @@
 <script>
 import Title from "@/components/Title.vue";
 import ArrowUp from "@/components/ArrowUp.vue";
-import ContentRight from "@/components/ContentRight.vue";
-import ContentLeft from "@/components/ContentLeft.vue";
 import { Carousel, Slide } from "vue-carousel";
 
 export default {
@@ -223,8 +221,6 @@ export default {
   components: {
     Title,
     ArrowUp,
-    ContentRight,
-    ContentLeft,
     Carousel,
     Slide
   }
