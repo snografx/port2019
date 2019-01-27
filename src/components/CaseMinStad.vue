@@ -1,5 +1,5 @@
 <template>
-  <div class="case row-contrast">
+  <div class="case case-index row-contrast">
     <div class="device">
       <router-link to="/minstad">
         <img src="@/assets/CaseMinStad-DropF1.png">
