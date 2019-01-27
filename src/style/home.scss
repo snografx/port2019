@@ -346,6 +346,11 @@ h4.subheroes-title {
     flex-wrap: wrap;
     flex-direction: column;
 
+    transform: scale(.8);
+
+    h4 {
+        color: lighten($theme1, 25%) !important;
+    }
 
     .case-links {
         justify-content: center;

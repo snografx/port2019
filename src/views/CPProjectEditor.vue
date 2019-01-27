@@ -3,7 +3,7 @@
     <Title
       title="Project Editor"
       blurb="The Editor is used to build projects. It runs in a standard web browser with built-in tools for planners and internal communication as well as features for publishing and public interaction."
-      tags
+      tags="Introduction, Case Study"
     />
 
     <div class="anchor-links">

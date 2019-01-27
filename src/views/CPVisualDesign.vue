@@ -3,6 +3,7 @@
     <Title
       title="Visual Design"
       blurb="Visual design is about bringing brands to life by defining their unique style and voice. Using CityPlanner as a case study, I will explain the design concepts and decisions behind my work."
+      tags="Visual, Motion, Graphic"
     />
 
     <div class="anchor-links">

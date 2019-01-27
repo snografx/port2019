@@ -3,7 +3,7 @@
     <Title
       title="Public View"
       blurb="This is the 3D world – CityPlanner's public facing interface. It's simpler and touch-friendly. We adapted different 'views' for mobile, touch-tables, and virtual reality."
-      tags
+      tags="Introduction, Case Study"
     />
 
     <div class="anchor-links">
