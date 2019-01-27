@@ -51,7 +51,7 @@
         </div>
       </div>
       <div class="about">
-        <h1>Overview</h1>
+        <h1>Product Overview</h1>
         <h4>Web, Mobile, Touch-table, VR</h4>
         <p>The main web interface consisting of a ribbon at the bottom, circular content buttons, a toolbar, plus interactive components.</p>
         <p>
@@ -66,10 +66,10 @@
 
     <div id="analysis" class="case case-text row-contrast">
       <div class="about">
-        <h1>Project Analysis</h1>
-        <h4>Adapt Drawing Tools to Mobile UI</h4>
+        <h1>Mobile Create Tools</h1>
+        <h4>Case Analysis</h4>
         <p>Casablanca is Morocco's chief port and one of the largest financial centers in Africa. According to the 2014 population estimate, the city has a population of about 3.35 million in the urban area and over 6.8 million in the Casablanca-Settat region. Casablanca is considered the economic and business center of Morocco, although the national political capital is Rabat.</p>
-        <h6>Whale, Camel, Mosquito</h6>
+        <h6>Role: UX &amp; Interface Design</h6>
       </div>
     </div>
 
@@ -96,9 +96,9 @@
       </div>
       <div class="about">
         <h1>Design Process</h1>
-        <h4>Left Content + Carousel</h4>
+        <h4>User Research, Feedback, Prototype</h4>
         <p>Stockholm is the capital of Sweden and the most populous urban area in the Nordic countries. The city stretches across fourteen islands where Lake Mälaren flows into the Baltic Sea. Just outside the city and along the coast is the island chain of the Stockholm archipelago.</p>
-        <h6>Raccoon, Aardvark, Giraffe</h6>
+        <h6>Tools: Figma, Illustrator</h6>
       </div>
     </div>
 
@@ -132,7 +132,7 @@
       </div>
       <div class="about">
         <h1>Result</h1>
-        <h4>Centre Content + Carousel</h4>
+        <h4>Currently Under Development</h4>
         <p>The City of New York is the most populous city in the United States. Located at the southern tip of the state of New York, the city is the center of the New York metropolitan area, the largest metropolitan area in the world by urban landmass and one of the world's most populous megacities, with an estimated 20,320,876 people in its 2017 Metropolitan Statistical Area and 23,876,155 residents in its Combined Statistical Area.</p>
         <p>A global power city, New York City has been described as the cultural, financial, and media capital of the world, and exerts a significant impact upon commerce, entertainment, research, technology, education, politics, tourism, art, fashion, and sports. The city's fast pace has inspired the term New York minute. Home to the headquarters of the United Nations, New York is an important center for international diplomacy.</p>
         <h6>Lion, Penguin, Salamander</h6>

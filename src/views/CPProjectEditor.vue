@@ -67,10 +67,10 @@
 
     <div id="analysis" class="case case-text row-contrast">
       <div class="about">
-        <h1>Project Analysis</h1>
-        <h4>Adapt Drawing Tools to Mobile UI</h4>
+        <h1>Details Window Revision</h1>
+        <h4>Case Analysis</h4>
         <p>Casablanca is Morocco's chief port and one of the largest financial centers in Africa. According to the 2014 population estimate, the city has a population of about 3.35 million in the urban area and over 6.8 million in the Casablanca-Settat region. Casablanca is considered the economic and business center of Morocco, although the national political capital is Rabat.</p>
-        <h6>Whale, Camel, Mosquito</h6>
+        <h6>Role: UX &amp; Interface Design</h6>
       </div>
     </div>
 
@@ -99,7 +99,7 @@
         <h1>Design Process</h1>
         <h4>Left Content + Carousel</h4>
         <p>Stockholm is the capital of Sweden and the most populous urban area in the Nordic countries. The city stretches across fourteen islands where Lake Mälaren flows into the Baltic Sea. Just outside the city and along the coast is the island chain of the Stockholm archipelago.</p>
-        <h6>Raccoon, Aardvark, Giraffe</h6>
+        <h6>Tools: Raccoon, Aardvark, Giraffe</h6>
       </div>
     </div>
 
