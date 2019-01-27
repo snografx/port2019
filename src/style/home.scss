@@ -29,6 +29,12 @@
     }
 }
 
+.case-overview {
+    border-radius: 30px;
+    margin: 0 5%;
+    background: lighten($theme1, 50%) !important;
+}
+
 .device,
 .visual,
 .about {
@@ -284,10 +290,23 @@ h4.subheroes-title {
     }
 }
 
+
 .case-link {
     background: $background;
     color: $text;
     border: 1px solid $text;
+
+    &:hover {
+        background: $link-hover;
+        color: $background;
+        border: 1px solid $link-hover;
+    }
+}
+
+.case-link-overview {
+    background: $theme1;
+    color: $base1;
+    border: 1px solid $theme1;
 
     &:hover {
         background: $link-hover;

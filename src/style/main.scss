@@ -108,7 +108,7 @@ body {
   font-size: 0.9rem !important;
 }
 
-.case:nth-of-type(2n) {
+.case:nth-of-type(odd) {
   background: $base2;
 }
 

@@ -5,6 +5,9 @@
       blurb="I am a multidisciplinary designer from Stockholm with over 15 years of experience. I specialise creating digital products with elegant visual design and usable interfaces."
       tags="Visual, Interface, Motion, Experience"
     />
+
+    <div class="anchor-links-off"></div>
+
     <HeroCityPlanner/>
     <ArrowUp/>
     <CasePanorama/>

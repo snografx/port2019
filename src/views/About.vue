@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-shrink">
     <Title
       title="A Concise Biography"
       blurb="
