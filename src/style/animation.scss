@@ -1,6 +1,6 @@
  .projects-pop {
    position: fixed;
-   z-index: 3000;
+   z-index: 30000;
 
    @include linear-gradient(lighten($theme1, 5%), darken($theme1, 5%));
    color: white;
@@ -140,6 +140,8 @@
    width: 56px;
    height: 56px;
 
+   z-index: 15000;
+
    a {
      display: flex;
      justify-content: center;
@@ -152,6 +154,8 @@
    border: 3px solid $theme2;
    color: $theme1;
 
+
+
    font-size: 1.2rem;
 
    border-radius: 50%;
@@ -159,10 +163,12 @@
    bottom: 24px;
    right: 24px;
 
+   @include transition(0.3s);
 
-
-   //left: 50%;
-   //transform: translateX(-50%);
+   &:hover {
+     border: $theme1 3px solid;
+     transform: scale(1.1);
+   }
 
    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
 
