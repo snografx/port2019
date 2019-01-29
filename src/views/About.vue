@@ -43,7 +43,7 @@
       <div class="about">
         <h1>Creative Skills</h1>
         <h4>UI, UX, Visual &amp; Graphic Design</h4>
-        <p>I thrive on creative projects. I specialise in interface and visual design but have experience with photography, photo editing, motion graphics, video editing, and print design.</p>
+        <p>I thrive on creative projects. I specialise in interface and visual design but have experience with photography, photo editing, motion graphics, video editing, illustration, and print design.</p>
         <p>Simplicity and usability is my jam.</p>
         <h6>Illustrator, Figma, XD, Sketch, Zeplin, Lightroom, Premiere, InDesign, Photoshop</h6>
       </div>

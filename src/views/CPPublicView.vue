@@ -63,7 +63,7 @@
 
     <ArrowUp/>
 
-    <div id="analysis" class="case case-text row-contrast">
+    <div id="analysis" class="case case-text">
       <div class="about">
         <h1>Mobile Create Tools</h1>
         <h4>Case Analysis</h4>
