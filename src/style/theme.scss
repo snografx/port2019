@@ -102,3 +102,9 @@ font-style: normal;
     background: linear-gradient(to bottom, $from 0%, $to 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#{$from}, endColorstr=#{$to})
 }
+
+@mixin flex-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

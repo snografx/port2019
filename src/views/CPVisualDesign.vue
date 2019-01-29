@@ -68,7 +68,9 @@
               <img src="@/assets/CPVisualDesign/Iconography, Angles.svg">
             </slide>
             <slide>
-              <img src="@/assets/CasePanorama-DropF1.png">
+              <div class="video-container slide-bg">
+              <iframe class="figma" style="border: none;" width="470" height="300" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FB7IFdCb1TRctSPXRaedzrO70%2FIcon-Library%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+              </div>
             </slide>
             <slide>
               <img src="@/assets/CaseMinStad-DropF1.png">
@@ -220,4 +222,16 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
+
+.slide-bg {
+
+  background-image: url("/src/assets/CPVisualDesign/Identity, CityPlanner Glyph.svg");
+  //@include flex-centre;
+display: contents;
+.figma {
+  padding: 17px;
+border-radius: 17px;
+  background: lighten($text, 66%);
+}
+}
 </style>

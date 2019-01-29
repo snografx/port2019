@@ -29,8 +29,8 @@
       </div>
       <div class="about">
         <h1>Background</h1>
-        <p>I grew up in an Italian-Norwegian family in a Japanese community in the New York City area. After graduating university I lived in Montréal for 10 years before moving permanently to Scandinavia. Stockholm has been my home since 2012.</p>
-        <p>English is my first language and I also speak Swedish fluently (if not as eloquently). Languages are one of my favourite hobbies. I also enjoy cycling, photography, tennis, architecture, and travel.</p>
+        <p>I grew up in an Italian-Norwegian family in a Japanese community in the New York City area. I also lived in Montréal for 10 years before moving permanently to Scandinavia. Stockholm has been home since 2012.</p>
+        <p>English is my first language and I also speak Swedish fluently (if not as eloquently). Language is one of my favourite hobbies along with cycling, photography, tennis, architecture, and travel.</p>
       </div>
     </div>
 
@@ -43,8 +43,9 @@
       <div class="about">
         <h1>Creative Skills</h1>
         <h4>UI, UX, Visual &amp; Graphic Design</h4>
-        <p>Belgrade, meaning 'white city', is the capital and largest city of Serbia. It is located at the confluence of the Sava and Danube rivers, where the Pannonian Plain meets the Balkans. The urban area of the City of Belgrade has a population of 1.23 million, while nearly 1.7 million people live within its administrative limits.</p>
-        <h6>Visual &amp; Product Design</h6>
+        <p>I thrive on creative projects. I specialise in interface and visual design but have experience with photography, photo editing, motion graphics, video editing, and print design.</p>
+        <p>Simplicity and usability is my jam (temp).</p>
+        <h6>Illustrator, Figma, XD, Sketch, Zeplin, Lightroom, Premiere, InDesign, Photoshop</h6>
       </div>
     </div>
 
@@ -56,14 +57,16 @@
       </div>
       <div class="about">
         <h1>Technical Skills</h1>
-        <h4>Web Development &amp; Project Management</h4>
-        <p>Belgrade, meaning 'white city', is the capital and largest city of Serbia. It is located at the confluence of the Sava and Danube rivers, where the Pannonian Plain meets the Balkans. The urban area of the City of Belgrade has a population of 1.23 million, while nearly 1.7 million people live within its administrative limits.</p>
+        <h4>Web Dev. &amp; Project Mgmt</h4>
+        <p>I first learned web development in the '90s. With <router-link to="/snografx">Snögrafx</router-link>, web develompent was my primary service. I developed my own framework and CMS and built custom WordPress themes and plugins.</p>
+        <p>In larger organisations I use agile methodology to manage product development.</p>
+        <p>I hand coded this portfolio as a single page application using <a href="https://vuejs.org/" targer="_blank">Vue.js</a> in Visual Studio Code.</p>
         <div class="case-links">
           <a href="https://github.com/snografx/port2019">
             <div class="external-link">Portfolio on GitHub</div>
           </a>
         </div>
-        <h6>Product Development</h6>
+        <h6>Jira, Vue.js, GitHub, CSS, HTML, Javascript, jQuery, Ajax, WordPress, Command Line</h6>
       </div>
     </div>
 
