@@ -53,12 +53,11 @@
       <div class="about">
         <h1>Product Overview</h1>
         <h4>Web, Mobile, Touch-table, VR</h4>
-        <p>The main web interface consisting of a ribbon at the bottom, circular content buttons, a toolbar, plus interactive components.</p>
+        <p>The main web interface consisting of a ribbon at the bottom, circular content buttons, a toolbar, plus interactive components. The interface is designed to elegantly scale to showroom sized touch monitors. </p>
         <p>
-          <em>We're currently developing these elements for an optimal mobile experience. Something about Case Study showing how mobile Create Tools are being developed.</em>
+        As today's mobile devices can finally handle our 3D platform, we started developing a dedicated mobile interface in 2018. 
         </p>
-
-        <h6>Something</h6>
+        <h6>It looks better with something here.</h6>
       </div>
     </div>
 
@@ -68,8 +67,9 @@
       <div class="about">
         <h1>Mobile Create Tools</h1>
         <h4>Case Analysis</h4>
-        <p>Casablanca is Morocco's chief port and one of the largest financial centers in Africa. According to the 2014 population estimate, the city has a population of about 3.35 million in the urban area and over 6.8 million in the Casablanca-Settat region. Casablanca is considered the economic and business center of Morocco, although the national political capital is Rabat.</p>
-        <h6>Role: UX &amp; Interface Design</h6>
+        <p>We started by designin and implementation of the base 'dialogue' product for mobile, before moving to the more advanced "Create tools". Explain what they are – end users visualise markers lines, and areas in the map to share feedback and ideas to municipalities. </p>
+        <p>What we learned and improved so far. Customer impetus form Umeå and Eskilstuna. </p>
+        <h6>Role: Product Design, UX &amp; Interface Design</h6>
       </div>
     </div>
 
@@ -97,8 +97,8 @@
       <div class="about">
         <h1>Design Process</h1>
         <h4>User Research, Feedback, Prototype</h4>
-        <p>Stockholm is the capital of Sweden and the most populous urban area in the Nordic countries. The city stretches across fourteen islands where Lake Mälaren flows into the Baltic Sea. Just outside the city and along the coast is the island chain of the Stockholm archipelago.</p>
-        <h6>Tools: Figma, Illustrator</h6>
+        <p>"UX personas" and actual users demand these tools. We develop them. Advanced concept. Study of other mobile draw tools, such as those by Adobe. Create prtypes in XD and Figma. Get feedback, make improvements. Give example (button position?). </p>
+        <h6>Tools: Figma, XD, Illustrator</h6>
       </div>
     </div>
 
@@ -133,9 +133,9 @@
       <div class="about">
         <h1>Result</h1>
         <h4>Currently Under Development</h4>
-        <p>The City of New York is the most populous city in the United States. Located at the southern tip of the state of New York, the city is the center of the New York metropolitan area, the largest metropolitan area in the world by urban landmass and one of the world's most populous megacities, with an estimated 20,320,876 people in its 2017 Metropolitan Statistical Area and 23,876,155 residents in its Combined Statistical Area.</p>
-        <p>A global power city, New York City has been described as the cultural, financial, and media capital of the world, and exerts a significant impact upon commerce, entertainment, research, technology, education, politics, tourism, art, fashion, and sports. The city's fast pace has inspired the term New York minute. Home to the headquarters of the United Nations, New York is an important center for international diplomacy.</p>
-        <h6>Lion, Penguin, Salamander</h6>
+        <p>Hot off the presses. Show the latest prototype (not ready yet). Explain where we are at and where will will go from here.</p>
+        <p> Embed prototype in the visual section.</p>
+        <h6>Try to add something here</h6>
       </div>
     </div>
 
