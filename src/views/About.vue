@@ -53,20 +53,26 @@
 
     <div id="tech" class="case case-right">
       <div class="visual">
-        <img src="@/assets/CaseSnografx-DropF1.png">
+        <img src="@/assets/About/Tech Skills, Code.svg">
       </div>
       <div class="about">
         <h1>Technical Skills</h1>
-        <h4>Web Dev. &amp; Project Mgmt</h4>
-        <p>I first learned web development in the '90s. I founded <router-link to="/snografx">an agency</router-link> and delivered websites via my own custom framework/CMS and later custom WordPress themes. I hand coded this portfolio as a single page application using <a href="https://vuejs.org/" targer="_blank">Vue.js</a> in Visual Studio Code.</p>
+        <h4>Web Dev. &amp; Project Management</h4>
+        <p>
+          I first learned web development in the '90s. I founded
+          <router-link to="/snografx">an agency</router-link> and delivered websites via my custom developed framework/CMS and later custom WordPress themes. I hand coded this portfolio as a single page application using
+          <a
+            href="https://vuejs.org/"
+            target="_blank"
+          >Vue.js</a> in Visual Studio Code.
+        </p>
         <p>In larger organisations I use agile methodology to manage product development.</p>
-
         <div class="case-links">
           <a href="https://github.com/snografx/port2019">
             <div class="external-link">Portfolio on GitHub</div>
           </a>
         </div>
-        <h6>Jira, Vue.js, GitHub, CSS, HTML, Javascript, jQuery, Ajax, WordPress, Command Line</h6>
+        <h6>Jira, Vue.js, GitHub, CSS, HTML, Javascript, jQuery, Ajax, WordPress</h6>
       </div>
     </div>
 

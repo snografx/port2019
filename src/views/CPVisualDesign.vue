@@ -69,7 +69,14 @@
             </slide>
             <slide>
               <div class="video-container slide-bg">
-              <iframe class="figma" style="border: none;" width="470" height="300" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FB7IFdCb1TRctSPXRaedzrO70%2FIcon-Library%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+                <iframe
+                  class="figma"
+                  style="border: none;"
+                  width="470"
+                  height="300"
+                  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FB7IFdCb1TRctSPXRaedzrO70%2FIcon-Library%3Fnode-id%3D0%253A1"
+                  allowfullscreen
+                ></iframe>
               </div>
             </slide>
             <slide>
@@ -89,8 +96,8 @@
         <h4>Icon Design, Usability</h4>
         <p>CityPlanner requires a custom Icon Library to communicate advanced concepts – while building a strong visual brand. Studies of possible and existing solutions are made before translating the best design language to CityPlanner's dialect.</p>
         <p>The CityPlanner logo tapers to 60° angle. Angles of 60° and 30° were therefore used as a unifying design element wherever possible – in both interface and publicity.</p>
-                <div class="case-links">
-          <a href="#"  target="_blank">
+        <div class="case-links">
+          <a href="#" target="_blank">
             <div class="external-link">Icon Library</div>
           </a>
         </div>
@@ -119,9 +126,9 @@
       <div class="about">
         <h1>Style Guide</h1>
         <h4>Colour, Typography, Press Kit</h4>
-        <p>I create a style guide for our organisation, software, and customers. The consistent use of colour and type focus our message in communications and project design. </p>
+        <p>I create a style guide for our organisation, software, and customers. The consistent use of colour and type focus our message in communications and project design.</p>
         <p>Agency9's original pea-green was refreshed into a modern hue. Yellow from CityPlanner's interface became a defining trademark along with an 8-colour category palette. Complementary typefaces were selected to represent the company, software, and marketing voice.</p>
-                <div class="case-links">
+        <div class="case-links">
           <a href="https://cityplanneronline.com/site/index.php/press-kit/" target="_blank">
             <div class="external-link">Press Kit</div>
           </a>
@@ -233,14 +240,13 @@ $alignment: left;
 @import "@/style/carousel.scss";
 
 .slide-bg {
-
-  background-image: url("/src/assets/CPVisualDesign/Identity, CityPlanner Glyph.svg");
   //@include flex-centre;
-display: contents;
-.figma {
-  padding: 17px;
-border-radius: 17px;
-  background: lighten($text, 66%);
-}
+  display: contents;
+
+  .figma {
+    padding: 25px;
+    //border-radius: 17px;
+    background-image: url("../../public/grid.png");
+  }
 }
 </style>
