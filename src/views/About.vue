@@ -44,7 +44,7 @@
         <h1>Creative Skills</h1>
         <h4>UI, UX, Visual &amp; Graphic Design</h4>
         <p>I thrive on creative projects. I specialise in interface and visual design but have experience with photography, photo editing, motion graphics, video editing, and print design.</p>
-        <p>Simplicity and usability is my jam (temp).</p>
+        <p>Simplicity and usability is my jam.</p>
         <h6>Illustrator, Figma, XD, Sketch, Zeplin, Lightroom, Premiere, InDesign, Photoshop</h6>
       </div>
     </div>
@@ -58,9 +58,9 @@
       <div class="about">
         <h1>Technical Skills</h1>
         <h4>Web Dev. &amp; Project Mgmt</h4>
-        <p>I first learned web development in the '90s. With <router-link to="/snografx">Snögrafx</router-link>, web develompent was my primary service. I developed my own framework and CMS and built custom WordPress themes and plugins.</p>
+        <p>I first learned web development in the '90s. I founded <router-link to="/snografx">an agency</router-link> and delivered websites via my own custom framework/CMS and later custom WordPress themes. I hand coded this portfolio as a single page application using <a href="https://vuejs.org/" targer="_blank">Vue.js</a> in Visual Studio Code.</p>
         <p>In larger organisations I use agile methodology to manage product development.</p>
-        <p>I hand coded this portfolio as a single page application using <a href="https://vuejs.org/" targer="_blank">Vue.js</a> in Visual Studio Code.</p>
+
         <div class="case-links">
           <a href="https://github.com/snografx/port2019">
             <div class="external-link">Portfolio on GitHub</div>

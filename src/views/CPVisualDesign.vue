@@ -52,8 +52,8 @@
       <div class="about">
         <h1>Identity</h1>
         <h4>Logo Design, Branding</h4>
-        <p>The logo is the foundation CityPlanner's design language was built upon. It contains map marker, symboling the app's main function, while hiding the initials C and P plus a 9 for the parent company – Agency9.</p>
-        <p>The CityPlanner wordmark uses two weights of Avant Garde tightly kerned with a 'signature ligature'. This design is echoed throughout the family of related products.</p>
+        <p>The logo is the foundation CityPlanner's design language was built upon. It contains map marker while hiding the initials C and P plus a 9 for the parent company – Agency9.</p>
+        <p>The CityPlanner wordmark uses two weights of Avant Garde tightly kerned with a 'signature ligature'. This design reverberates throughout the family of related products.</p>
         <h6>Tools: Illustrator, CorelDraw</h6>
       </div>
     </div>
@@ -87,9 +87,13 @@
       <div class="about">
         <h1>Icon Design</h1>
         <h4>Icon Design, Usability</h4>
-        <p>CityPlanner icons are custom designed. Because our product uses so many unique concepts an open source library would leave too many gaps. This also facilitated building a strong visual brand.</p>
-        <p>When adding features based on existing concepts, I do a quick study of possible and existing solutions before translating the best design language to our own dialect.</p>
+        <p>CityPlanner requires a custom Icon Library to communicate advanced concepts – while building a strong visual brand. Studies of possible and existing solutions are made before translating the best design language to CityPlanner's dialect.</p>
         <p>The CityPlanner logo tapers to 60° angle. Angles of 60° and 30° were therefore used as a unifying design element wherever possible – in both interface and publicity.</p>
+                <div class="case-links">
+          <a href="#"  target="_blank">
+            <div class="external-link">Icon Library</div>
+          </a>
+        </div>
         <h6>Tools: Illustrator, Figma, Sketch, XD, CorelDraw</h6>
       </div>
     </div>
@@ -115,8 +119,13 @@
       <div class="about">
         <h1>Style Guide</h1>
         <h4>Colour, Typography, Press Kit</h4>
-        <p>I create a style guide for our organisation, software, and customers. Agency9's original pea-green was refreshing into a modern hue, with an additional shade added for depth and emphasis. Yellow from the Editor UI became a defining trademark, along with an 8-colour category palette. Different complementary typefaces were selected to represent the company, software, and marketing message.</p>
-        <p>The consistent use of colour and type focus our message in communications and project design. A Press Kit is available on cityplanneronline.com</p>
+        <p>I create a style guide for our organisation, software, and customers. The consistent use of colour and type focus our message in communications and project design. </p>
+        <p>Agency9's original pea-green was refreshed into a modern hue. Yellow from CityPlanner's interface became a defining trademark along with an 8-colour category palette. Complementary typefaces were selected to represent the company, software, and marketing voice.</p>
+                <div class="case-links">
+          <a href="https://cityplanneronline.com/site/index.php/press-kit/" target="_blank">
+            <div class="external-link">Press Kit</div>
+          </a>
+        </div>
         <h6>Tools: WordPress, Illustrator, Sketch</h6>
       </div>
     </div>

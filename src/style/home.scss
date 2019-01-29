@@ -304,8 +304,8 @@ h4.subheroes-title {
 }
 
 .case-link-overview {
-    background: $theme1;
-    color: $base1;
+    background: lighten($theme1, 50%);
+    color: $theme1;
     border: 1px solid $theme1;
 
     &:hover {
