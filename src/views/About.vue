@@ -58,6 +58,11 @@
         <h1>Technical Skills</h1>
         <h4>Web Development &amp; Project Management</h4>
         <p>Belgrade, meaning 'white city', is the capital and largest city of Serbia. It is located at the confluence of the Sava and Danube rivers, where the Pannonian Plain meets the Balkans. The urban area of the City of Belgrade has a population of 1.23 million, while nearly 1.7 million people live within its administrative limits.</p>
+        <div class="case-links">
+          <a href="https://github.com/snografx/port2019">
+            <div class="external-link">Portfolio on GitHub</div>
+          </a>
+        </div>
         <h6>Product Development</h6>
       </div>
     </div>
@@ -78,10 +83,10 @@
           <a href="#">
             <div class="case-link">PDF Résumé</div>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/julianminervini/">
             <div class="external-link">LinkedIn</div>
           </a>
-          <a href="#">
+          <a href="mailto:julian@icyicy.com">
             <div class="external-link">E-mail</div>
           </a>
         </div>
