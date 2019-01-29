@@ -35,16 +35,16 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CasePanorama-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Identity, CityPlanner Glyph.svg">
             </slide>
             <slide>
-              <img src="@/assets/CaseMinStad-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Identity, CityPlanner Logo.svg">
             </slide>
             <slide>
-              <img src="@/assets/CaseDataManager-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Identity, CityPlanner Logo Anatomy.svg">
             </slide>
             <slide>
-              <img src="@/assets/CaseSnografx-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Identity, CityPlanner Family Wordmarks.svg">
             </slide>
           </carousel>
         </div>
@@ -52,13 +52,7 @@
       <div class="about">
         <h1>Identity</h1>
         <h4>Logo Design, Branding</h4>
-        <p>The CityPlanner logo is the foundation everything else was built upon.</p>
-        <p>
-          The logo is a map marker, symboling the app's main function, while hiding the initials
-          <strong>C</strong> and
-          <strong>P</strong> plus a
-          <strong>9</strong> for the parent company – Agency9.
-        </p>
+        <p>The logo is the foundation CityPlanner's design language was built upon. It contains map marker, symboling the app's main function, while hiding the initials C and P plus a 9 for the parent company – Agency9.</p>
         <p>The CityPlanner wordmark uses two weights of Avant Garde tightly kerned with a 'signature ligature'. This design is echoed throughout the family of related products.</p>
         <h6>Tools: Illustrator, CorelDraw</h6>
       </div>
@@ -70,6 +64,9 @@
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
+            <slide>
+              <img src="@/assets/CPVisualDesign/Iconography, Angles.svg">
+            </slide>
             <slide>
               <img src="@/assets/CasePanorama-DropF1.png">
             </slide>
@@ -91,7 +88,7 @@
         <p>CityPlanner icons are custom designed. Because our product uses so many unique concepts an open source library would leave too many gaps. This also facilitated building a strong visual brand.</p>
         <p>When adding features based on existing concepts, I do a quick study of possible and existing solutions before translating the best design language to our own dialect.</p>
         <p>The CityPlanner logo tapers to 60° angle. Angles of 60° and 30° were therefore used as a unifying design element wherever possible – in both interface and publicity.</p>
-        <h6>Tools: Illustrator, Icon Jar, CorelDraw</h6>
+        <h6>Tools: Illustrator, Figma, Sketch, XD, CorelDraw</h6>
       </div>
     </div>
 
@@ -102,16 +99,13 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CasePanorama-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Style Guide, Category Colours.svg">
             </slide>
             <slide>
-              <img src="@/assets/CaseMinStad-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Style Guide, CityPlanner Palette.svg">
             </slide>
             <slide>
-              <img src="@/assets/CaseDataManager-DropF1.png">
-            </slide>
-            <slide>
-              <img src="@/assets/CaseSnografx-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Style Guide, Press Kit Web.svg">
             </slide>
           </carousel>
         </div>
@@ -127,7 +121,7 @@
 
     <ArrowUp/>
 
-    <div id="motion" class="case case-centre row-contrast">
+    <div id="motion" class="case case-centre">
       <div class="visual visual-video">
         <div class="mh">
           <div class="video-container">
@@ -158,35 +152,41 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CasePanorama-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Publicity, Vegas Sign.svg">
             </slide>
             <slide>
-              <img src="@/assets/CaseMinStad-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Publicity, Icon Outlines.svg">
             </slide>
             <slide>
-              <img src="@/assets/CaseDataManager-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Publicity, Vegas Golden Knights.svg">
             </slide>
             <slide>
-              <img src="@/assets/CaseSnografx-DropF1.png">
+              <img src="@/assets/CPVisualDesign/Publicity, Project Design 101.svg">
+            </slide>
+            <slide>
+              <img src="@/assets/CPVisualDesign/Publicity, HB Norway.svg">
             </slide>
           </carousel>
         </div>
       </div>
       <div class="about">
         <h1>Publicity</h1>
-        <h4>Blog, Media, Tutorials</h4>
+        <h4>Blog, Social Media, Graphics, Tutorials</h4>
         <p>The core of the CityPlanner's marketing message is simple. It's powerful, modern, and easy to use. This message reverberates in an industry cluttered with overly technical applications.</p>
-        <p>CityPlanner was designed to be used by a broad spectrum of users, from plan architects doing shadow analyses to children using touch tables. We've endeavoured to make our software fun for everyone and the marketing reflects that.</p>
+        <p>CityPlanner was designed for a broad spectrum of users – from plan architects doing shadow analyses to children using touch tables. We've endeavoured to make our software fun for everyone and the marketing reflects that.</p>
         <h6>Tools: Sketch, XD, Illustrator, Photoshop</h6>
       </div>
     </div>
 
     <ArrowUp/>
 
-    <div id="print" class="case case-centre row-contrast">
-      <div class="visual">
-        <img src="@/assets/CaseMinStad-DropF1.png">
-      </div>
+    <div id="print" class="case case-centre">
+      <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
+        <slide>
+          <img src="@/assets/CPVisualDesign/Print, Business Cards.svg">
+        </slide>
+      </carousel>
+
       <div class="about">
         <h1>Print Design</h1>
         <h4>Cards, Rollups, Posters, Exhibitions</h4>
