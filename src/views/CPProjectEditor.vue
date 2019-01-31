@@ -2,7 +2,7 @@
   <div class="text-shrink">
     <Title
       title="Project Editor"
-      blurb="The Editor is used to build CityPlanner projects. It has built-in tools for urban planners and internal communication as well as features for publishing and public interaction."
+      blurb="CityPlanner's Project Editor is web-based cloud software used to create 3D urban planning projects, which can then be published to different interactive platforms. It includes tools and features for urban planners, communicators, and organisational collaboration."
       tags="Introduction, Case Study"
     />
 
@@ -45,11 +45,8 @@
       </div>
       <div class="about">
         <h1>Product Overview</h1>
-        <p>CityPlanner's Project Editor is web-based cloud software used to create 3D urban planning projects, which can then be
-          <router-link to="/cp-public.view">published</router-link>to different platforms.
-        </p>
-        <p>The interface is made up of top and right-side icon bars surrounding the public interface. There are tools which allow editors to interact with the map as a live-editor, end-user, or do analytic work.</p>
-        <p>We're constantly developing new features. This case study examines the design and development of 'Export Video', a tool for creating animations in the 3D world for use in promotional videos.</p>
+        <p>The interface is made up of top and right-side icon bars surrounding a preview of the public interface. There are tools which allow editors to interact with the map as a live-editor, end-user, or do analytic work.</p>
+        <p>This case study examines the design and development of 'Export Video', a new tool for creating animations in the 3D world for use in promotional videos.</p>
         <h6>
           <br>
         </h6>
@@ -62,7 +59,9 @@
       <div class="about">
         <h1>Export Video</h1>
         <h4>Case Analysis</h4>
-        <p>Describe in more detail what it does and how it works. The user creates nodes and lookats in the 3D world to lead the camera on a tour, which is exported to different kinds of video.</p>
+        <p>The software is designed to scale for use by all kinds of users, from professional 3D visualisers to casual users in a public showroom. One demographic interactive software is unable to hit are people uncomfortable with or intimidated by technology. Enter Export Video.</p>
+        <p>This much-requested feature allows CityPlanner editors to create videos of planning projects in the 3D world – before they've been constructed and without the need to hire plans or drones.</p>
+        <p>To next section? Describe in more detail what it does and how it works. The user creates nodes and lookats in the 3D world to lead the camera on a tour, which is exported to different kinds of video.</p>
         <p>Research is tricky because it's a unique concept, we need to rely on experience and user testing to design and improve the product.</p>
         <h6>Role: UX &amp; Interface Design</h6>
       </div>
@@ -93,7 +92,7 @@
         <h4>User Research, Feedback, Prototype</h4>
 
         <p>The process began with an early version of the feature which we used internally for the past two years to produce our own
-          <router-link to="/cp-visual.design">promotional videos</router-link>and with select beta-testers. (link to Göteborg gondola video).
+          <router-link to="/cp-visual.design">promotional videos</router-link>&nbsp;and with select beta-testers. (link to Göteborg gondola video).
         </p>
         <div class="case-links">
           <a href="#" target="_blank">
