@@ -115,8 +115,8 @@
         <h4>Currently Under Development</h4>
         <p>Internal wireframes were first created in XD, with more advanced prototypes being developed in Figma for sharing with stakeholders as well as user and device testing. Insights gained include adjusting the position of the buttons away from the edge of the screen and adopting modal dialogs.</p>
         <p>Explain where we are at and where will will go from here.</p>
-        <p>Embed prototype in the visual section.</p>
-        <h6>Try to add something here</h6>
+        <p>Current state as of writing is…</p>
+        <h6>Release: Scheduled Q1 2019</h6>
       </div>
     </div>
 
