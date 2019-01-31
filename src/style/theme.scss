@@ -103,8 +103,9 @@ font-style: normal;
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#{$from}, endColorstr=#{$to})
 }
 
-@mixin flex-centre {
+@mixin flex-centre($col: transparent) {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $col;
 }

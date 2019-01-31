@@ -2,7 +2,7 @@
   <div class="text-shrink">
     <Title
       title="Public View"
-      blurb="This is the 3D world – CityPlanner's public facing interface. It's simpler and touch-friendly. We adapted different 'views' for mobile, touch-tables, and virtual reality."
+      blurb="This is the 3D world – CityPlanner's public facing interface. It uses large touch-friendly buttons and simple concepts for communicating with the public. 'Views' can be published to web, mobile, touch-tables, and virtual reality."
       tags="Introduction, Case Study"
     />
 
@@ -16,10 +16,10 @@
           <div class="case-link">Analysis</div>
         </a>
         <a href="#" v-scroll-to="'#design'">
-          <div class="case-link">Design</div>
+          <div class="case-link">Process</div>
         </a>
         <a href="#" v-scroll-to="'#result'">
-          <div class="case-link">Result</div>
+          <div class="case-link">Prototype</div>
         </a>
       </div>
     </div>
@@ -27,22 +27,15 @@
     <div id="views" class="case case-right case-overview">
       <div class="visual">
         <div class="carousel-container">
-          <carousel
-            :perPage="1"
-            :navigationEnabled="false"
-            :autoplay="true"
-            autoplayTimeout="5000"
-            paginationColor
-            paginationActiveColor
-          >
+          <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CaseSnografx-DropF1.png">
+              <div class="slide-ph">Project View Web</div>
             </slide>
             <slide>
-              <img src="@/assets/CasePanorama-DropF1.png">
+              <div class="slide-ph">Translation wireframe</div>
             </slide>
             <slide>
-              <img src="@/assets/CaseMinStad-DropF1.png">
+              <div class="slide-ph">Mobile Dialogue?</div>
             </slide>
             <slide>
               <img src="@/assets/CaseDataManager-DropF1.png">
@@ -52,12 +45,11 @@
       </div>
       <div class="about">
         <h1>Product Overview</h1>
-        <h4>Web, Mobile, Touch-table, VR</h4>
-        <p>The main web interface consisting of a ribbon at the bottom, circular content buttons, a toolbar, plus interactive components. The interface is designed to elegantly scale to showroom sized touch monitors. </p>
-        <p>
-        As today's mobile devices can finally handle our 3D platform, we started developing a dedicated mobile interface in 2018. 
-        </p>
-        <h6>It looks better with something here.</h6>
+        <p>Public View is the main web interface. It consists of a bottom ribbon, circular content buttons, a toolbar, plus interactive components. The interface is designed to elegantly scale to showroom sized touch monitors.</p>
+        <p>These elements require translation for alternative views. Today's mobile devices can finally handle our 3D platform so we started developing a dedicated mobile interface in 2018. This case study explores the design and development of 'Mobile Create Tools'.</p>
+        <h6>
+          <br>
+        </h6>
       </div>
     </div>
 
@@ -67,8 +59,8 @@
       <div class="about">
         <h1>Mobile Create Tools</h1>
         <h4>Case Analysis</h4>
-        <p>We started by designin and implementation of the base 'dialogue' product for mobile, before moving to the more advanced "Create tools". Explain what they are – end users visualise markers lines, and areas in the map to share feedback and ideas to municipalities. </p>
-        <p>What we learned and improved so far. Customer impetus form Umeå and Eskilstuna. </p>
+        <p>This project was preceded by the design and implementation of the base Dialogue platform on mobile. Dialogue is a CityPlanner module for creating geospatial forms. Create Tools allow the end user to place markers and draw lines and areas in the 3D world.</p>
+        <p>Being more complicated than the base form, they were planned for the second Mobile UI release and are currently in development, as of writing this page.</p>
         <h6>Role: Product Design, UX &amp; Interface Design</h6>
       </div>
     </div>
@@ -80,13 +72,13 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CasePanorama-DropF1.png">
+              <div class="slide-ph">Web Version</div>
             </slide>
             <slide>
-              <img src="@/assets/CaseMinStad-DropF1.png">
+              <div class="slide-ph">UX Persona</div>
             </slide>
             <slide>
-              <img src="@/assets/CaseDataManager-DropF1.png">
+              <div class="slide-ph">Wireframe</div>
             </slide>
             <slide>
               <img src="@/assets/CaseSnografx-DropF1.png">
@@ -97,8 +89,9 @@
       <div class="about">
         <h1>Design Process</h1>
         <h4>User Research, Feedback, Prototype</h4>
-        <p>"UX personas" and actual users demand these tools. We develop them. Advanced concept. Study of other mobile draw tools, such as those by Adobe. Create prtypes in XD and Figma. Get feedback, make improvements. Give example (button position?). </p>
-        <h6>Tools: Figma, XD, Illustrator</h6>
+        <p>The interface design is informed by ongoing research and continual development of the the web version of these tools, which UX personas are based on, as well as feedback from customers such as the municipalities of Umeå and Eskilstuna.</p>
+        <p>The mobile interface provides an opportunity to establish mobile-first methodology, which may be adapted for and definitely will influence the base version. Interface research focused largely on mobile drawing applications, such as those by Adobe, with the basic map platform leaning on mobile map conventions.</p>
+        <h6>Tools: Figma, XD</h6>
       </div>
     </div>
 
@@ -107,22 +100,9 @@
     <div id="result" class="case case-centre">
       <div class="visual">
         <div class="carousel-container">
-          <carousel
-            :perPage="1"
-            :autoplay="true"
-            autoplayTimeout="5000"
-            :navigationEnabled="false"
-            paginationColor
-            paginationActiveColor
-          >
+          <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CaseDataManager-DropF1.png">
-            </slide>
-            <slide>
-              <img src="@/assets/CaseSnografx-DropF1.png">
-            </slide>
-            <slide>
-              <img src="@/assets/CasePanorama-DropF1.png">
+              <div class="slide-ph">Figma Prototype</div>
             </slide>
             <slide>
               <img src="@/assets/CaseMinStad-DropF1.png">
@@ -131,10 +111,11 @@
         </div>
       </div>
       <div class="about">
-        <h1>Result</h1>
+        <h1>Prototype &amp; Development</h1>
         <h4>Currently Under Development</h4>
-        <p>Hot off the presses. Show the latest prototype (not ready yet). Explain where we are at and where will will go from here.</p>
-        <p> Embed prototype in the visual section.</p>
+        <p>Internal wireframes were first created in XD, with more advanced prototypes being developed in Figma for sharing with stakeholders as well as user and device testing. Insights gained include adjusting the position of the buttons away from the edge of the screen and adopting modal dialogs.</p>
+        <p>Explain where we are at and where will will go from here.</p>
+        <p>Embed prototype in the visual section.</p>
         <h6>Try to add something here</h6>
       </div>
     </div>

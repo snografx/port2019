@@ -238,15 +238,4 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
-
-.slide-bg {
-  //@include flex-centre;
-  display: contents;
-
-  .figma {
-    padding: 25px;
-    //border-radius: 17px;
-    background-image: url("../../public/grid.png");
-  }
-}
 </style>

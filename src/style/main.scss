@@ -112,8 +112,36 @@ body {
   background: $base2;
 }
 
-// RESPONSIVE
+// FIGMA EMBED
 
+.slide-bg {
+  //@include flex-centre;
+  display: contents;
+
+  .figma {
+    padding: 25px;
+    //border-radius: 17px;
+    background-image: url("../public/grid.png");
+  }
+}
+
+.slide-placeholder {
+  padding: 25px;
+  //border-radius: 17px;
+  background-image: url("../public/grid.png");
+  @include flex-centre(transparent); 
+  min-height: 330px;
+  max-width: 500px;
+  color: $text;
+
+}
+.slide-ph {
+color: $theme1;
+height: 100%;
+@include flex-centre(lighten($theme1, 45%)); 
+}
+
+// RESPONSIVE
 
 
 .mobile-only {
