@@ -317,16 +317,16 @@ h4.subheroes-title {
 // SPECIAL CASES
 
 .case-left {
-    flex-direction: row-reverse;
+    flex-direction: row-reverse !important;
 }
 
 .case-right {
-    flex-direction: row;
+    flex-direction: row !important;
 }
 
 .case-centre,
 .case-text {
-    flex-direction: column;
+    flex-direction: column !important;
 }
 
 // ANCHOR LINKS

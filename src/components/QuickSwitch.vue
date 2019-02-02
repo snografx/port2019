@@ -54,10 +54,11 @@ export default {
   },
   methods: {
     handleScroll(event) {
+      var fromTop = 450;
       let header = document.querySelector(".fab-container");
-      if (window.scrollY > 600 && !header.className.includes("magic")) {
+      if (window.scrollY > fromTop && !header.className.includes("magic")) {
         header.classList.add("magic");
-      } else if (window.scrollY < 600) {
+      } else if (window.scrollY < fromTop) {
         header.classList.remove("magic");
       }
     }

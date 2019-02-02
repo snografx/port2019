@@ -1,0 +1,125 @@
+.lightbox-pop {
+    position: fixed;
+    z-index: 30000;
+
+    @include linear-gradient(lighten(maroon, 5%), darken(maroon, 5%));
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.95;
+
+    @include flex-centre;
+
+    height: 100vh;
+
+    .lightbox-popped {
+        border: 2px solid white;
+
+        padding: 20px 80px;
+        z-index: 9000;
+
+        @media #{$break} {
+            padding: 10px 30px;
+        }
+
+        @media #{$minibreak} {
+            transform: scale(0.8);
+        }
+
+        div.pop-link {
+            @include transition(0.3s);
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    div a {
+        color: white !important;
+        font-size: 1.7rem;
+        line-height: 2.7rem;
+        @include orpheus;
+
+        @media #{$mobilebreak} {
+            font-size: 1.4rem;
+            line-height: 2rem;
+        }
+    }
+
+    .close-pop {
+        font-size: 3rem;
+        margin: 1rem;
+
+        @media #{$mobilebreak} {
+            margin: 0.5rem;
+        }
+    }
+
+    .head-pop {
+        @include sofia(500);
+        margin: 1rem 0 0.4rem;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 0.07rem;
+
+        @media #{$mobilebreak} {
+            font-size: 0.7rem;
+        }
+    }
+}
+
+.lb-container {
+    font-family: helvetica, arial;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: 56px;
+    height: 56px;
+
+    z-index: 15000;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 56px;
+        height: 56px;
+    }
+
+    background: $background;
+    border: 3px solid $theme2;
+    color: $theme1;
+
+    font-size: 1.2rem;
+
+    border-radius: 50%;
+    position: fixed;
+    bottom: 124px;
+    right: 24px;
+
+    @include transition(0.3s);
+
+    &:hover {
+        border: $theme1 3px solid;
+        transform: scale(1.1);
+    }
+
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+}
+
+.lb-container.magic {
+    visibility: visible;
+    opacity: 1;
+}
+
+.pointer {
+    cursor: pointer;
+}

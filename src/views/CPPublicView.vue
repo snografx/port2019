@@ -97,15 +97,15 @@
 
     <ArrowUp/>
 
-    <div id="result" class="case case-centre">
+    <div id="result" class="case case-right">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <div class="slide-ph">Figma Prototype</div>
+              <img src="@/assets/CPPublicView/Public View, Figma Design.svg">
             </slide>
             <slide>
-              <img src="@/assets/CaseMinStad-DropF1.png">
+              <img src="@/assets/CPPublicView/Public View, Figma Prototype.svg">
             </slide>
           </carousel>
         </div>
@@ -116,11 +116,26 @@
         <p>Internal wireframes were first created in XD, with more advanced prototypes being developed in Figma for sharing with stakeholders as well as user and device testing. Insights gained include adjusting the position of the buttons away from the edge of the screen and adopting modal dialogs.</p>
         <p>Explain where we are at and where will will go from here.</p>
         <p>Current state as of writing is…</p>
+        <div class="case-links">
+          <a
+            href="https://www.figma.com/file/r7GWbuS9T2ZnCb1kVvofCj/Mobile-Create-Tools?node-id=0%3A1"
+            target="_blank"
+          >
+            <div class="external-link">View Design</div>
+          </a>
+          <a
+            href="https://www.figma.com/proto/r7GWbuS9T2ZnCb1kVvofCj/Mobile-Create-Tools?node-id=0%3A1&viewport=352%2C210%2C0.139796&scaling=scale-down"
+            target="_blank"
+          >
+            <div class="external-link">Try Prototype</div>
+          </a>
+        </div>
         <h6>Release: Scheduled Q1 2019</h6>
       </div>
     </div>
 
     <ArrowUp/>
+    <Lightbox graphic="../static/jm2019i.svg" pcgfx="HeroCityPlanner-Drop3.png"/>
   </div>
 </template>
 
@@ -128,6 +143,7 @@
 import Title from "@/components/Title.vue";
 import ArrowUp from "@/components/ArrowUp.vue";
 import { Carousel, Slide } from "vue-carousel";
+import Lightbox from "@/components/Lightbox";
 
 export default {
   name: "home",
@@ -135,7 +151,8 @@ export default {
     Title,
     ArrowUp,
     Carousel,
-    Slide
+    Slide,
+    Lightbox
   }
 };
 </script>
