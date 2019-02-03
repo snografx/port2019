@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 //import "vue-material-design-icons/styles.css"
+import VueSilentbox from 'vue-silentbox'
+
+Vue.use(VueSilentbox);
 
 Vue.config.productionTip = false
 

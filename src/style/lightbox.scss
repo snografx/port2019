@@ -1,5 +1,6 @@
 .lightbox-pop {
     position: fixed;
+    box-sizing: border-box;
     z-index: 30000;
 
     @include linear-gradient(lighten(maroon, 5%), darken(maroon, 5%));
