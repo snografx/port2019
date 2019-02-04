@@ -6,14 +6,6 @@
       tags="Introduction, Case Study"
     />
 
-    <transition name="slide-fade" mode="out-in" appear>
-      <div class="lightbox-pop" v-show="lightbox" style="border: white 2px solid;">
-        hi
-        <img class="pointer" @click="lightbox = !lightbox" v-bind:src="this.graphic">
-        <a class="pointer" @click="lightbox = !lightbox">close</a>
-      </div>
-    </transition>
-
     <div class="anchor-links">
       <h4>Skip to</h4>
       <div class="skip-links case-links">
@@ -65,7 +57,7 @@
         <h1>Mobile Create Tools</h1>
         <h4>Case Analysis</h4>
         <p>"Dialogue" is a CityPlanner module for creating geospatial forms. The mobile version launched in Q4 2019 without it's premier feature – Create Tools. These tools allow end users to place markers and draw lines and areas in the 3D world.</p>
-        <p>The missing feature was highly requested by our customers but – being more complicated and interactive – it was planned for the second release so data and feedback could best inform development.</p>
+        <p>The missing feature was highly requested by our customers but – being much more complicated and interactive – it was planned for the second release so data and feedback could best inform development.</p>
         <h6>Role: Product Design, UX &amp; Interface Design</h6>
       </div>
     </div>
@@ -95,7 +87,7 @@
         <h1>Design Process</h1>
         <h4>User Research, Feedback, Prototype</h4>
         <p>Initial designs were based on internal research and data from the ongoing development of the base platform. UX personas are based on close relationships with both customers and users. Our organisational priority was establishing mobile-first methodology.</p>
-        <p>Interface usability research focused primarily on blending drawing and map application conventions, while provinding a fun end-user experience in order to provide the best value – measured by number of submissions – to our customers. </p>
+        <p>Interface usability research focused primarily on blending drawing and map application conventions, while providing a fun end-user experience in order to provide the best value – measured by number of submissions – to our customers.</p>
         <h6>Tools: Figma, XD</h6>
       </div>
     </div>
@@ -112,10 +104,10 @@
             <slide>
               <img src="@/assets/CPPublicView/Create-Prototype.png">
             </slide>
-                        <slide>
+            <slide>
               <div class="slide-ph">Pre &amp; Post-Modal</div>
             </slide>
-                                    <slide>
+            <slide>
               <div class="slide-ph">Pre &amp; Post-Exploding Button</div>
             </slide>
           </carousel>
@@ -125,7 +117,7 @@
       <div class="about">
         <h1>Prototype &amp; Development</h1>
         <h4>Currently Under Development</h4>
-        <p>Internal wireframes were first created and tested in XD. Feedback informed advanced prototypes, developed in Figma, for sharing with stakeholers plus user and device testing. </p>
+        <p>Internal wireframes were first created and tested in XD. Feedback informed advanced prototypes, developed in Figma, for sharing with stakeholders plus user and device testing.</p>
         <p>Early insights gained include adjusting the position of the buttons away from the edge of the screen and adopting modal dialogs. The final design has been approved and development is underway. Development versions are currently being being tested and polished before release.</p>
         <div class="case-links">
           <a
