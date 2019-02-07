@@ -15,8 +15,8 @@
     <router-link to="/cp-project.editor">
       <div class="subhero">
         <div class="subtitle">Project Editor</div>
-        <div class="list">Web Interface
-          <br>User Experience
+        <div class="list">Export Video
+          <br>Web Feature
           <br>Case Study
         </div>
         <div class="more">Learn More…
@@ -27,8 +27,8 @@
     <router-link to="/cp-public.view">
       <div class="subhero">
         <div class="subtitle">Public View</div>
-        <div class="list">Web &amp; Mobile UI
-          <br>User Experience
+        <div class="list">Create Tools
+          <br>Mobile Feature
           <br>Case Study
         </div>
         <div class="more">Learn More…

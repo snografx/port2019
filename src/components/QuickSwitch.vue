@@ -19,16 +19,18 @@
           <div class="pop-link" @click="projects = !projects">
             <router-link to="/cp-public.view" @click="projects = !projects">Public View</router-link>
           </div>
-          <div class="head-pop">Other Cases</div>
+          <div class="head-pop">Other</div>
           <div @click="projects = !projects">
             <router-link to="/panorama" @click="projects = !projects">360° Panorama</router-link>
           </div>
           <div class="pop-link" @click="projects = !projects">
             <router-link to="/minstad">Min Stad</router-link>
           </div>
+          <!--
           <div class="pop-link" @click="projects = !projects">
             <router-link to="/datamanager">DataManager</router-link>
           </div>
+          -->
           <div class="pop-link" @click="projects = !projects">
             <router-link to="/snografx">Snögrafx</router-link>
           </div>

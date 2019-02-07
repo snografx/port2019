@@ -14,8 +14,8 @@
     <ArrowUp/>
     <CaseMinStad/>
     <ArrowUp/>
-    <CaseDataManager/>
-    <ArrowUp/>
+<!--<CaseDataManager/>
+    <ArrowUp/>-->
     <CaseSnografx/>
     <ArrowUp/>
   </div>
@@ -28,7 +28,7 @@ import Title from "@/components/Title.vue";
 import HeroCityPlanner from "@/components/HeroCityPlanner.vue";
 import CasePanorama from "@/components/CasePanorama.vue";
 import CaseMinStad from "@/components/CaseMinStad.vue";
-import CaseDataManager from "@/components/CaseDataManager.vue";
+//import CaseDataManager from "@/components/CaseDataManager.vue";
 import CaseSnografx from "@/components/CaseSnografx.vue";
 import ArrowUp from "@/components/ArrowUp.vue";
 
@@ -40,7 +40,7 @@ export default {
     HeroCityPlanner,
     CasePanorama,
     CaseMinStad,
-    CaseDataManager,
+//    CaseDataManager,
     CaseSnografx
   }
 };
