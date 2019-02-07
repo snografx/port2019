@@ -1,7 +1,7 @@
 <template>
   <div class="text-shrink">
     <Title
-      title="Project Editor"
+      title="CityPlanner – Project Editor"
       blurb="CityPlanner's Project Editor is web-based cloud software used to create 3D urban planning projects, which can then be published to different interactive platforms. It includes tools and features for urban planners, communicators, and organisational collaboration."
       tags="Introduction, Case Study"
     />

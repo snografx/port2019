@@ -1,7 +1,7 @@
 <template>
   <div class="text-shrink">
     <Title
-      title="Visual Design"
+      title="CityPlanner – Visual Design"
       blurb="Visual design is about bringing brands to life by defining their unique style and voice. Using CityPlanner as a case study, I will explain the design concepts and decisions behind my work."
       tags="Visual, Motion, Graphic"
     />
@@ -199,11 +199,13 @@
     <ArrowUp/>
 
     <div id="print" class="case case-centre">
+      <div class="visual">
       <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
         <slide>
           <img src="@/assets/CPVisualDesign/Print, Business Cards.svg">
         </slide>
       </carousel>
+      </div>
 
       <div class="about">
         <h1>Print Design</h1>
@@ -233,7 +235,7 @@ export default {
 };
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
