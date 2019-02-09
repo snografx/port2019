@@ -87,7 +87,7 @@
         <h1>Project Goals</h1>
         <h4>Success, Organisation, Challenges</h4>
         <p>Our primary goal for Create Tools is to drive traffic via increasing end-user submissions, thus adding value to the dialogue module.</p>
-        <p>Success on mobile is crucial to 'dialogue'. It is the most requested platform for end-users, so exponential growth is possible if the experience is fun and intuitive. The biggest design challenges were translating complex interface requirements to the small screen in an uncluttered and easy-to-learn fashion. </p>
+        <p>Success on mobile is crucial to 'dialogue'. It is the most requested platform for end-users, so exponential growth is possible if the experience is fun and intuitive. The biggest design challenges were translating complex interface requirements to the small screen in an uncluttered and easy-to-learn fashion.</p>
         <h6>Tools: Figma, Milanote</h6>
       </div>
     </div>
@@ -145,7 +145,7 @@
         <h1>UI Prototypes</h1>
         <h4>Testing &amp; Iterative Design</h4>
         <p>Basic wireframes of different layout styles were tested in Adobe XD. Internal feedback informed advanced prototypes, developed in Figma, for presentation to stakeholders as well as user and device testing.</p>
-        <p>Workshopping prototypes with test-users yielded many improvements such as changing the location and style of modal windows, streamlining select and delete workflows, and addressing design inconsistancies.</p>
+        <p>Workshopping prototypes with test-users yielded many improvements such as changing the location and style of modal windows, streamlining select and delete workflows, and addressing design inconsistencies.</p>
         <div class="case-links">
           <a
             href="https://www.figma.com/file/r7GWbuS9T2ZnCb1kVvofCj/Mobile-Create-Tools?node-id=0%3A1"
@@ -160,7 +160,7 @@
             <div class="external-link">Version 4 Prototype</div>
           </a>
         </div>
-        <h6>Tools: Figma, XD</h6>
+        <h6>Tools: Figma, XD, Workshops</h6>
       </div>
     </div>
 
@@ -172,7 +172,7 @@
         <h4>Scheduled Release: Q1 2019</h4>
         <p>As of writing, the project has moved into the development phase. A final Figma prototype was approved, along with Zeplin exports and Jira issues.</p>
         <p>Development is planned and managed over bi-weekly sprints, with continual testing and design improvements.</p>
-         <div class="case-links">
+        <div class="case-links">
           <a
             href="https://www.figma.com/file/r7GWbuS9T2ZnCb1kVvofCj/Mobile-Create-Tools?node-id=0%3A1"
             target="_blank"
@@ -188,7 +188,6 @@
         </div>
         <h6>Tools: Figma, Zeplin, Jira/Kanban</h6>
       </div>
-      
     </div>
 
     <ArrowUp/>
