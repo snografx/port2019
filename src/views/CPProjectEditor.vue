@@ -53,9 +53,7 @@
         <h1>Product Overview</h1>
         <p>The interface is made up of top and right-side icon bars surrounding a preview of the public interface. There are tools which allow editors to interact with the map as a live-editor, end-user, or do analytic work.</p>
         <p>This case study examines the design and development of 'Export Video', a new tool for creating animations in the 3D world for use in promotional videos.</p>
-        <h6>
-          <br>
-        </h6>
+        <h6>Product Role: UX, Interface, &amp; Visual Design</h6>
       </div>
     </div>
 
@@ -65,9 +63,9 @@
       <div class="about">
         <h1>Export Video</h1>
         <h4>Case Analysis</h4>
-        <p>Interactive CityPlanner projects are designed for all kinds of users – from professional architects to casual showroom visitors. But how can urban planners communicate their 3D plans to those who are uninterested or unable to use software? Enter Export Video.</p>
-        <p>This much-requested feature allows editors to create videos of planning projects in the 3D world – before they've been constructed and without the need to hire planes or drones.</p>
-        <h6>Role: UX &amp; Interface Design</h6>
+        <p>CityPlanner's interactive projects are designed for all kinds of users – from professional architects to casual showroom visitors. But how can urban planners communicate their 3D visualisations to those who are uninterested or unable to use the software?</p>
+        <p>The answer is video exports. This much-requested feature allows editors to firm virtual videos in the 3D world – before plans have been realised and without the need to hire planes or drones.</p>
+        <h6>Project Role: UX &amp; Interface Design</h6>
       </div>
     </div>
 
@@ -89,9 +87,9 @@
       <div class="about">
         <h1>Feature Goals</h1>
         <h4>Video for Everyone</h4>
-        <p>The goal for Export Video feature is creating an entirely new market for CityPlanner - non-users. This allows 3D planning to reach a much wider audience.</p>
-        <p>The measure of success is feature use, with an aim of having it used for 10 customer promotions by the end of 2019. We plan to achieve this by making it easy enough to be used by all kinds of users – as well as promoting it's use with customers.</p>
-        <h6>Tools: Figma, Milanote</h6>
+        <p>The goal for Export Video feature is establishing an entirely new demographic for external communication - non-users. Video allows 3D visualisations to reach a much wider audience.</p>
+        <p>The measure of success is feature use, with an aim of 10 customer promotions by the end of 2019. We plan to achieve this by making the tool easy enough to be used by all kinds of users – as well as promoting  it's value to customers.</p>
+        <h6><br></h6>
       </div>
     </div>
 
@@ -118,19 +116,20 @@
       <div class="about">
         <h1>Research &amp; Process</h1>
         <h4>Design Investigation</h4>
-        <p>An early version of this feature has existed for over a year, used internally for our own
-          <router-link to="/cp-visual.design">promotional videos</router-link>. Initial user needs were based on our own user experience.
+        <p>An alpha version of this feature has existed for over a year, used internally for our own
+          <router-link to="/cp-visual.design#motion">promotional videos</router-link>. Initial user needs were based on our own user experience.
         </p>
-        <p>We invited select customers to test and share feedback. Göteborg used an alpha build to release a 360° Video of their Citybanan project. As a unique product, we relied heavily on testing and iterative design to design and improve the feature.</p>
+        <p>As a unique product, we relied heavily on testing and iterative design.
+          We invited select customers to test early builds and share feedback. Göteborg used a test version to actually release a 360° Video of their '<a href="https://stadsutveckling.goteborg.se/projekt/stadslinbana/" target="_blank">Stadslinbanan</a>' project. </p>
         <div class="case-links">
-          <a href="#" target="_blank">
-            <div class="external-link">Göteborg Video</div>
+          <a href="https://youtu.be/XMUjtcIZZ-4" target="_blank">
+            <div class="external-link">Stadslinbana 360°</div>
           </a>
-          <a href="#" target="_blank">
-            <div class="external-link">Beta Showreel</div>
+          <a href="https://youtu.be/w7vFFd3XSq0" target="_blank">
+            <div class="external-link">Norkart Promotion</div>
           </a>
         </div>
-        <h6>Role: Research &amp; ??</h6>
+       <h6>Tools: Milanote (Video: After Effects, Premiere)</h6>
       </div>
     </div>
 
@@ -159,15 +158,11 @@
       <div class="about">
         <h1>Interface Design</h1>
         <h4>How it works</h4>
-        <p>There are two parts of the design – the animation tool, used to create the camera's flight path, and the interface window.</p>
-        <p>The animation tool works by the user creating the camera path with nodes in the 3d world. 'Lookats' can also be created, geospatial references for the camera to point towards.</p>
-        <p>Window settings relate to speed, quality, as well as export settings.</p>
-        <div class="case-links">
-          <a href="#" target="_blank">
-            <div class="external-link">Figma Maybe</div>
-          </a>
-        </div>
-        <h6>Tools: Figma, Zeplin, Milanote, Workshops, Jira/Kanban</h6>
+        <p>There are two parts of the interface, the in-map animation tool – used to create the camera's flight path – and the interface window – used for settings.</p>
+        <p>The animation tool works by creating waypoints in the 3D world. 'Lookats' can also be created, which are coordinates for the camera to focus on as it travels along the path.</p>
+        <p>Window settings relate to speed, quality, and export options.</p>
+
+        <h6>Tools: Figma, Zeplin, Workshops</h6>
       </div>
     </div>
 
@@ -195,9 +190,9 @@
       <div class="about">
         <h1>Result</h1>
         <h4>Released in February 2019</h4>
-        <p>I worked on development with our product manager and a single developer. Iterations yielded major improvements, allowing us to streamline the product for beginner and advanced users alike. 
-          <p>One such example is inventing a setting for the camera lookat – whereby a user can choose automatic, single, or multiple lookats making each use case much simpler.</p>
-        <p>Watch a screencast of the tool in action, or a showreel of exported videos. Early feedback is extremely positive, with customers already working on video promotions.</p>
+        <p>Development was planned as an epic, spanning several two week sprints. Iterations yielded major improvements, allowing us to streamline the product for beginner and advanced users alike.</p>
+        <p>One such example was devising a setting for the type of camera 'lookat'. In granting the user an option for choosing automatic, single, or multiple lookats each use case was made much simpler.</p>
+        <p>Early feedback is extremely positive, with customers already working on video promotions.</p>
         <div class="case-links">
           <a href="#" target="_blank">
             <div class="external-link">Screencast</div>
@@ -209,7 +204,7 @@
             <div class="external-link">360° Export</div>
           </a>
         </div>
-        <h6></h6>
+        <h6>Dev Tools: Figma, Zeplin, Jira/Kanban</h6>
       </div>
     </div>
 

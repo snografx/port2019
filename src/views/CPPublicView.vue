@@ -50,9 +50,7 @@
         <h1>Product Overview</h1>
         <p>The basic web interface consists of a ribbon, content buttons, toolbar, and interactive components – designed to elegantly scale up to showroom sized touchscreens.</p>
         <p>These elements require translation for alternative views. Mobiles can finally handle our 3D WebGL platform so we started designing and developing a mobile-first UI in 2018.</p>
-        <h6>
-          <br>
-        </h6>
+        <h6>Product Role: UX, Interface, &amp; Visual Design</h6>
       </div>
     </div>
 
@@ -64,7 +62,7 @@
         <h4>Case Analysis</h4>
         <p>"Dialogue" is a CityPlanner module for creating geospatial forms. The mobile version launched without it's premier feature – Create Tools – which allow end-users to place markers and draw lines/areas in the 3D world.</p>
         <p>The missing feature was highly requested by customers but due to complexity it was planned for the second release – allowing us to study and learn from from the initial deployment.</p>
-        <h6>Role: Product Design, UX &amp; Interface Design</h6>
+        <h6>Project Role: Product Design, UX &amp; Interface Design</h6>
       </div>
     </div>
 
@@ -85,10 +83,10 @@
       </div>
       <div class="about">
         <h1>Project Goals</h1>
-        <h4>Success, Organisation, Challenges</h4>
-        <p>Our primary goal for Create Tools is to drive traffic via increasing end-user submissions, thus adding value to the dialogue module.</p>
-        <p>Success on mobile is crucial to 'dialogue'. It is the most requested platform for end-users, so exponential growth is possible if the experience is fun and intuitive. The biggest design challenges were translating complex interface requirements to the small screen in an uncluttered and easy-to-learn fashion.</p>
-        <h6>Tools: Figma, Milanote</h6>
+        <h4>Increasing the value of Dialogue</h4>
+        <p>Our primary goal for Mobile Create Tools is to drive traffic via increasing end-user submissions, thus adding value to the dialogue module.</p>
+        <p>Success on mobile is crucial as it is the most requested platform for end-users. Exponential growth is therefore possible if the experience is fun and intuitive. The biggest design challenges were translating complex interface requirements to the small screen in an uncluttered and easy-to-learn fashion.</p>
+        <h6><br></h6>
       </div>
     </div>
 
@@ -114,7 +112,7 @@
         <h1>Research &amp; Process</h1>
         <h4>Design Investigation</h4>
         <p>Initial designs were based on internal research and data from the ongoing development of the base platform. Personas are based on close relationships with both customers and end-users.</p>
-        <p>Interface usability research focused primarily on blending mobile map and drawing app convensions. An organisational priority of adopting mobile-first solutions which can scale up to the base platform were an important consideration.</p>
+        <p>Interface usability research focused primarily on blending mobile map and drawing app conventions. An organisational priority of adopting scalable mobile-first solutions were an important consideration.</p>
         <h6>Tools: Milanote</h6>
       </div>
     </div>
