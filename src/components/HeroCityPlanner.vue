@@ -21,10 +21,10 @@
           <div class="subhero">Visual Design</div>
         </router-link>
         <router-link to="/cp-project.editor">
-          <div class="subhero">Project Editor</div>
+          <div class="subhero">Project Editor: Export Video</div>
         </router-link>
         <router-link to="/cp-public.view">
-          <div class="subhero">Public View</div>
+          <div class="subhero">Front End: Create Tools</div>
         </router-link>
       </div>
 

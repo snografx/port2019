@@ -27,6 +27,9 @@
        transform: scale(.8);
      }
 
+     @media #{$heightbreak} {
+       transform: scale(.7);
+     }
 
 
      div.pop-link {
@@ -40,8 +43,8 @@
 
    div a {
      color: white !important;
-     font-size: 1.7rem;
-     line-height: 2.7rem;
+     font-size: 1.3rem;
+     line-height: 2.0rem;
      @include orpheus;
 
      @media #{$mobilebreak} {
@@ -53,19 +56,21 @@
 
    .close-pop {
      font-size: 3rem;
-     margin: 1rem;
+     margin: .5rem;
 
      @media #{$mobilebreak} {
-       margin: .5rem;
+       margin: .25rem;
      }
    }
 
    .head-pop {
      @include sofia(500);
      margin: 1rem 0 .4rem;
-     font-size: .9rem;
+     font-size: .8rem;
      text-transform: uppercase;
      letter-spacing: 0.07rem;
+     color: $theme1;
+     background: $background;
 
      @media #{$mobilebreak} {
        font-size: .7rem;

@@ -9,18 +9,25 @@
     <transition name="slide-fade" mode="out-in" appear>
       <div class="projects-pop" v-show="projects">
         <div class="projects-popped">
+          <div class="head-pop">Site Navigation</div>
+          <div class="pop-link" @click="projects = !projects">
+            <router-link to="/cp-visual.design" @click="projects = !projects">Home</router-link>
+          </div>
+          <div class="pop-link" @click="projects = !projects">
+            <router-link to="/cp-project.editor" @click="projects = !projects">About</router-link>
+          </div>
           <div class="head-pop">CityPlanner</div>
           <div class="pop-link" @click="projects = !projects">
             <router-link to="/cp-visual.design" @click="projects = !projects">Visual Design</router-link>
           </div>
           <div class="pop-link" @click="projects = !projects">
-            <router-link to="/cp-project.editor" @click="projects = !projects">Project Editor</router-link>
+            <router-link to="/cp-project.editor" @click="projects = !projects">Export Video</router-link>
           </div>
           <div class="pop-link" @click="projects = !projects">
-            <router-link to="/cp-public.view" @click="projects = !projects">Public View</router-link>
+            <router-link to="/cp-public.view" @click="projects = !projects">Mobile Create Tools</router-link>
           </div>
           <div class="head-pop">Other</div>
-          <div @click="projects = !projects">
+          <div class="pop-link" @click="projects = !projects">
             <router-link to="/panorama" @click="projects = !projects">360° Panorama</router-link>
           </div>
           <div class="pop-link" @click="projects = !projects">
