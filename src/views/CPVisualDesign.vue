@@ -2,8 +2,8 @@
   <div class="text-shrink">
     <Title
       title="CityPlanner – Visual Design"
-      blurb="Visual design is about bringing brands to life by defining their unique style and voice. Using CityPlanner as a case study, I will explain the design concepts and decisions behind my work."
-      tags="Visual, Motion, Graphic"
+      blurb="Visual design is about bringing brands to life by defining their unique voice. In this case study, different forms of visual design are showcased to illustrate how CityPlanner's brand was constructed and developed."
+      tags
     />
 
     <div class="anchor-links">
@@ -200,11 +200,11 @@
 
     <div id="print" class="case case-centre">
       <div class="visual">
-      <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
-        <slide>
-          <img src="@/assets/CPVisualDesign/Print, Business Cards.svg">
-        </slide>
-      </carousel>
+        <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
+          <slide>
+            <img src="@/assets/CPVisualDesign/Print, Business Cards.svg">
+          </slide>
+        </carousel>
       </div>
 
       <div class="about">

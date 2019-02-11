@@ -3,6 +3,7 @@
     <Title
       title="A Concise Biography"
       blurb="I'm a full-stack designer. I have the ability and experience to carry projects through all aspects of the design and development process – including management, hands-on creative work, and taking the critical responsibility for cohesion, quality, and delivery."
+      tags
     />
 
     <div class="anchor-links">
@@ -30,15 +31,19 @@
             <slide>
               <img src="@/assets/About/About-Gyro.png">
             </slide>
-                        <slide>
+            <slide>
               <img src="@/assets/About/About-101.png">
             </slide>
           </carousel>
-          </div></div>
+        </div>
+      </div>
       <div class="about">
         <h1>Background</h1>
         <p>I grew up in an Italian-Norwegian family in a Japanese community in the New York City area. I also lived in Montréal for 10 years before moving permanently to Scandinavia. Stockholm has been home since 2012.</p>
         <p>English is my first language and I also speak Swedish fluently (if not as eloquently). Language is one of my favourite hobbies along with cycling, photography, tennis, architecture, and travel.</p>
+        <h6>
+          <br>
+        </h6>
       </div>
     </div>
 
@@ -68,7 +73,7 @@
         <h4>Web Dev. &amp; Project Management</h4>
         <p>
           I first learned web development in the '90s. I founded
-          <router-link to="/snografx">an agency</router-link> and delivered websites via my custom developed framework/CMS and later custom WordPress themes. I hand coded this portfolio as a single page application using
+          <router-link to="/snografx">an agency</router-link>and delivered websites via my custom developed framework/CMS and later custom WordPress themes. I hand coded this portfolio as a single page application using
           <a
             href="https://vuejs.org/"
             target="_blank"
@@ -107,6 +112,9 @@
             <div class="external-link">E-mail</div>
           </a>
         </div>
+        <h6>
+          <br>
+        </h6>
       </div>
     </div>
 
