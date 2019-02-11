@@ -3,13 +3,13 @@
     <Title
       title="CityPlanner – Project Editor"
       blurb="CityPlanner's Project Editor is web-based cloud software used to create 3D urban planning projects, which can then be published to different interactive platforms. It includes tools and features for urban planners, communicators, and organisational collaboration."
-      tags="Introduction, Case Study"
+      tags=""
     />
 
     <div class="anchor-links">
       <h4>Skip to</h4>
       <div class="skip-links case-links">
-        <a href="#" v-scroll-to="'#views'">
+        <a href="#" v-scroll-to="'#overview'">
           <div class="case-link-overview">Overview</div>
         </a>
         <a href="#" v-scroll-to="'#analysis'">
@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <div id="views" class="case case-right case-overview">
+    <div id="overview" class="case case-right case-overview">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
@@ -53,7 +53,7 @@
         <h1>Product Overview</h1>
         <p>The interface is made up of top and right-side icon bars surrounding a preview of the public interface. There are tools which allow editors to interact with the map as a live-editor, end-user, or do analytic work.</p>
         <p>This case study examines the design and development of 'Export Video', a new tool for creating animations in the 3D world for use in promotional videos.</p>
-        <h6>Product Role: UX, Interface, &amp; Visual Design</h6>
+        <h6><br></h6>
       </div>
     </div>
 
@@ -65,7 +65,7 @@
         <h4>Case Analysis</h4>
         <p>CityPlanner's interactive projects are designed for all kinds of users – from professional architects to casual showroom visitors. But how can urban planners communicate their 3D visualisations to those who are uninterested or unable to use the software?</p>
         <p>The answer is video exports. This much-requested feature allows editors to firm virtual videos in the 3D world – before plans have been realised and without the need to hire planes or drones.</p>
-        <h6>Project Role: UX &amp; Interface Design</h6>
+        <h6>Role: UX &amp; Interface Design</h6>
       </div>
     </div>
 
@@ -88,8 +88,10 @@
         <h1>Feature Goals</h1>
         <h4>Video for Everyone</h4>
         <p>The goal for Export Video feature is establishing an entirely new demographic for external communication - non-users. Video allows 3D visualisations to reach a much wider audience.</p>
-        <p>The measure of success is feature use, with an aim of 10 customer promotions by the end of 2019. We plan to achieve this by making the tool easy enough to be used by all kinds of users – as well as promoting  it's value to customers.</p>
-        <h6><br></h6>
+        <p>The measure of success is feature use, with an aim of 10 customer promotions by the end of 2019. We plan to achieve this by making the tool easy enough to be used by all kinds of users – as well as promoting it's value to customers.</p>
+        <h6>
+          <br>
+        </h6>
       </div>
     </div>
 
@@ -119,8 +121,14 @@
         <p>An alpha version of this feature has existed for over a year, used internally for our own
           <router-link to="/cp-visual.design#motion">promotional videos</router-link>. Initial user needs were based on our own user experience.
         </p>
-        <p>As a unique product, we relied heavily on testing and iterative design.
-          We invited select customers to test early builds and share feedback. Göteborg used a test version to actually release a 360° Video of their '<a href="https://stadsutveckling.goteborg.se/projekt/stadslinbana/" target="_blank">Stadslinbanan</a>' project. </p>
+        <p>
+          As a unique product, we relied heavily on testing and iterative design.
+          We invited select customers to test early builds and share feedback. Göteborg used a test version to actually release a 360° Video of their '
+          <a
+            href="https://stadsutveckling.goteborg.se/projekt/stadslinbana/"
+            target="_blank"
+          >Stadslinbanan</a>' project.
+        </p>
         <div class="case-links">
           <a href="https://youtu.be/XMUjtcIZZ-4" target="_blank">
             <div class="external-link">Stadslinbana 360°</div>
@@ -129,7 +137,7 @@
             <div class="external-link">Norkart Promotion</div>
           </a>
         </div>
-       <h6>Tools: Milanote (Video: After Effects, Premiere)</h6>
+        <h6>Tools: Milanote</h6>
       </div>
     </div>
 
@@ -176,7 +184,7 @@
               <div class="slide-ph">Screenshot</div>
             </slide>
             <slide>
-              <div class="slide-ph">Whiteboard session: J and A</div>
+              <img src="@/assets/CPProjectEditor/ExpoVideo-Settings-sketch.png">
             </slide>
             <slide>
               <div class="slide-ph">Screencast of using the tool, example video</div>
@@ -188,7 +196,7 @@
         </div>
       </div>
       <div class="about">
-        <h1>Result</h1>
+        <h1>The Result</h1>
         <h4>Released in February 2019</h4>
         <p>Development was planned as an epic, spanning several two week sprints. Iterations yielded major improvements, allowing us to streamline the product for beginner and advanced users alike.</p>
         <p>One such example was devising a setting for the type of camera 'lookat'. In granting the user an option for choosing automatic, single, or multiple lookats each use case was made much simpler.</p>
@@ -204,7 +212,7 @@
             <div class="external-link">360° Export</div>
           </a>
         </div>
-        <h6>Dev Tools: Figma, Zeplin, Jira/Kanban</h6>
+        <h6>Tools &amp; methodology: Jira, Kanban</h6>
       </div>
     </div>
 

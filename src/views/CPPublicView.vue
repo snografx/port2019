@@ -3,7 +3,7 @@
     <Title
       title="CityPlanner – Public View"
       blurb="This is the 3D world – CityPlanner's public facing interface. It uses large touch-friendly buttons and simple concepts for communicating with the public. Views can be published to web, mobile, touch-tables, and virtual reality."
-      tags="Introduction, Case Study"
+      tags=""
     />
 
     <div class="anchor-links">
@@ -50,7 +50,7 @@
         <h1>Product Overview</h1>
         <p>The basic web interface consists of a ribbon, content buttons, toolbar, and interactive components – designed to elegantly scale up to showroom sized touchscreens.</p>
         <p>These elements require translation for alternative views. Mobiles can finally handle our 3D WebGL platform so we started designing and developing a mobile-first UI in 2018.</p>
-        <h6>Product Role: UX, Interface, &amp; Visual Design</h6>
+        <h6><br></h6>
       </div>
     </div>
 
@@ -62,7 +62,7 @@
         <h4>Case Analysis</h4>
         <p>"Dialogue" is a CityPlanner module for creating geospatial forms. The mobile version launched without it's premier feature – Create Tools – which allow end-users to place markers and draw lines/areas in the 3D world.</p>
         <p>The missing feature was highly requested by customers but due to complexity it was planned for the second release – allowing us to study and learn from from the initial deployment.</p>
-        <h6>Project Role: Product Design, UX &amp; Interface Design</h6>
+        <h6>Role: Product Design, UX &amp; Interface Design</h6>
       </div>
     </div>
 
@@ -184,11 +184,14 @@
             <div class="external-link">Final Prototype</div>
           </a>
         </div>
-        <h6>Tools: Figma, Zeplin, Jira/Kanban</h6>
+        <h6>Tools &amp; methodology: Jira, Kanban</h6>
       </div>
     </div>
 
     <ArrowUp/>
+
+
+    
   </div>
 </template>
 

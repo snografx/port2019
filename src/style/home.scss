@@ -35,6 +35,12 @@
     background: lighten($theme1, 50%) !important;
 }
 
+.case-bonus {
+    border-radius: 30px;
+    margin: 0 5%;
+    background: lighten($theme2, 35%) !important;
+}
+
 .device,
 .visual,
 .about {
@@ -307,6 +313,19 @@ h4.subheroes-title {
     background: lighten($theme1, 50%);
     color: $theme1;
     border: 1px solid $theme1;
+
+    &:hover {
+        background: $link-hover;
+        color: $background;
+        border: 1px solid $link-hover;
+    }
+}
+
+
+.case-link-bonus {
+    background: lighten($theme2, 50%);
+    color: $theme2;
+    border: 1px solid $theme2;
 
     &:hover {
         background: $link-hover;

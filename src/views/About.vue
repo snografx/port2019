@@ -9,7 +9,7 @@
       <h4>Skip to</h4>
       <div class="skip-links case-links">
         <a href="#" v-scroll-to="'#background'">
-          <div class="case-link">Background</div>
+          <div class="case-link-bonus">Background</div>
         </a>
         <a href="#" v-scroll-to="'#creative'">
           <div class="case-link">Creative</div>
@@ -23,10 +23,18 @@
       </div>
     </div>
 
-    <div id="background" class="case case-right">
+    <div id="background" class="case case-right case-bonus">
       <div class="visual">
-        <img src="@/assets/CaseSnografx-DropF1.png">
-      </div>
+        <div class="carousel-container">
+          <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
+            <slide>
+              <img src="@/assets/About/About-Gyro.png">
+            </slide>
+                        <slide>
+              <img src="@/assets/About/About-101.png">
+            </slide>
+          </carousel>
+          </div></div>
       <div class="about">
         <h1>Background</h1>
         <p>I grew up in an Italian-Norwegian family in a Japanese community in the New York City area. I also lived in Montréal for 10 years before moving permanently to Scandinavia. Stockholm has been home since 2012.</p>
@@ -109,17 +117,22 @@
 <script>
 import Title from "@/components/Title.vue";
 import ArrowUp from "@/components/ArrowUp.vue";
+import { Carousel, Slide } from "vue-carousel";
 
 export default {
   name: "home",
   components: {
     Title,
-    ArrowUp
+    ArrowUp,
+    Carousel,
+    Slide
   }
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
+$alignment: left;
 @import "@/style/theme.scss";
-@import "@/style/case-study.scss";
+@import "@/style/case-logic.scss";
+@import "@/style/carousel.scss";
 </style>
