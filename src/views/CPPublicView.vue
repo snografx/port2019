@@ -1,9 +1,11 @@
 <template>
   <div class="text-shrink">
     <Title
-      title="CityPlanner – Public View"
-      blurb="This is the 3D world – CityPlanner's public facing interface. It uses large touch-friendly buttons and simple concepts for communicating with the public. Views can be published to web, mobile, touch-tables, and virtual reality."
-      tags=""
+      title="CityPlanner – Front End"
+      blurb="This is the 3D world – CityPlanner's public facing interface. It uses large touch-friendly buttons and simple concepts for communicating with the public. Optimised front-end views can be published to web, mobile, touch-tables, and VR.
+      
+      I'll start by introducing the platform before exploring a specific case study for the mobile view."
+      tags
     />
 
     <div class="anchor-links">
@@ -50,7 +52,9 @@
         <h1>Product Overview</h1>
         <p>The basic web interface consists of a ribbon, content buttons, toolbar, and interactive components – designed to elegantly scale up to showroom sized touchscreens.</p>
         <p>These elements require translation for alternative views. Mobiles can finally handle our 3D WebGL platform so we started designing and developing a mobile-first UI in 2018.</p>
-        <h6><br></h6>
+        <h6>
+          <br>
+        </h6>
       </div>
     </div>
 
@@ -86,7 +90,9 @@
         <h4>Increasing the value of Dialogue</h4>
         <p>Our primary goal for Mobile Create Tools is to drive traffic via increasing end-user submissions, thus adding value to the dialogue module.</p>
         <p>Success on mobile is crucial as it is the most requested platform for end-users. Exponential growth is therefore possible if the experience is fun and intuitive. The biggest design challenges were translating complex interface requirements to the small screen in an uncluttered and easy-to-learn fashion.</p>
-        <h6><br></h6>
+        <h6>
+          <br>
+        </h6>
       </div>
     </div>
 
@@ -189,9 +195,6 @@
     </div>
 
     <ArrowUp/>
-
-
-    
   </div>
 </template>
 

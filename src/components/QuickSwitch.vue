@@ -11,10 +11,10 @@
         <div class="projects-popped">
           <div class="head-pop">Site Navigation</div>
           <div class="pop-link" @click="projects = !projects">
-            <router-link to="/cp-visual.design" @click="projects = !projects">Home</router-link>
+            <router-link to="/" @click="projects = !projects">Home</router-link>
           </div>
           <div class="pop-link" @click="projects = !projects">
-            <router-link to="/cp-project.editor" @click="projects = !projects">About</router-link>
+            <router-link to="/about" @click="projects = !projects">About</router-link>
           </div>
           <div class="head-pop">CityPlanner</div>
           <div class="pop-link" @click="projects = !projects">

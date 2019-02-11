@@ -2,8 +2,10 @@
   <div class="text-shrink">
     <Title
       title="CityPlanner – Project Editor"
-      blurb="CityPlanner's Project Editor is web-based cloud software used to create 3D urban planning projects, which can then be published to different interactive platforms. It includes tools and features for urban planners, communicators, and organisational collaboration."
-      tags=""
+      blurb="CityPlanner's Project Editor is web-based cloud software used to create 3D urban planning projects, which can then be published to different interactive platforms. It includes tools and features for urban planners, communicators, and organisational collaboration.
+      
+      On this page I will introduce the product before exploring a specific case study."
+      tags
     />
 
     <div class="anchor-links">
@@ -53,7 +55,9 @@
         <h1>Product Overview</h1>
         <p>The interface is made up of top and right-side icon bars surrounding a preview of the public interface. There are tools which allow editors to interact with the map as a live-editor, end-user, or do analytic work.</p>
         <p>This case study examines the design and development of 'Export Video', a new tool for creating animations in the 3D world for use in promotional videos.</p>
-        <h6><br></h6>
+        <h6>
+          <br>
+        </h6>
       </div>
     </div>
 
