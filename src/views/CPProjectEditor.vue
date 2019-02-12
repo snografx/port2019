@@ -32,12 +32,20 @@
       </div>
     </div>
 
-    <div id="overview" class="case case-right case-overview">
+    <div id="overview" class="case case-centre case-overview">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <div class="slide-ph">Editor Screenshot</div>
+              <iframe
+                class="youtube"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/tNGPG_i36gI"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </slide>
             <slide>
               <div class="slide-ph">Editor Wireframe from Tut</div>
@@ -126,8 +134,7 @@
           <router-link to="/cp-visual.design#motion">promotional videos</router-link>. Initial user needs were based on our own user experience.
         </p>
         <p>
-          As a unique product, we relied heavily on testing and iterative design.
-          We invited select customers to test early builds and share feedback. Göteborg used a test version to actually release a 360° Video of their '
+          As a unique product, we relied heavily on testing and iterative design. We invited select customers to test early builds and share feedback. Göteborg used a test version to actually release a 360° Video of their '
           <a
             href="https://stadsutveckling.goteborg.se/projekt/stadslinbana/"
             target="_blank"
@@ -245,4 +252,11 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
+
+.youtube {
+  background: black;
+  padding: 5px 5px 25px;
+  border: 1px solid $text;
+  box-shadow: 5px 5px $background;
+}
 </style>

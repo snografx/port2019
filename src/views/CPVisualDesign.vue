@@ -34,9 +34,7 @@
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
-            <slide>
-              <img src="@/assets/CPVisualDesign/Identity, CityPlanner Glyph.svg">
-            </slide>
+            <slide><img src="@/assets/CPVisualDesign/Identity, CityPlanner Glyph.svg"</slide>
             <slide>
               <img src="@/assets/CPVisualDesign/Identity, CityPlanner Logo.svg">
             </slide>
