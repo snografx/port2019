@@ -12,8 +12,7 @@
     "vue-carousel": "^0.17.0",
     "vue-material-design-icons": "^2.6.0",
     "vue-router": "^3.0.1",
-    "vue-scrollto": "^2.13.0",
-    "vue-silentbox": "^0.1.2"
+    "vue-scrollto": "^2.13.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.3.0",
