@@ -159,9 +159,21 @@
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
               <img src="@/assets/Panorama/Pano-Promo.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Pano-Promo.png'"
+              >LB it</a>
+              <br>
             </slide>
             <slide>
               <img src="@/assets/Panorama/Pano-Cardboard.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Pano-Cardboard.png'"
+              >LB it</a>
+              <br>
             </slide>
           </carousel>
         </div>
@@ -182,12 +194,21 @@
         <h6>Tools &amp; methodology: Jira, Kanban</h6>
       </div>
     </div>
+
     <ArrowUp/>
-    <div id="example-3">
-      Hej {{ testo }}!
-      <button v-on:click="say('@/assets/Panorama/Pano-Promo.png')">Say hi</button>
-      <button v-on:click="say('what')">Say what</button>
-    </div>
+
+    <transition name="slide-fade" mode="out-in" appear>
+      <div class="lb-magic" v-if="lightbox == 'show'">
+        <img v-bind:src="require('@/assets/Panorama/' + src )">
+
+        <br>
+        <a
+          class="lb-close"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+        >Close Me</a>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -204,13 +225,10 @@ export default {
     Carousel,
     Slide
   },
-  data: {
-    testo: "Yo"
-  },
-  methods: {
-    say: function(message) {
-      alert(message);
-    }
+  data() {
+    return {
+      lightbox: "hide"
+    };
   }
 };
 </script>
@@ -220,4 +238,52 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
+
+.lb-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px 30px;
+  padding: 2px 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background: gold;
+  border: teal;
+  border-radius: 30px;
+}
+.lb-button-active {
+  background: teal;
+  border: gold;
+}
+.lb-magic {
+  position: fixed;
+  z-index: 30000;
+
+  @include linear-gradient(lighten($theme1, 5%), darken($theme1, 5%));
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.95;
+
+  @include flex-centre;
+
+  height: 100vh;
+
+  .lb-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 30px;
+    padding: 2px 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background: gold;
+    border: teal;
+    border-radius: 30px;
+  }
+  .lb-close-active {
+    background: teal;
+    border: gold;
+  }
+}
 </style>
+
