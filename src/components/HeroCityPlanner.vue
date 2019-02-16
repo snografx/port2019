@@ -23,7 +23,7 @@
         <router-link to="/export.video">
           <div class="subhero">Project Editor: Export Video</div>
         </router-link>
-        <router-link to="/create.tools">
+        <router-link to="/mobile.create">
           <div class="subhero">Front End: Create Tools</div>
         </router-link>
       </div>

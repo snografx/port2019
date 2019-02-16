@@ -24,7 +24,7 @@
         </div>
       </div>
     </router-link>
-    <router-link to="/create.tools">
+    <router-link to="/mobile.create">
       <div class="subhero">
         <div class="subtitle">Front-End</div>
         <div class="list">Interactive Views
