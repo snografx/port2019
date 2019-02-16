@@ -18,13 +18,13 @@
           </div>
           <div class="head-pop">CityPlanner</div>
           <div class="pop-link" @click="projects = !projects">
-            <router-link to="/cp-visual.design" @click="projects = !projects">Visual Design</router-link>
+            <router-link to="/visual.design" @click="projects = !projects">Visual Design</router-link>
           </div>
           <div class="pop-link" @click="projects = !projects">
-            <router-link to="/cp-project.editor" @click="projects = !projects">Export Video</router-link>
+            <router-link to="/export.video" @click="projects = !projects">Export Video</router-link>
           </div>
           <div class="pop-link" @click="projects = !projects">
-            <router-link to="/cp-public.view" @click="projects = !projects">Mobile Create Tools</router-link>
+            <router-link to="/mobile.create" @click="projects = !projects">Mobile Create Tools</router-link>
           </div>
           <div class="head-pop">Other</div>
           <div class="pop-link" @click="projects = !projects">

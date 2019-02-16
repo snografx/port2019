@@ -170,7 +170,23 @@
 
     <ArrowUp/>
 
-    <div id="dev" class="case case-text">
+    <div id="dev" class="case case-right">
+      <div class="visual">
+        <div class="carousel-container">
+          <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
+            <slide>
+              <img src="@/assets/CPPublicView/Create-Design-F.png">
+            </slide>
+            <slide>
+              <img src="@/assets/CPPublicView/Create-Prototype-F.png">
+            </slide>
+            <slide>
+              <img src="@/assets/CPPublicView/Create-Zeplin.png">
+            </slide>
+          </carousel>
+        </div>
+      </div>
+
       <div class="about">
         <h1>Development</h1>
         <h4>Scheduled Release: Q1 2019</h4>

@@ -135,7 +135,7 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/Panorama/Pano-Logo-Pocket.png">
+              <img src="@/assets/Panorama/Pano-Logo-Pocket0.png">
             </slide>
             <slide>
               <img src="@/assets/Panorama/Pano-Logo-VR.png">
@@ -158,7 +158,7 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/Panorama/Pano-Promo.png">
+              <img src="@/assets/Panorama/Pano-Promo0.png">
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
@@ -284,6 +284,10 @@ $alignment: left;
     background: teal;
     border: gold;
   }
+}
+
+.visual img {
+  background: url("~@/assets/Visual-Background-Dots.png") center center;
 }
 </style>
 

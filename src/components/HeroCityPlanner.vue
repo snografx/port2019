@@ -17,13 +17,13 @@
       <h4 class="subheroes-title mobile-only">Case Studies</h4>
 
       <div class="subheroes-mobile">
-        <router-link to="/cp-visual.design">
+        <router-link to="/visual.design">
           <div class="subhero">Visual Design</div>
         </router-link>
-        <router-link to="/cp-project.editor">
+        <router-link to="/export.video">
           <div class="subhero">Project Editor: Export Video</div>
         </router-link>
-        <router-link to="/cp-public.view">
+        <router-link to="/create.tools">
           <div class="subhero">Front End: Create Tools</div>
         </router-link>
       </div>

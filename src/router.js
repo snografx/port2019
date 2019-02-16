@@ -21,54 +21,65 @@ export default new Router({
       component: () => import( /* webpackChunkName: "about" */ './views/About.vue')
     },
     {
-      path: '/cp-visual.design',
-      name: 'cp-visual.design',
-      component: () => import( /* webpackChunkName: "about" */ './views/CPVisualDesign.vue')
+      path: '/visual.design',
+      name: 'visual.design',
+      component: () => import('./views/CPVisualDesign.vue')
     },
+    /*
     {
       path: '/cp-project.editor',
       name: 'cp-project.editor',
-      component: () => import( /* webpackChunkName: "about" */ './views/CPProjectEditor.vue')
+      component: () => import( './views/CPProjectEditor.vue')
     },
     {
       path: '/cp-public.view',
       name: 'cp-public.view',
-      component: () => import( /* webpackChunkName: "about" */ './views/CPPublicView.vue')
+      component: () => import( './views/CPPublicView.vue')
+    },
+    */
+    {
+      path: '/export.video',
+      name: 'export.video',
+      component: () => import('./views/CPExportVideo.vue')
+    }, {
+      path: '/mobile.create',
+      name: 'mobile.create',
+      component: () => import('./views/CPMobileCreate.vue')
     },
     {
       path: '/cityplanner',
       name: 'cityplanner',
-      component: () => import( /* webpackChunkName: "about" */ './views/CityPlanner.vue')
+      component: () => import('./views/CityPlanner.vue')
     },
     {
       path: '/panorama',
       name: 'panorama',
-      component: () => import( /* webpackChunkName: "about" */ './views/Panorama.vue')
+      component: () => import('./views/Panorama.vue')
     },
     {
       path: '/minstad',
       name: 'minstad',
-      component: () => import( /* webpackChunkName: "about" */ './views/MinStad.vue')
+      component: () => import('./views/MinStad.vue')
     },
     {
       path: '/snografx',
       name: 'snografx',
-      component: () => import( /* webpackChunkName: "about" */ './views/Snografx.vue')
+      component: () => import('./views/Snografx.vue')
     },
     {
       path: '/datamanager',
       name: 'datamanager',
-      component: () => import( /* webpackChunkName: "about" */ './views/DataManager.vue')
+      component: () => import('./views/DataManager.vue')
     },
     {
       path: '/template.logic',
       name: 'template.logic',
-      component: () => import( /* webpackChunkName: "about" */ './views/Template.vue')
+      component: () => import('./views/Template.vue')
     },
     {
       path: '/template',
       name: 'template',
-      component: () => import( /* webpackChunkName: "about" */ './views/TemplateSingle.vue')
+      component: () => import('./views/TemplateSingle.vue')
     },
   ],
 
