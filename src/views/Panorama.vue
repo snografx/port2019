@@ -61,7 +61,7 @@
         <h1>Project Goals</h1>
         <h4>CityPlanner for everyone</h4>
         <p>This project was undertaken in cooperation with the City of Umeå, northern Sweden's largest metropolis, as their project requirements corresponded with our product roadmap.</p>
-        <p>The prerequisites asserted the need to support low-end devices, lower-bandwidth, support Virtual Reality via Google Cardboard, and integrate a new a 'time slider' component.</p>
+        <p>The prerequisites were to support low-end devices, lower-bandwidth, support Virtual Reality via Google Cardboard, and integrate a new a 'time slider' component.</p>
         <p>An internal emphasis was also placed on designing an interface which could form the foundation of CityPlanner's forthcoming mobile UI.</p>
         <h6>
           <br>
@@ -77,9 +77,23 @@
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
               <img src="@/assets/Panorama/Pano-Whiteboard.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Panorama/Pano-Whiteboard.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
               <img src="@/assets/Panorama/Pano-WCAG.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Panorama/Pano-WCAG.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -104,6 +118,13 @@
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
               <img src="@/assets/Panorama/Pano-UI-paper.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Panorama/Pano-UI-paper.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -112,9 +133,9 @@
       <div class="about">
         <h1>Interface Design</h1>
         <h4>Testing &amp; Iterative Design</h4>
-        <p>We went through many iterations with our partners in Umeå, who conducted workshops with local youth which informed the initial design.</p>
-        <p>The City of Umeå had a tight deadline, so 360° Panorama was soft-launched (without promotion) in the autumn of 2018 in a beta state. We took advantage of this necessity to fast-track rapid iterations and improvements.</p>
-        <p>In late 2018 we used an event at Sweco to workshop the beta launch. Feedback is being used to polish an official launch in 2019.</p>
+        <p>We went through many iterations with our partners in Umeå who conducted workshops with local youth which informed the initial design.</p>
+        <p>The City of Umeå had a tight deadline, so 360° Panorama was soft-launched (without promotion) in the autumn of 2018 as a beta preview. We took advantage of this necessity to fast-track rapid iterations and improvements.</p>
+        <p>In late 2018 we used an event at Sweco to workshop the released beta. Improvements continue ahead of an official launch in 2019.</p>
         <p></p>
         <div class="case-links">
           <a href="https://youtu.be/H2RI0sGmBzQ" target="_blank">
@@ -136,17 +157,32 @@
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
               <img src="@/assets/Panorama/Pano-Logo-Pocket0.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Panorama/Pano-Logo-Pocket0.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
               <img src="@/assets/Panorama/Pano-Logo-VR.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Panorama/Pano-Logo-VR.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
       </div>
       <div class="about">
         <h1>Visual Design</h1>
-        <h4>Soft Release: Q4 2018</h4>
-        <p>Explain the confusing development branding. Branding put on hold as the parent company is in the process of being acquired.</p>
+        <h4>Product Identity</h4>
+        <p>Several identities have been designed during the development process, complicated by Agency9 being acquired before the product was officially launched.</p>
+        <p>CityPlanner Pocket is the development name for the mobile interface. VRPanorama was used to promote Google Cardboard-specific events before settling on the more inclusive 360° Panorama, as VR is not required.</p>
         <h6>Tools: Illustrator</h6>
       </div>
     </div>
@@ -162,18 +198,20 @@
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Pano-Promo.png'"
-              >LB it</a>
-              <br>
+                v-on:click="lightbox = 'show', src = 'Panorama/Pano-Promo0.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
               <img src="@/assets/Panorama/Pano-Cardboard.png">
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Pano-Cardboard.png'"
-              >LB it</a>
-              <br>
+                v-on:click="lightbox = 'show', src = 'Panorama/Pano-Cardboard.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -197,16 +235,17 @@
 
     <ArrowUp/>
 
-    <transition name="slide-fade" mode="out-in" appear>
+    <transition name="fade" mode="out-in" appear>
       <div class="lb-magic" v-if="lightbox == 'show'">
-        <img v-bind:src="require('@/assets/Panorama/' + src )">
-
+        <img v-bind:src="require('@/assets/' + src )">
         <br>
         <a
           class="lb-close"
           v-bind:class="{ 'active': lightbox == 'hide'}"
           v-on:click="lightbox = 'hide'"
-        >Close Me</a>
+        >
+          <img v-bind:src="require('@/assets/FullscreenOff.svg')">
+        </a>
       </div>
     </transition>
   </div>
@@ -238,56 +277,6 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
-
-.lb-button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 10px 30px;
-  padding: 2px 18px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  background: gold;
-  border: teal;
-  border-radius: 30px;
-}
-.lb-button-active {
-  background: teal;
-  border: gold;
-}
-.lb-magic {
-  position: fixed;
-  z-index: 30000;
-
-  @include linear-gradient(lighten($theme1, 5%), darken($theme1, 5%));
-  color: white;
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 0.95;
-
-  @include flex-centre;
-
-  height: 100vh;
-
-  .lb-close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 10px 30px;
-    padding: 2px 18px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    background: gold;
-    border: teal;
-    border-radius: 30px;
-  }
-  .lb-close-active {
-    background: teal;
-    border: gold;
-  }
-}
-
-.visual img {
-  background: url("~@/assets/Visual-Background-Dots.png") center center;
-}
+@import "@/style/lightbox.scss";
 </style>
 

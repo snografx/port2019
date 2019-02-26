@@ -30,9 +30,23 @@
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
               <img src="@/assets/About/About-Gyro.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'About/About-Gyro.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
               <img src="@/assets/About/About-101.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'About/About-101.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -67,6 +81,13 @@
     <div id="tech" class="case case-right">
       <div class="visual">
         <img src="@/assets/About/Tech Skills, Code.svg">
+        <a
+          class="lb-button"
+          v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+          v-on:click="lightbox = 'show', src = 'About/Tech Skills, Code.svg'"
+        >
+          <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+        </a>
       </div>
       <div class="about">
         <h1>Technical Skills</h1>
@@ -119,6 +140,20 @@
     </div>
 
     <ArrowUp/>
+
+    <transition name="fade" mode="out-in" appear>
+      <div class="lb-magic" v-if="lightbox == 'show'">
+        <img v-bind:src="require('@/assets/' + src )">
+        <br>
+        <a
+          class="lb-close"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+        >
+          <img v-bind:src="require('@/assets/FullscreenOff.svg')">
+        </a>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -134,6 +169,11 @@ export default {
     ArrowUp,
     Carousel,
     Slide
+  },
+  data() {
+    return {
+      lightbox: "hide"
+    };
   }
 };
 </script>
@@ -143,4 +183,5 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
+@import "@/style/lightbox.scss";
 </style>

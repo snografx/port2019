@@ -3,7 +3,7 @@
     <Title
       title="Min Stad Göteborg"
       blurb="Min Stad – &quot;My City&quot; in Swedish – is an app designed for the City of Gothenburg. The municipality publishes planning and cultural information while cultivating feedback and ideas from the community. Visitors mark map positions, choose categories, and leave comments."
-      tags=""
+      tags
     />
 
     <div class="anchor-links">
@@ -15,7 +15,7 @@
         <a href="#" v-scroll-to="'#visual'">
           <div class="case-link">Visual &amp; UI</div>
         </a>
-                <a href="#" v-scroll-to="'#graphic'">
+        <a href="#" v-scroll-to="'#graphic'">
           <div class="case-link">Graphic Design</div>
         </a>
         <a href="#" v-scroll-to="'#result'">
@@ -42,13 +42,16 @@
       </div>
       <div class="about">
         <h1>Product Overview</h1>
-        <p>In 2016 Gothenburg's Department of Urban Planning commissioned a mobile app version of <a href="http://minstad.goteborg.se" target="_blank">Min Stad</a> – their successful web &amp; showroom platform. The objective was to continue to increase publicity and cultivate a deeper dialogue with residents via interactive technology.</p>
         <p>
-          I designed the visuals, features, and interface with city stakeholders. Along with Agency9's project manager, we leveraged the department's own assets for prototyping, user testing, and feedback while working agile with a development team in Ukraine to deliver this multi-platform product.</p>
+          In 2016 Gothenburg's Department of Urban Planning commissioned a mobile app version of
+          <a
+            href="http://minstad.goteborg.se"
+            target="_blank"
+          >Min Stad</a> – their successful web &amp; showroom platform. The objective was to continue to increase publicity and cultivate a deeper dialogue with residents via interactive technology.
+        </p>
+        <p>I designed the visuals, features, and interface with city stakeholders. Along with Agency9's project manager, we leveraged the department's own assets for prototyping, user testing, and feedback while working agile with a development team in Ukraine to deliver this multi-platform product.</p>
 
-        <h6>Role: Product Design, UX, Interface, &amp; Visual Design, English Copywriting
-
-        </h6>
+        <h6>Role: Product Design, UX, Interface, &amp; Visual Design, English Copywriting</h6>
       </div>
     </div>
 
@@ -61,19 +64,19 @@
             <slide>
               <img src="@/assets/MinStad/MinStad-Paper.png">
             </slide>
-                        <slide>
+            <slide>
               <img src="@/assets/MinStad/MinStad-Whiteboard.png">
             </slide>
-                        <slide>
+            <slide>
               <img src="@/assets/MinStad/MinStad-UI-Sketch.png">
             </slide>
-                                    <slide>
+            <slide>
               <img src="@/assets/MinStad/MinStad-UI-Sketch-close.png">
             </slide>
-                                    <slide>
+            <slide>
               <img src="@/assets/MinStad/MinStad-Dev-screens.png">
             </slide>
-              <slide>
+            <slide>
               <img src="@/assets/MinStad/MinStad-Markers-Sketch.png">
             </slide>
           </carousel>
@@ -98,10 +101,10 @@
             <slide>
               <img src="@/assets/MinStad/MinStad-Logo.png">
             </slide>
-                        <slide>
+            <slide>
               <img src="@/assets/MinStad/MinStad-Logo-col.png">
             </slide>
-                        <slide>
+            <slide>
               <img src="@/assets/MinStad/MinStad-Logo-prop.png">
             </slide>
           </carousel>
@@ -110,9 +113,8 @@
       <div class="about">
         <h1>Graphic Design</h1>
         <h4>Logo &amp; Branding</h4>
-        <p>Several strong concepts were considered for the app logo. The genesis of the winning concept came from a city employee, with their rough idea being polished into the final design. It consists of two placemarks forming a heart-shape. </p>
-          <p>
-          I've shared several proposals and refinements to illustrate the design process.</p>
+        <p>Several strong concepts were considered for the app logo. The genesis of the winning concept came from a city employee, with their rough idea being polished into the final design. It consists of two placemarks forming a heart-shape.</p>
+        <p>I've shared several proposals and refinements to illustrate the design process.</p>
         <h6>Tools: CorelDraw, Photoshop, Sketch</h6>
       </div>
     </div>
@@ -123,17 +125,16 @@
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
-                                    <slide>
+            <slide>
               <img src="@/assets/MinStad/MinStad-Android.png">
             </slide>
             <slide>
               <img src="@/assets/MinStad/MinStad-Feature.png">
             </slide>
 
-           <slide>
+            <slide>
               <img src="@/assets/MinStad/MinStad-Media2.png">
             </slide>
-
           </carousel>
         </div>
       </div>
@@ -142,32 +143,36 @@
         <h4>Satisfied Customer</h4>
         <p>After 10 months of development Min Stad was released to the App Store and Google Play in September of 2016. It received a lot of publicity in Göteborg, being featured in several local media publications.</p>
         <p>The customer was very pleased the number of installs and submissions, with over 1300 posts having been made since the first version was released.</p>
-              <div class="case-links">
+        <div class="case-links">
           <a href="https://itunes.apple.com/us/app/min-stad/id1126354459?mt=8" target="_blank">
             <div class="external-link">App Store</div>
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.agency9.minstad" target="_blank">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.agency9.minstad"
+            target="_blank"
+          >
             <div class="external-link">Google Play</div>
           </a>
-                    <a href="https://visualarena.lindholmen.se/nyheter/min-stad-nu-som-app" target="_blank">
+          <a href="https://visualarena.lindholmen.se/nyheter/min-stad-nu-som-app" target="_blank">
             <div class="external-link">Visual Arena</div>
           </a>
         </div>
         <h6>
-          <br></h6>
-        </div>
+          <br>
+        </h6>
+      </div>
     </div>
 
     <ArrowUp/>
 
-        <div id="game" class="case case-centre case-bonus">
+    <div id="game" class="case case-centre case-bonus">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
               <img src="@/assets/MinStad/MinStad-Game.png">
             </slide>
-                        <slide>
+            <slide>
               <img src="@/assets/MinStad/MinStad-Geoforum.png">
             </slide>
           </carousel>
@@ -183,14 +188,28 @@
             target="_blank"
           >Ingress</a> by Niantic, the game would have seen the denizens of Gothenburg traverse the city to earn points by visiting urban planning projects in person and interacting with other users.
         </p>
-        <p>The city was keen to "gamify urban planning". The app launched months before the Pokémon Go craze swept the world, but unfortuantely the game was postponed due to development cost.</p>
-        <h6><br></h6>
+        <p>The city was keen to "gamify urban planning". The app launched months before the Pokémon Go craze swept the world, but unfortunately the game was postponed due to development cost.</p>
+        <h6>
+          <br>
+        </h6>
       </div>
     </div>
 
     <ArrowUp/>
 
-
+    <transition name="fade" mode="out-in" appear>
+      <div class="lb-magic" v-if="lightbox == 'show'">
+        <img v-bind:src="require('@/assets/' + src )">
+        <br>
+        <a
+          class="lb-close"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+        >
+          <img v-bind:src="require('@/assets/FullscreenOff.svg')">
+        </a>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -206,6 +225,11 @@ export default {
     ArrowUp,
     Carousel,
     Slide
+  },
+  data() {
+    return {
+      lightbox: "hide"
+    };
   }
 };
 </script>
@@ -215,4 +239,5 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
+@import "@/style/lightbox.scss";
 </style>

@@ -77,8 +77,12 @@
     }
 }
 
-.visual img {
-    //background: goldenrod;
+.visual {
+    max-width: 500px;
+
+    img {
+        background: url("~@/assets/Visual-Background-Dots.png") center center;
+    }
 }
 
 .about {
@@ -402,4 +406,11 @@ h4.subheroes-title {
     @media #{$herobreak} {
         transform: scale(0.9);
     }
+}
+
+.youtube {
+    background: black;
+    padding: 5px 5px 25px;
+    border: 1px solid $text;
+    box-shadow: 5px 5px $background;
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="text-shrink">
     <Title
-      title="CityPlanner – Front End"
+      title="CityPlanner – Mobile Create Tools"
       blurb="This is the 3D world – CityPlanner's public facing interface. It uses large touch-friendly buttons and simple concepts for communicating with the public. Optimised front-end views can be published to web, mobile, touch-tables, and VR.
       
       I'll start by introducing the platform before exploring a specific case study for the mobile view."
@@ -38,12 +38,33 @@
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
               <img src="@/assets/CPPublicView/PV-Shadow-web.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'CPPublicView/PV-Shadow-web.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
               <img src="@/assets/CPPublicView/PV-Measure-web.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'CPPublicView/PV-Measure-web.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
               <img src="@/assets/CPPublicView/PV-Dialogue-web.png">
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'CPPublicView/PV-Dialogue-web.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -211,6 +232,20 @@
     </div>
 
     <ArrowUp/>
+
+    <transition name="fade" mode="out-in" appear>
+      <div class="lb-magic" v-if="lightbox == 'show'">
+        <img v-bind:src="require('@/assets/' + src )">
+        <br>
+        <a
+          class="lb-close"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+        >
+          <img v-bind:src="require('@/assets/FullscreenOff.svg')">
+        </a>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -226,6 +261,11 @@ export default {
     ArrowUp,
     Carousel,
     Slide
+  },
+  data() {
+    return {
+      lightbox: "hide"
+    };
   }
 };
 </script>
@@ -235,4 +275,5 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
+@import "@/style/lightbox.scss";
 </style>

@@ -139,8 +139,9 @@
       </div>
       <div class="about">
         <h1>Snögrafx.com</h1>
-        <h4>Web &amp; Graphic Deisgn Since 2002</h4>
-        <p>Want to see more? Visit
+        <h4>Web &amp; Graphic Design Since 2002</h4>
+        <p>
+          Want to see more? Visit
           <a href="http://snografx.com" target="_blank">snografx.com</a> – the website has not been updated since 2014, but serves as both a time capsule of archived projects and an illustration of how well quality design stands the test of time.
         </p>
         <div class="case-links">
@@ -155,6 +156,20 @@
     </div>
 
     <ArrowUp/>
+
+    <transition name="fade" mode="out-in" appear>
+      <div class="lb-magic" v-if="lightbox == 'show'">
+        <img v-bind:src="require('@/assets/' + src )">
+        <br>
+        <a
+          class="lb-close"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+        >
+          <img v-bind:src="require('@/assets/FullscreenOff.svg')">
+        </a>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -170,6 +185,11 @@ export default {
     ArrowUp,
     Carousel,
     Slide
+  },
+  data() {
+    return {
+      lightbox: "hide"
+    };
   }
 };
 </script>
@@ -179,4 +199,5 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
+@import "@/style/lightbox.scss";
 </style>

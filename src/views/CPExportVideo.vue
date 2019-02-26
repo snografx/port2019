@@ -1,8 +1,8 @@
 <template>
   <div class="text-shrink">
     <Title
-      title="CityPlanner – Project Editor"
-      blurb="CityPlanner's Project Editor is web-based cloud software used to create 3D urban planning projects, which can then be published to different interactive platforms. It includes tools and features for urban planners, communicators, and organisational collaboration.
+      title="CityPlanner – Export Video"
+      blurb="CityPlanner's Project Editor is web-based cloud software used to create 3D urban planning projects which can then be published to different interactive platforms. It includes tools and features for urban planners, communicators, and organisational collaboration.
       
       On this page I will introduce the product before exploring a specific case study."
       tags
@@ -228,6 +228,21 @@
     </div>
 
     <ArrowUp/>
+
+    <transition name="fade" mode="out-in" appear>
+      <div class="lb-magic" v-if="lightbox == 'show'">
+        <img v-bind:src="require('@/assets/' + src )">
+        <br>
+        <a
+          class="lb-close"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+        >
+          <img v-bind:src="require('@/assets/FullscreenOff.svg')">
+        </a>
+      </div>
+    </transition>
+    
   </div>
 </template>
 
@@ -243,6 +258,11 @@ export default {
     ArrowUp,
     Carousel,
     Slide
+  },
+  data() {
+    return {
+      lightbox: "hide"
+    };
   }
 };
 </script>
@@ -252,11 +272,5 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
-
-.youtube {
-  background: black;
-  padding: 5px 5px 25px;
-  border: 1px solid $text;
-  box-shadow: 5px 5px $background;
-}
+@import "@/style/lightbox.scss";
 </style>

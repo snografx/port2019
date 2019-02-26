@@ -34,7 +34,9 @@
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
-            <slide><img src="@/assets/CPVisualDesign/Identity, CityPlanner Glyph.svg"</slide>
+            <slide>
+              <img src="@/assets/CPVisualDesign/Identity, CityPlanner Glyph.svg">
+            </slide>
             <slide>
               <img src="@/assets/CPVisualDesign/Identity, CityPlanner Logo.svg">
             </slide>
@@ -214,6 +216,20 @@
     </div>
 
     <ArrowUp/>
+
+    <transition name="fade" mode="out-in" appear>
+      <div class="lb-magic" v-if="lightbox == 'show'">
+        <img v-bind:src="require('@/assets/' + src )">
+        <br>
+        <a
+          class="lb-close"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+        >
+          <img v-bind:src="require('@/assets/FullscreenOff.svg')">
+        </a>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -229,6 +245,11 @@ export default {
     ArrowUp,
     Carousel,
     Slide
+  },
+  data() {
+    return {
+      lightbox: "hide"
+    };
   }
 };
 </script>
@@ -238,4 +259,5 @@ $alignment: left;
 @import "@/style/theme.scss";
 @import "@/style/case-logic.scss";
 @import "@/style/carousel.scss";
+@import "@/style/lightbox.scss";
 </style>
