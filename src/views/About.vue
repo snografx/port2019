@@ -29,24 +29,16 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/About/About-Gyro.png">
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'About/About-Gyro.png'"
-              >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+              <img src="@/assets/About/Lian-Drottninggatan.png">
+              <div class="lb-caption">
+                <h6>Stockholm 2019</h6>
+              </div>
             </slide>
             <slide>
-              <img src="@/assets/About/About-101.png">
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'About/About-101.png'"
-              >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+              <img src="@/assets/About/Lian-Presentation.png">
+              <div class="lb-caption">
+                <h6>CityPlanner User Conference 2018</h6>
+              </div>
             </slide>
           </carousel>
         </div>
@@ -55,9 +47,7 @@
         <h1>Background</h1>
         <p>I grew up in an Italian-Norwegian family in a Japanese community in the New York City area. I also lived in Montréal for 10 years before moving permanently to Scandinavia. Stockholm has been home since 2012.</p>
         <p>English is my first language and I also speak Swedish fluently (if not as eloquently). Language is one of my favourite hobbies along with cycling, photography, tennis, architecture, and travel.</p>
-        <h6>
-          <br>
-        </h6>
+        <h6>Citizen of Italy &amp; USA, Resident of Sweden</h6>
       </div>
     </div>
 

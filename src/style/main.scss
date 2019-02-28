@@ -115,6 +115,10 @@ body {
   background: $base2;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 // FIGMA EMBED
 
 .slide-bg {
@@ -124,14 +128,14 @@ body {
   .figma {
     padding: 25px;
     //border-radius: 17px;
-    background-image: url("../public/grid.png");
+    //background-image: url("../public/grid.png");
   }
 }
 
 .slide-placeholder {
   padding: 25px;
   //border-radius: 17px;
-  background-image: url("../public/grid.png");
+  //background-image: url("../public/grid.png");
   @include flex-centre(transparent);
   min-height: 330px;
   max-width: 500px;

@@ -306,3 +306,18 @@
      opacity: 1;
    }
  }
+
+ //Tooltips
+
+ .vue-tooltip.tooltip-custom {
+   @include sofia(500);
+   font-size: .7rem;
+   text-transform: uppercase;
+   letter-spacing: 0.07rem;
+   color: $theme1;
+   background: $background;
+ }
+
+ .vue-tooltip.tooltip-custom .tooltip-arrow {
+   border-color: $background !important;
+ }

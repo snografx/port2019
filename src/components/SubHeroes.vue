@@ -14,10 +14,10 @@
     </router-link>
     <router-link to="/export.video">
       <div class="subhero">
-        <div class="subtitle">Project Editor</div>
+        <div class="subtitle">Export Video</div>
         <div class="list">Back Office
-          <br>Case Study:
-          <br>"Export Video"
+          <br>Project Editor
+          <br>Desktop UI
         </div>
         <div class="more">Learn More…
           <br>
@@ -26,10 +26,10 @@
     </router-link>
     <router-link to="/mobile.create">
       <div class="subhero">
-        <div class="subtitle">Front-End</div>
-        <div class="list">Interactive Views
-          <br>Case Study:
-          <br>"Create Tools"
+        <div class="subtitle">Create Tools</div>
+        <div class="list">Front-End
+          <br>Interactive Views
+          <br>Mobile UI
         </div>
         <div class="more">Learn More…
           <br>

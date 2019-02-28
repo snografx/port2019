@@ -24,7 +24,9 @@
 
     @media #{$herobreak} {
         //flex-direction: column !important;
-        display: inherit;
+        //display: inherit;
+        display: flex !important;
+        flex-direction: column !important;
         margin: 15vh 0;
     }
 }
@@ -83,6 +85,14 @@
     img {
         background: url("~@/assets/Visual-Background-Dots.png") center center;
     }
+
+
+}
+
+.figma-bg {
+    background: url("~@/assets/Visual-Background-Dots.png") center center;
+    width: 100%;
+    height: 100%;
 }
 
 .about {
@@ -351,6 +361,16 @@ h4.subheroes-title {
 .case-right {
     flex-direction: row !important;
 }
+
+.case-left,
+.case-right {
+    @media #{$herobreak} {
+        display: flex !important;
+        flex-direction: column !important;
+        margin: 15vh 0;
+    }
+}
+
 
 .case-centre,
 .case-text {

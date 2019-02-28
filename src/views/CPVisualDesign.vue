@@ -35,16 +35,56 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CPVisualDesign/Identity, CityPlanner Glyph.svg">
+              <img src="@/assets/VisualDesign/ID-Glyph.svg">
+              <div class="lb-caption">
+                <h6>CityPlanner Glyph</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'ID-Glyph.svg'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPVisualDesign/Identity, CityPlanner Logo.svg">
+              <img src="@/assets/VisualDesign/ID-Logo.svg">
+              <div class="lb-caption">
+                <h6>CityPlanner Logo</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'ID-Logo.svg'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPVisualDesign/Identity, CityPlanner Logo Anatomy.svg">
+              <img src="@/assets/VisualDesign/ID-Anatomy.svg">
+              <div class="lb-caption">
+                <h6>Glyph Anatomy</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'ID-Anatomy.svg'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPVisualDesign/Identity, CityPlanner Family Wordmarks.svg">
+              <img src="@/assets/VisualDesign/ID-Wordmarks.svg">
+              <div class="lb-caption">
+                <h6>Family of Wordmarks</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'ID-Wordmarks.svg'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -65,28 +105,34 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CPVisualDesign/Iconography, Angles.svg">
-            </slide>
-            <slide>
-              <div class="video-container slide-bg">
-                <iframe
-                  class="figma"
-                  style="border: none;"
-                  width="470"
-                  height="300"
-                  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FB7IFdCb1TRctSPXRaedzrO70%2FIcon-Library%3Fnode-id%3D0%253A1"
-                  allowfullscreen
-                ></iframe>
+              <img src="@/assets/VisualDesign/Icon-Angles.svg">
+              <div class="lb-caption">
+                <h6>Unified Design</h6>
               </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Icon-Angles.svg'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CaseMinStad-DropF1.png">
-            </slide>
-            <slide>
-              <img src="@/assets/CaseDataManager-DropF1.png">
-            </slide>
-            <slide>
-              <img src="@/assets/CaseSnografx-DropF1.png">
+              <div class="figma-bg">
+                <div class="video-container slide-bg">
+                  <div class="lb-caption">
+                    <h6>Figma Embed</h6>
+                  </div>
+                  <iframe
+                    class="figma"
+                    style="border: none;"
+                    width="470"
+                    height="300"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FB7IFdCb1TRctSPXRaedzrO70%2FIcon-Library%3Fnode-id%3D0%253A1"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
             </slide>
           </carousel>
         </div>
@@ -112,13 +158,29 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CPVisualDesign/Style Guide, Category Colours.svg">
+              <img src="@/assets/VisualDesign/Style-Cats.svg">
+              <div class="lb-caption">
+                <h6></h6>
+              </div>
             </slide>
             <slide>
-              <img src="@/assets/CPVisualDesign/Style Guide, CityPlanner Palette.svg">
+              <img src="@/assets/VisualDesign/Style-Palette.svg">
+              <div class="lb-caption">
+                <h6></h6>
+              </div>
             </slide>
             <slide>
-              <img src="@/assets/CPVisualDesign/Style Guide, Press Kit Web.svg">
+              <img src="@/assets/VisualDesign/Style-Kit.png">
+              <div class="lb-caption">
+                <h6></h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Style-Kit.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -170,19 +232,69 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CPVisualDesign/Publicity, Vegas Sign.svg">
+              <img src="@/assets/VisualDesign/Pub-Vegas.png">
+              <div class="lb-caption">
+                <h6></h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Pub-Vegas.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPVisualDesign/Publicity, Icon Outlines.svg">
+              <img src="@/assets/VisualDesign/Pub-Outlines.png">
+              <div class="lb-caption">
+                <h6></h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Pub-Outlines.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPVisualDesign/Publicity, Vegas Golden Knights.svg">
+              <img src="@/assets/VisualDesign/Pub-Knights.png">
+              <div class="lb-caption">
+                <h6></h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Pub-Knights.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPVisualDesign/Publicity, Project Design 101.svg">
+              <img src="@/assets/VisualDesign/Pub-101.png">
+              <div class="lb-caption">
+                <h6></h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Pub-101.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPVisualDesign/Publicity, HB Norway.svg">
+              <img src="@/assets/VisualDesign/Pub-Norge.png">
+              <div class="lb-caption">
+                <h6></h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Pub-Norge.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -202,7 +314,17 @@
       <div class="visual">
         <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
           <slide>
-            <img src="@/assets/CPVisualDesign/Print, Business Cards.svg">
+            <img src="@/assets/VisualDesign/Print-Card.png">
+            <div class="lb-caption">
+              <h6></h6>
+            </div>
+            <a
+              class="lb-button"
+              v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+              v-on:click="lightbox = 'show', src = 'Print-Card.png'"
+            >
+              <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+            </a>
           </slide>
         </carousel>
       </div>
@@ -219,7 +341,7 @@
 
     <transition name="fade" mode="out-in" appear>
       <div class="lb-magic" v-if="lightbox == 'show'">
-        <img v-bind:src="require('@/assets/' + src )">
+        <img v-bind:src="require('@/assets/VisualDesign/' + src )">
         <br>
         <a
           class="lb-close"

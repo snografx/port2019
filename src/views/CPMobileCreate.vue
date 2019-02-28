@@ -38,33 +38,12 @@
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
               <img src="@/assets/CPPublicView/PV-Shadow-web.png">
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'CPPublicView/PV-Shadow-web.png'"
-              >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
             </slide>
             <slide>
               <img src="@/assets/CPPublicView/PV-Measure-web.png">
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'CPPublicView/PV-Measure-web.png'"
-              >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
             </slide>
             <slide>
               <img src="@/assets/CPPublicView/PV-Dialogue-web.png">
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'CPPublicView/PV-Dialogue-web.png'"
-              >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
             </slide>
           </carousel>
         </div>
@@ -98,10 +77,36 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Desktop.png">
+              <img src="@/assets/MobileCreate/Desktop.png">
+              <div class="lb-caption">
+                <h6>Desktop Version</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Desktop.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Impact.png">
+              <img src="@/assets/MobileCreate/ImpactMap.svg">
+              <div class="lb-caption">
+                <h6>Impact Map</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'ImpactMap.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -124,13 +129,46 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Milenote-V4.png">
+              <img src="@/assets/MobileCreate/Milanote4.png">
+              <div class="lb-caption">
+                <h6>Project Planning</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Milanote4.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Personas.png">
+              <img src="@/assets/MobileCreate/Personas.png">
+              <div class="lb-caption">
+                <h6>UX Personas</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Personas.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Inspiration.png">
+              <img src="@/assets/MobileCreate/Inspiration.png">
+              <div class="lb-caption">
+                <h6>Design Inspiration</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Inspiration.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -151,16 +189,68 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Design.png">
+              <img src="@/assets/MobileCreate/Design3.png">
+              <div class="lb-caption">
+                <h6>Design Version 3</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Design3.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Prototype.png">
+              <img src="@/assets/MobileCreate/Prototype3.png">
+              <div class="lb-caption">
+                <h6>Prototype Version 3</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Prototype3.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Notes.png">
+              <img src="@/assets/MobileCreate/Notes4.png">
+              <div class="lb-caption">
+                <h6>Design Notes</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Notes4.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Iteration.png">
+              <img src="@/assets/MobileCreate/Iterations.png">
+              <div class="lb-caption">
+                <h6>Design Iterations</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Iterations.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -196,13 +286,52 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Design-F.png">
+              <img src="@/assets/MobileCreate/DesignF.png">
+              <div class="lb-caption">
+                <h6>Final Design</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'DesignF.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Prototype-F.png">
+              <img src="@/assets/MobileCreate/PrototypeF.png">
+              <div class="lb-caption">
+                <h6>Final Prototype</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'PrototypeF.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPPublicView/Create-Zeplin.png">
+              <img src="@/assets/MobileCreate/ZeplinF.png">
+              <div class="lb-caption">
+                <h6>Zeplin Export</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'ZeplinF.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -235,8 +364,12 @@
 
     <transition name="fade" mode="out-in" appear>
       <div class="lb-magic" v-if="lightbox == 'show'">
-        <img v-bind:src="require('@/assets/' + src )">
-        <br>
+        <img
+          class="pointer"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+          v-bind:src="require('@/assets/MobileCreate/' + src )"
+        >
         <a
           class="lb-close"
           v-bind:class="{ 'active': lightbox == 'hide'}"

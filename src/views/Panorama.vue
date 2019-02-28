@@ -84,6 +84,7 @@
               >
                 <img v-bind:src="require('@/assets/FullscreenOn.svg')">
               </a>
+              <div class="lb-caption">What about a caption?</div>
             </slide>
             <slide>
               <img src="@/assets/Panorama/Pano-WCAG.png">
@@ -195,6 +196,7 @@
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
               <img src="@/assets/Panorama/Pano-Promo0.png">
+              <div class="lb-caption">What about a caption?</div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
