@@ -119,7 +119,7 @@
           <a href="https://www.linkedin.com/in/julianminervini/">
             <div class="external-link">LinkedIn</div>
           </a>
-          <a href="mailto:julian@icyicy.com">
+          <a href="mailto:julian@icyicy.com.com?Subject=Hey,%20cool%20portfolio" target="_top">
             <div class="external-link">E-mail</div>
           </a>
         </div>

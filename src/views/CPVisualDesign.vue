@@ -76,7 +76,7 @@
             <slide>
               <img src="@/assets/VisualDesign/ID-Wordmarks.svg">
               <div class="lb-caption">
-                <h6>Family of Wordmarks</h6>
+                <h6>Family of Wordmarks w/Ligatures Highlighted</h6>
               </div>
               <a
                 class="lb-button"

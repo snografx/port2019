@@ -39,6 +39,17 @@
          transform: scale(1.1);
        }
      }
+
+     div.pop-link-x {
+       @include transition(0.3s);
+       //background: lime;
+
+       &:hover {
+         transform: scale(1.3);
+       }
+     }
+
+
    }
 
    div a {
@@ -56,6 +67,7 @@
 
    .close-pop {
      font-size: 3rem;
+     line-height: 100%;
      margin: .5rem;
 
      @media #{$mobilebreak} {
@@ -163,15 +175,10 @@
      height: 56px;
    }
 
-   background: $background;
-   border: 3px solid $theme2;
-   color: $theme1;
 
-
-
+   filter: grayscale(0%);
    font-size: 1.2rem;
 
-   border-radius: 50%;
    position: fixed;
    bottom: 24px;
    right: 24px;
@@ -179,15 +186,55 @@
    @include transition(0.3s);
 
    &:hover {
-     border: $theme1 3px solid;
+
      transform: scale(1.1);
    }
 
-   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+   .fab {
+     width: 56px;
+     height: 56px;
+     background-image: url("~@/assets/Burger.svg");
+     background-position: 0 0;
+     background-repeat: no-repeat;
+     background-size: 56px 56px;
+
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+     border-radius: 50%;
+
+
+     &:hover {
+       background-image: url("~@/assets/BurgerInv.svg");
+     }
+   }
+
+
+
 
  }
 
+ body:after {
+   display: none;
+   content: url("~@/assets/BurgerInv.svg");
+ }
 
+ /*
+   .fab {
+     width: 56px;
+     height: 56px;
+     background: url("~@/assets/BurgerSprite.svg") 0 0 no-repeat;
+     background-size: 56px 56px;
+
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+     border-radius: 50%;
+
+
+     &:hover {
+       background: url("~@/assets/BurgerSprite.svg") 0 56px;
+       background-size: 56px 56px;
+     }
+   }
+
+   */
 
 
  .fab-container.magic {

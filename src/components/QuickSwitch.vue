@@ -2,7 +2,7 @@
   <div class="case-switcher">
     <nav class="fab-container">
       <a class="pointer" @click="projects = !projects">
-        <div class="fab">&#9776;</div>
+        <div class="fab"></div>
       </a>
     </nav>
 
@@ -41,13 +41,8 @@
           <div class="pop-link" @click="projects = !projects">
             <router-link to="/snografx">Snögrafx</router-link>
           </div>
-          <div class="pop-link close-pop pointer" @click="projects = !projects">&#xd7;</div>
+          <div class="pop-link-x close-pop pointer" @click="projects = !projects">&#xd7;</div>
         </div>
-        <nav class="fab-container">
-          <a class="pointer" @click="projects = !projects">
-            <div class="fab">&#9776;</div>
-          </a>
-        </nav>
       </div>
     </transition>
   </div>
