@@ -32,10 +32,30 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Screen-2021.png">
+              <img src="@/assets/MinStad/Screen-2021.png">
+              <div class="lb-caption">
+                <h6></h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Screen-2021.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Screen-dia.png">
+              <img src="@/assets/MinStad/Screen-Dia.png">
+              <div class="lb-caption">
+                <h6></h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Screen-Dia.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -62,22 +82,82 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Paper.png">
+              <img src="@/assets/MinStad/Design-Paper.png">
+              <div class="lb-caption">
+                <h6>Initial Design Sketches</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Design-Paper.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Whiteboard.png">
+              <img src="@/assets/MinStad/Design-Whiteboard.png">
+              <div class="lb-caption">
+                <h6>Product Planning</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Design-Whiteboard.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-UI-Sketch.png">
+              <img src="@/assets/MinStad/Design-Sketch1.png">
+              <div class="lb-caption">
+                <h6>Interface Design</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Design-Sketch1.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-UI-Sketch-close.png">
+              <img src="@/assets/MinStad/Design-Sketch2.png">
+              <div class="lb-caption">
+                <h6>Interface Design Closeup</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Design-Sketch2.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Dev-screens.png">
+              <img src="@/assets/MinStad/Design-Expo.png">
+              <div class="lb-caption">
+                <h6>Development Screenshots</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Design-Expo.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Markers-Sketch.png">
+              <img src="@/assets/MinStad/Design-Markers.png">
+              <div class="lb-caption">
+                <h6>Asset Design</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Design-Markers.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -99,13 +179,43 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Logo.png">
+              <img src="@/assets/MinStad/Logo-Final.svg">
+              <div class="lb-caption">
+                <h6>Logo Design</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Logo-Final.svg'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Logo-col.png">
+              <img src="@/assets/MinStad/Logo-Versions.png">
+              <div class="lb-caption">
+                <h6>Colour &amp; Design Options</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Logo-Versions.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Logo-prop.png">
+              <img src="@/assets/MinStad/Logo-Proposal.png">
+              <div class="lb-caption">
+                <h6>Logo Proposal</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Logo-Proposal.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -126,14 +236,44 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Android.png">
+              <img src="@/assets/MinStad/Android-Screens.png">
+              <div class="lb-caption">
+                <h6>Android Screenshots</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Android-Screens.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Feature.png">
+              <img src="@/assets/MinStad/Feature-Graphic.png">
+              <div class="lb-caption">
+                <h6>Feature Graphic</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Feature-Graphic.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
 
             <slide>
-              <img src="@/assets/MinStad/MinStad-Media2.png">
+              <img src="@/assets/MinStad/Publicity.png">
+              <div class="lb-caption">
+                <h6>In The Media</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Publicity.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -170,10 +310,30 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Game.png">
+              <img src="@/assets/MinStad/Game-Screens.png">
+              <div class="lb-caption">
+                <h6>Game Design Mockups</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Game-Screens.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Geoforum.png">
+              <img src="@/assets/MinStad/Game-Presentation.png">
+              <div class="lb-caption">
+                <h6>Presented at GeoForum 2016</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Game-Presentation.png'"
+              >
+                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              </a>
             </slide>
           </carousel>
         </div>
@@ -199,7 +359,12 @@
 
     <transition name="fade" mode="out-in" appear>
       <div class="lb-magic" v-if="lightbox == 'show'">
-        <img v-bind:src="require('@/assets/' + src )">
+        <img
+          class="pointer"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+          v-bind:src="require('@/assets/MinStad/' + src )"
+        >
         <br>
         <a
           class="lb-close"
