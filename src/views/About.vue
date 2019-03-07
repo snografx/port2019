@@ -55,8 +55,108 @@
 
     <div id="creative" class="case case-left">
       <div class="visual">
-        <img src="@/assets/CaseSnografx-DropF1.png">
+        <div class="carousel-container">
+          <carousel :perPage="1" paginationColor paginationActiveColor>
+            <slide>
+              <img src="@/assets/About/Creative-Illy-LV.png">
+              <div class="lb-caption">
+                <h6>Illustrator</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Creative-Illy-LV.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/About/Creative-Illy-Markers.png">
+              <div class="lb-caption">
+                <h6>Illustrator</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Creative-Illy-Markers.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/About/Creative-Illy-Markers3D.png">
+              <div class="lb-caption">
+                <h6>Illustrator</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Creative-Illy-Markers3D.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/About/Creative-Illy-Instr.png">
+              <div class="lb-caption">
+                <h6>Illustrator</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Creative-Illy-Instr.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/About/Creative-AE.png">
+              <div class="lb-caption">
+                <h6>After Effects</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Creative-AE.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/About/Creative-Prem.png">
+              <div class="lb-caption">
+                <h6>Premiere Pro</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Creative-Prem.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+          </carousel>
+        </div>
       </div>
+
       <div class="about">
         <h1>Creative Skills</h1>
         <h4>UI, UX, Visual &amp; Graphic Design</h4>
@@ -133,8 +233,12 @@
 
     <transition name="fade" mode="out-in" appear>
       <div class="lb-magic" v-if="lightbox == 'show'">
-        <img v-bind:src="require('@/assets/' + src )">
-        <br>
+        <img
+          class="pointer"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+          v-bind:src="require('@/assets/About/' + src )"
+        >
         <a
           class="lb-close"
           v-bind:class="{ 'active': lightbox == 'hide'}"

@@ -159,17 +159,52 @@
         <div class="carousel-container">
           <carousel :perPage="1" paginationColor paginationActiveColor>
             <slide>
-              <div class="slide-ph">Screenshot of animation tool</div>
+              <img src="@/assets/ExportVideo/Ani-Targeting.png">
+              <div class="lb-caption">
+                <h6>Animation Tool Targeting</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Ani-Targeting.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <div class="slide-ph">First sketch of the animation tool</div>
+              <img src="@/assets/ExportVideo/Notes-UI.png">
+              <div class="lb-caption">
+                <h6>Interface Sketch</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Notes-UI.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <div class="slide-ph">Figma Design/Prototype Screens</div>
-            </slide>
-
-            <slide>
-              <img src="@/assets/CaseMinStad-DropF1.png">
+              <img src="@/assets/ExportVideo/Notes-UT.png">
+              <div class="lb-caption">
+                <h6>User Test Notes</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Notes-UT.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -192,16 +227,36 @@
         <div class="carousel-container">
           <carousel :perPage="1" paginationColor paginationActiveColor>
             <slide>
-              <div class="slide-ph">Screenshot</div>
+              <img src="@/assets/ExportVideo/Design2.png">
+              <div class="lb-caption">
+                <h6>Design</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Design2.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPProjectEditor/ExpoVideo-Settings-sketch.png">
-            </slide>
-            <slide>
-              <div class="slide-ph">Screencast of using the tool, example video</div>
-            </slide>
-            <slide>
-              <img src="@/assets/CaseMinStad-DropF1.png">
+              <img src="@/assets/ExportVideo/Prototype2.png">
+              <div class="lb-caption">
+                <h6>Prototype</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Prototype2.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -231,8 +286,12 @@
 
     <transition name="fade" mode="out-in" appear>
       <div class="lb-magic" v-if="lightbox == 'show'">
-        <img v-bind:src="require('@/assets/' + src )">
-        <br>
+        <img
+          class="pointer"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+          v-bind:src="require('@/assets/ExportVideo/' + src )"
+        >
         <a
           class="lb-close"
           v-bind:class="{ 'active': lightbox == 'hide'}"
@@ -242,7 +301,6 @@
         </a>
       </div>
     </transition>
-    
   </div>
 </template>
 
