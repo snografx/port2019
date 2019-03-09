@@ -32,10 +32,84 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Screen-2021.png">
+              <img src="@/assets/Snografx/Web-MBDB.png">
+              <div class="lb-caption">
+                <h6>Music Blog Database</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Web-MBDB.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Screen-dia.png">
+              <img src="@/assets/Snografx/Web-Tbana25.png">
+              <div class="lb-caption">
+                <h6>Stockholm's Tunnelbana 2025</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Web-Tbana25.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/Web-Girlriders.png">
+              <div class="lb-caption">
+                <h6>Girlriders Sweden</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Web-Girlriders.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/Web-Mondrian.png">
+              <div class="lb-caption">
+                <h6>Mondrian Photography Portfolio</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Web-Mondrian.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/Web-CityPlanner.png">
+              <div class="lb-caption">
+                <h6>CityPlanner Online</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Web-CityPlanner.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -52,15 +126,89 @@
 
     <ArrowUp/>
 
-    <div id="web" class="case case-right">
+    <div id="design" class="case case-right">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Screen-2021.png">
+              <img src="@/assets/Snografx/Graphic-Shoeaid.svg">
+              <div class="lb-caption">
+                <h6>Logo: Shoe Aid Project</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Graphic-Shoeaid.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Screen-dia.png">
+              <img src="@/assets/Snografx/Graphic-Sacred2.svg">
+              <div class="lb-caption">
+                <h6>Logo: Sacred Sacred</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Graphic-Sacred2.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/Graphic-MBDB.svg">
+              <div class="lb-caption">
+                <h6>Logo: Music Blog Database</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Graphic-MBDB.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/Poster-HLF.png">
+              <div class="lb-caption">
+                <h6>Posters: Handens lilla filmfestival</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Poster-HLF.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/Poster-RedCross.png">
+              <div class="lb-caption">
+                <h6>Poster: RödaKorset</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Poster-RedCross.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -77,15 +225,89 @@
 
     <ArrowUp/>
 
-    <div id="web" class="case case-left">
+    <div id="labrador" class="case case-left">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Screen-2021.png">
+              <img src="@/assets/Snografx/Lab-Running.png">
+              <div class="lb-caption">
+                <h6>Vinyl, Double Vinyl, CD, &amp; Cassette</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Lab-Running.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Screen-dia.png">
+              <img src="@/assets/Snografx/Lab-Portico.png">
+              <div class="lb-caption">
+                <h6>Vinyl &amp; CD</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Lab-Portico.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/Lab-Pleasure.png">
+              <div class="lb-caption">
+                <h6>Vinyl &amp; CD</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Lab-Pleasure.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/Lab-Forget.png">
+              <div class="lb-caption">
+                <h6>Vinyl &amp; CD</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Lab-Forget.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/Lab-Web.png">
+              <div class="lb-caption">
+                <h6>Wordpress site</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Lab-Web.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -109,15 +331,105 @@
 
     <ArrowUp/>
 
-    <div id="web" class="case case-right">
+    <div id="tamtf" class="case case-right">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Screen-2021.png">
+              <img src="@/assets/Snografx/TAMTF-Logo.svg">
+              <div class="lb-caption">
+                <h6>Logo &amp; Identity</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'TAMTF-Logo.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/MinStad/MinStad-Screen-dia.png">
+              <img src="@/assets/Snografx/TAMTF-Stamp.svg">
+              <div class="lb-caption">
+                <h6>Roundel Logo / Stamp</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'TAMTF-Stamp.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/TAMTF-Fruitprint.svg">
+              <div class="lb-caption">
+                <h6>Carbon Fruitprint Logo</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'TAMTF-Fruitprint.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/TAMTF-Chaquena.svg">
+              <div class="lb-caption">
+                <h6>Chaqueña Bags Logo</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'TAMTF-Chaquena.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/TAMTF-Web.png">
+              <div class="lb-caption">
+                <h6>Trilingual Website (Drupal)</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'TAMTF-Web.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/Snografx/TAMTF-Rollup.png">
+              <div class="lb-caption">
+                <h6>Print &amp; Event Design</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'TAMTF-Rollup.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -135,7 +447,26 @@
 
     <div id="com" class="case case-centre case-bonus">
       <div class="visual">
-        <img src="@/assets/MinStad/MinStad-Screen-dia.png">
+        <div class="carousel-container">
+          <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
+            <slide>
+              <img src="@/assets/Snografx/Snografx-Com.png">
+              <div class="lb-caption">
+                <h6>Snografx.com (2013)</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Snografx-Com.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+          </carousel>
+        </div>
       </div>
       <div class="about">
         <h1>Snögrafx.com</h1>
@@ -159,8 +490,12 @@
 
     <transition name="fade" mode="out-in" appear>
       <div class="lb-magic" v-if="lightbox == 'show'">
-        <img v-bind:src="require('@/assets/' + src )">
-        <br>
+        <img
+          class="pointer"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+          v-bind:src="require('@/assets/Snografx/' + src )"
+        >
         <a
           class="lb-close"
           v-bind:class="{ 'active': lightbox == 'hide'}"

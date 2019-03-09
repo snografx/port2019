@@ -208,11 +208,14 @@
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/tNGPG_i36gI"
+              src="https://www.youtube.com/embed/videoseries?list=PLvNoAHvD4HOZ5j0SOqerLXOFW44hvkyMY"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
+            <div class="lb-caption">
+              <h6>Portfolio Playlist</h6>
+            </div>
           </div>
         </div>
       </div>
@@ -220,7 +223,7 @@
         <h1>Motion Graphics</h1>
         <h4>Publicity</h4>
         <p>One of the most exciting things I have been working with in recent years is motion graphics and video editing. It's an amazing skill to add to one's design arsenal, as well as a super way to communicate a product.</p>
-        <p>I work with After Effects to create motion graphics and special scenes, while Premiere Pro is used for editing raw footage captured in CityPlanner's not-yet-fully-designed animation builder tool.</p>
+        <p>I work with After Effects to create motion graphics and special scenes, while Premiere Pro is used for editing raw footage captured in CityPlanner's Export Video tool.</p>
         <h6>Tools: After Effects, Premiere Pro, Illustrator</h6>
       </div>
     </div>

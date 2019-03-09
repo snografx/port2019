@@ -37,13 +37,52 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/CPPublicView/PV-Shadow-web.png">
+              <img src="@/assets/MobileCreate/CityPlanner-Shadow.png">
+              <div class="lb-caption">
+                <h6>CityPlanner: Sun &amp; Shadow Tool</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'CityPlanner-Shadow.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPPublicView/PV-Measure-web.png">
+              <img src="@/assets/MobileCreate/CityPlanner-Measure.png">
+              <div class="lb-caption">
+                <h6>CityPlanner: Measure Tool</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'CityPlanner-Measure.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/CPPublicView/PV-Dialogue-web.png">
+              <img src="@/assets/MobileCreate/CityPlanner-Dialogue.png">
+              <div class="lb-caption">
+                <h6>CityPlanner: Citizen Suggestion</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'CityPlanner-Dialogue.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -77,22 +116,6 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MobileCreate/Desktop.png">
-              <div class="lb-caption">
-                <h6>Desktop Version</h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Desktop.png'"
-              >
-                <img
-                  v-bind:src="require('@/assets/FullscreenOn.svg')"
-                  v-tooltip.left="{ content: 'Fullscreen' }"
-                >
-              </a>
-            </slide>
-            <slide>
               <img src="@/assets/MobileCreate/ImpactMap.svg">
               <div class="lb-caption">
                 <h6>Impact Map</h6>
@@ -101,6 +124,22 @@
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'ImpactMap.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/MobileCreate/Desktop.png">
+              <div class="lb-caption">
+                <h6>Desktop Version</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Desktop.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"
@@ -189,6 +228,22 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
+              <img src="@/assets/MobileCreate/Notes4.png">
+              <div class="lb-caption">
+                <h6>Design Notes</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Notes4.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
               <img src="@/assets/MobileCreate/Design3.png">
               <div class="lb-caption">
                 <h6>Design Version 3</h6>
@@ -220,22 +275,7 @@
                 >
               </a>
             </slide>
-            <slide>
-              <img src="@/assets/MobileCreate/Notes4.png">
-              <div class="lb-caption">
-                <h6>Design Notes</h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Notes4.png'"
-              >
-                <img
-                  v-bind:src="require('@/assets/FullscreenOn.svg')"
-                  v-tooltip.left="{ content: 'Fullscreen' }"
-                >
-              </a>
-            </slide>
+
             <slide>
               <img src="@/assets/MobileCreate/Iterations.png">
               <div class="lb-caption">
@@ -339,7 +379,7 @@
 
       <div class="about">
         <h1>Development</h1>
-        <h4>Scheduled Release: Q1 2019</h4>
+        <h4>Released in March 2019</h4>
         <p>As of writing, the project has moved into the development phase. A final Figma prototype was approved, along with Zeplin exports and Jira issues.</p>
         <p>Development is planned and managed over bi-weekly sprints, with continual testing and design improvements.</p>
         <div class="case-links">

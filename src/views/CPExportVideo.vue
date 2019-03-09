@@ -32,29 +32,57 @@
       </div>
     </div>
 
-    <div id="overview" class="case case-centre case-overview">
+    <div id="overview" class="case case-left case-overview">
       <div class="visual">
         <div class="carousel-container">
-          <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
+          <carousel :perPage="1" paginationColor paginationActiveColor>
             <slide>
-              <iframe
-                class="youtube"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/tNGPG_i36gI"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+              <img src="@/assets/ExportVideo/Editor-Terraform.png">
+              <div class="lb-caption">
+                <h6>Editor: Terraform Tool</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Editor-Terraform.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <div class="slide-ph">Editor Wireframe from Tut</div>
+              <img src="@/assets/ExportVideo/Editor-Marker.png">
+              <div class="lb-caption">
+                <h6>Editor: Point of Interest</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Editor-Marker.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <div class="slide-ph">Example Window</div>
-            </slide>
-            <slide>
-              <img src="@/assets/CaseDataManager-DropF1.png">
+              <img src="@/assets/ExportVideo/Editor-IconLib.png">
+              <div class="lb-caption">
+                <h6>Editor: Icon Library</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Editor-IconLib.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
           </carousel>
         </div>
@@ -71,7 +99,24 @@
 
     <ArrowUp/>
 
-    <div id="analysis" class="case case-text row-contrast">
+    <div id="analysis" class="case case-centre">
+      <div class="visual visual-video">
+        <div class="mh">
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/w7vFFd3XSq0"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="lb-caption">
+              <h6>Exported video used in customer promotion</h6>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="about">
         <h1>Export Video</h1>
         <h4>Case Analysis</h4>
@@ -109,22 +154,22 @@
 
     <ArrowUp/>
 
-    <div id="process" class="case case-left">
-      <div class="visual">
-        <div class="carousel-container">
-          <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
-            <slide>
-              <div class="slide-ph">Göteborg Gondola
-                <br>Video Example
-              </div>
-            </slide>
-            <slide>
-              <div class="slide-ph">Old Videos Showreel</div>
-            </slide>
-            <slide>
-              <img src="@/assets/CaseSnografx-DropF1.png">
-            </slide>
-          </carousel>
+    <div id="process" class="case case-centre">
+      <div class="visual visual-video">
+        <div class="mh">
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/XMUjtcIZZ-4"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="lb-caption">
+              <h6>Exported 360° video used in customer promotion</h6>
+            </div>
+          </div>
         </div>
       </div>
       <div class="about">
@@ -161,7 +206,7 @@
             <slide>
               <img src="@/assets/ExportVideo/Ani-Targeting.png">
               <div class="lb-caption">
-                <h6>Animation Tool Targeting</h6>
+                <h6>Designing the Animation Tool</h6>
               </div>
               <a
                 class="lb-button"
@@ -191,6 +236,22 @@
               </a>
             </slide>
             <slide>
+              <img src="@/assets/ExportVideo/Observing2.png">
+              <div class="lb-caption">
+                <h6>Design 2.0 User Test</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Observing2.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
               <img src="@/assets/ExportVideo/Notes-UT.png">
               <div class="lb-caption">
                 <h6>User Test Notes</h6>
@@ -199,6 +260,54 @@
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Notes-UT.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/ExportVideo/Design21.png">
+              <div class="lb-caption">
+                <h6>Release 2: Final Design</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Design21.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/ExportVideo/Prototype21.png">
+              <div class="lb-caption">
+                <h6>Release 2: Final Prototype</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Prototype21.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/ExportVideo/Milanote21.png">
+              <div class="lb-caption">
+                <h6>Project Notes &amp; Planning</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Milanote21.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"
@@ -222,45 +331,25 @@
 
     <ArrowUp/>
 
-    <div id="result" class="case case-left">
-      <div class="visual">
-        <div class="carousel-container">
-          <carousel :perPage="1" paginationColor paginationActiveColor>
-            <slide>
-              <img src="@/assets/ExportVideo/Design2.png">
-              <div class="lb-caption">
-                <h6>Design</h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Design2.png'"
-              >
-                <img
-                  v-bind:src="require('@/assets/FullscreenOn.svg')"
-                  v-tooltip.left="{ content: 'Fullscreen' }"
-                >
-              </a>
-            </slide>
-            <slide>
-              <img src="@/assets/ExportVideo/Prototype2.png">
-              <div class="lb-caption">
-                <h6>Prototype</h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Prototype2.png'"
-              >
-                <img
-                  v-bind:src="require('@/assets/FullscreenOn.svg')"
-                  v-tooltip.left="{ content: 'Fullscreen' }"
-                >
-              </a>
-            </slide>
-          </carousel>
+    <div id="result" class="case case-centre">
+      <div class="visual visual-video">
+        <div class="mh">
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube-nocookie.com/embed/videoseries?list=PLvNoAHvD4HObK5UHvlS6YYXlcFg11z2e3"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="lb-caption">
+              <h6>Export Video: Trailer &amp; 4K Export</h6>
+            </div>
+          </div>
         </div>
       </div>
+
       <div class="about">
         <h1>The Result</h1>
         <h4>Released in February 2019</h4>

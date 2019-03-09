@@ -29,7 +29,7 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/About/Lian-Drottninggatan.png">
+              <img src="@/assets/About/Lian-DrottninggatanB.png">
               <div class="lb-caption">
                 <h6>Stockholm 2019</h6>
               </div>
@@ -74,22 +74,6 @@
               </a>
             </slide>
             <slide>
-              <img src="@/assets/About/Creative-Illy-Markers.png">
-              <div class="lb-caption">
-                <h6>Illustrator</h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Creative-Illy-Markers.png'"
-              >
-                <img
-                  v-bind:src="require('@/assets/FullscreenOn.svg')"
-                  v-tooltip.left="{ content: 'Fullscreen' }"
-                >
-              </a>
-            </slide>
-            <slide>
               <img src="@/assets/About/Creative-Illy-Markers3D.png">
               <div class="lb-caption">
                 <h6>Illustrator</h6>
@@ -98,22 +82,6 @@
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Creative-Illy-Markers3D.png'"
-              >
-                <img
-                  v-bind:src="require('@/assets/FullscreenOn.svg')"
-                  v-tooltip.left="{ content: 'Fullscreen' }"
-                >
-              </a>
-            </slide>
-            <slide>
-              <img src="@/assets/About/Creative-Illy-Instr.png">
-              <div class="lb-caption">
-                <h6>Illustrator</h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Creative-Illy-Instr.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"
@@ -170,21 +138,33 @@
 
     <div id="tech" class="case case-right">
       <div class="visual">
-        <img src="@/assets/About/Tech Skills, Code.svg">
-        <a
-          class="lb-button"
-          v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-          v-on:click="lightbox = 'show', src = 'About/Tech Skills, Code.svg'"
-        >
-          <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-        </a>
+        <div class="carousel-container">
+          <carousel :perPage="1" paginationColor paginationActiveColor>
+            <slide>
+              <img src="@/assets/About/Tech-Code2.png">
+              <div class="lb-caption">
+                <h6>Creating the Portfolio…</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Tech-Code2.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+          </carousel>
+        </div>
       </div>
       <div class="about">
         <h1>Technical Skills</h1>
         <h4>Web Dev. &amp; Project Management</h4>
         <p>
-          I first learned web development in the '90s. I founded
-          <router-link to="/snografx">an agency</router-link>and delivered websites via my custom developed framework/CMS and later custom WordPress themes. I hand coded this portfolio as a single page application using
+          I first learned web development in the '90s. In 2002 I founded
+          <router-link to="/snografx">an agency</router-link>&#32; and delivered websites via custom developed frameworks, CMS, and later custom WordPress themes. I hand-coded this portfolio as a single page application using
           <a
             href="https://vuejs.org/"
             target="_blank"

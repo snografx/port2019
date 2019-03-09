@@ -76,24 +76,35 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/Panorama/Pano-Whiteboard.png">
+              <img src="@/assets/360Panorama/Whiteboard.png">
+              <div class="lb-caption">
+                <h6>Project Planning: Interface &amp; Design</h6>
+              </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Panorama/Pano-Whiteboard.png'"
+                v-on:click="lightbox = 'show', src = 'Whiteboard.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
-              <div class="lb-caption">What about a caption?</div>
             </slide>
             <slide>
-              <img src="@/assets/Panorama/Pano-WCAG.png">
+              <img src="@/assets/360Panorama/WCAG.png">
+              <div class="lb-caption">
+                <h6>Web Content Accessibility &amp; User Testing</h6>
+              </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Panorama/Pano-WCAG.png'"
+                v-on:click="lightbox = 'show', src = 'WCAG.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
           </carousel>
@@ -118,13 +129,19 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/Panorama/Pano-UI-paper.png">
+              <img src="@/assets/360Panorama/Sketch1.png">
+              <div class="lb-caption">
+                <h6>Initial Interface Sketch</h6>
+              </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Panorama/Pano-UI-paper.png'"
+                v-on:click="lightbox = 'show', src = 'Sketch1.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
           </carousel>
@@ -157,23 +174,35 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/Panorama/Pano-Logo-Pocket0.png">
+              <img src="@/assets/360Panorama/Logo-Pocket.png">
+              <div class="lb-caption">
+                <h6>Development Logo</h6>
+              </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Panorama/Pano-Logo-Pocket0.png'"
+                v-on:click="lightbox = 'show', src = 'Logo-Pocket.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
             <slide>
-              <img src="@/assets/Panorama/Pano-Logo-VR.png">
+              <img src="@/assets/360Panorama/Logo-VRPano.png">
+              <div class="lb-caption">
+                <h6>Virtual Reality Logo</h6>
+              </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Panorama/Pano-Logo-VR.png'"
+                v-on:click="lightbox = 'show', src = 'Logo-VRPano.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
           </carousel>
@@ -195,24 +224,35 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/Panorama/Pano-Promo0.png">
-              <div class="lb-caption">What about a caption?</div>
+              <img src="@/assets/360Panorama/Cardboard.png">
+              <div class="lb-caption">
+                <h6>Google Cardboard Event Design</h6>
+              </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Panorama/Pano-Promo0.png'"
+                v-on:click="lightbox = 'show', src = 'Cardboard.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
             <slide>
-              <img src="@/assets/Panorama/Pano-Cardboard.png">
+              <img src="@/assets/360Panorama/Publicity.png">
+              <div class="lb-caption">
+                <h6>Soft Launch Publicity</h6>
+              </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Panorama/Pano-Cardboard.png'"
+                v-on:click="lightbox = 'show', src = 'Publicity.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
           </carousel>
@@ -239,8 +279,12 @@
 
     <transition name="fade" mode="out-in" appear>
       <div class="lb-magic" v-if="lightbox == 'show'">
-        <img v-bind:src="require('@/assets/' + src )">
-        <br>
+        <img
+          class="pointer"
+          v-bind:class="{ 'active': lightbox == 'hide'}"
+          v-on:click="lightbox = 'hide'"
+          v-bind:src="require('@/assets/360Panorama/' + src )"
+        >
         <a
           class="lb-close"
           v-bind:class="{ 'active': lightbox == 'hide'}"
