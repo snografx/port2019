@@ -92,7 +92,7 @@
       <div class="about">
         <h1>Identity</h1>
         <h4>Logo Design, Branding</h4>
-        <p>The logo is the foundation CityPlanner's design language was built upon. It contains map marker while hiding the initials C and P plus a 9 for the parent company – Agency9.</p>
+        <p>The logo is the foundation CityPlanner's design language was built upon. It contains a map marker while hiding the initials C and P plus a 9 for the parent company – Agency9.</p>
         <p>The CityPlanner wordmark uses two weights of Avant Garde tightly kerned with a 'signature ligature'. This design reverberates throughout the family of related products.</p>
         <h6>Tools: Illustrator, CorelDraw</h6>
       </div>
@@ -188,7 +188,7 @@
       <div class="about">
         <h1>Style Guide</h1>
         <h4>Colour, Typography, Press Kit</h4>
-        <p>I create a style guide for our organisation, software, and customers. The consistent use of colour and type focus our message in communications and project design.</p>
+        <p>I created a style guide for our organisation, software, and customers. The consistent use of colour, opacity, and type focus our message in both communications and product design.</p>
         <p>Agency9's original pea-green was refreshed into a modern hue. Yellow from CityPlanner's interface became a defining trademark along with an 8-colour category palette. Complementary typefaces were selected to represent the company, software, and marketing voice.</p>
         <div class="case-links">
           <a href="https://cityplanneronline.com/site/index.php/press-kit/" target="_blank">
@@ -222,8 +222,10 @@
       <div class="about">
         <h1>Motion Graphics</h1>
         <h4>Publicity</h4>
-        <p>One of the most exciting things I have been working with in recent years is motion graphics and video editing. It's an amazing skill to add to one's design arsenal, as well as a super way to communicate a product.</p>
-        <p>I work with After Effects to create motion graphics and special scenes, while Premiere Pro is used for editing raw footage captured in CityPlanner's Export Video tool.</p>
+        <p>One of the most exciting things I have been learning in recent years is motion graphics and video editing. Expertise in animation informs visual and interface design and is a super effective way to communicate complicated products simply.</p>
+        <p>I work with After Effects to create motion graphics and special scenes, while Premiere Pro is used for editing raw footage captured in CityPlanner's
+          <router-link to="/export.video">Export Video</router-link>&#32; tool.
+        </p>
         <h6>Tools: After Effects, Premiere Pro, Illustrator</h6>
       </div>
     </div>
@@ -306,7 +308,7 @@
         <h1>Publicity</h1>
         <h4>Blog, Social Media, Graphics, Tutorials</h4>
         <p>The core of the CityPlanner's marketing message is simple. It's powerful, modern, and easy to use. This message reverberates in an industry cluttered with overly technical applications.</p>
-        <p>CityPlanner was designed for a broad spectrum of users – from plan architects doing shadow analyses to children using touch tables. We've endeavoured to make our software fun for everyone and the marketing reflects that.</p>
+        <p>CityPlanner products are designed for a broad spectrum of users – from plan architects doing shadow analyses to children using touch tables. We've endeavoured to make our software fun for everyone and the marketing reflects that.</p>
         <h6>Tools: Sketch, XD, Illustrator, Photoshop</h6>
       </div>
     </div>
@@ -333,9 +335,9 @@
       </div>
 
       <div class="about">
-        <h1>Print Design</h1>
-        <h4>Cards, Rollups, Posters, Exhibitions</h4>
-        <p>I am also experienced in print design, so during my time at Agency9 I occasionally designed items for our company and customers. These items include business cards, flyers, rollups, and posters. I was also involved in the design of exhibitions spaces.</p>
+        <h1>Print &amp; Event Design</h1>
+        <h4>Cards, Rollups, Posters, Exhibition Space</h4>
+        <p>I am also experienced in print design. During my time at Agency9 I designed items for our company and customers including business cards, flyers, rollups, and posters. I was also involved in the design of exhibitions spaces.</p>
         <h6>Tools: InDesign, Illustrator, CorelDraw</h6>
       </div>
     </div>
