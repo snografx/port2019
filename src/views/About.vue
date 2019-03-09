@@ -128,8 +128,7 @@
       <div class="about">
         <h1>Creative Skills</h1>
         <h4>UI, UX, Visual &amp; Graphic Design</h4>
-        <p>I thrive on creative projects. I specialise in interface and visual design but have experience with photography, photo editing, motion graphics, video editing, illustration, and print design.</p>
-        <p>Simplicity and usability is my jam.</p>
+        <p>I thrive on creative projects. I specialise in interface and visual design but also have extensive experience with photography &amp; photo editing, motion graphics &amp; video editing, illustration, and print design.</p>
         <h6>Illustrator, Figma, XD, Sketch, Zeplin, Lightroom, Premiere, InDesign, Photoshop</h6>
       </div>
     </div>
@@ -170,7 +169,7 @@
             target="_blank"
           >Vue.js</a> in Visual Studio Code.
         </p>
-        <p>In larger organisations I use agile methodology to manage product development.</p>
+        <p>In larger organisations, I use agile methodology to manage product development.</p>
         <div class="case-links">
           <a href="https://github.com/snografx/port2019">
             <div class="external-link">Portfolio on GitHub</div>
@@ -190,13 +189,13 @@
         <h1>Curriculum Vitae</h1>
         <h4>Résumé &amp; Links</h4>
         <p>I founded Snögrafx, a web &amp; graphic design agency, in 2012. It was my primary job until relocating to Stockholm in 2012. Since then I have worked in various design &amp; and development capacities for companies including Agency9, Lake Como, and Widespace.</p>
-        <p>For more information you can download a hard copy of my CV, visit my LinkedIn, or contact me.</p>
+        <p>For more information, you can download a hard copy of my CV, visit LinkedIn, or contact me.</p>
 
         <div class="case-links">
-          <a href="#">
+          <a href="#" target="_blank">
             <div class="case-link">PDF Résumé</div>
           </a>
-          <a href="https://www.linkedin.com/in/julianminervini/">
+          <a href="https://www.linkedin.com/in/julianminervini/" target="_blank">
             <div class="external-link">LinkedIn</div>
           </a>
           <a href="mailto:julian@icyicy.com.com?Subject=Hey,%20cool%20portfolio" target="_top">
