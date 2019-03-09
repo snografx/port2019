@@ -31,7 +31,7 @@
             <router-link to="/panorama" @click="projects = !projects">360° Panorama</router-link>
           </div>
           <div class="pop-link" @click="projects = !projects">
-            <router-link to="/minstad">Min Stad</router-link>
+            <router-link to="/minstad">Min Stad Göteborg</router-link>
           </div>
           <!--
           <div class="pop-link" @click="projects = !projects">
