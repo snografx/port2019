@@ -8,16 +8,28 @@
         height: 34px;
         width: 43px;
         background: none;
-        filter: saturate(0);
         opacity: .75;
         transform: scale(.75);
+        filter: saturate(0);
         @include transition(0.1s);
 
         &:hover {
+            opacity: 1;
             transform: scale(.85);
             filter: saturate(1);
-            opacity: 1;
         }
+    }
+}
+
+.visual-video .lb-caption {
+    bottom: -5% !important;
+
+    h6 {
+        padding: 0 19px;
+        opacity: .95;
+        border-radius: 20px;
+        background: $background;
+        display: inline-block;
     }
 }
 
