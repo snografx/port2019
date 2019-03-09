@@ -16,7 +16,7 @@
         <router-link to="/snografx">
           <div class="case-link">More info</div>
         </router-link>
-        <a href="#">
+        <a href="http://snografx.com" target="_blank">
           <div class="external-link">Website</div>
         </a>
       </div>
@@ -31,6 +31,6 @@ export default {};
 </script>
 
  <style lang="scss" scoped>
-$alignment: left;
+$alignment: right;
 @import "@/style/case-logic.scss";
 </style>

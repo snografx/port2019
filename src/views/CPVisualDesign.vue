@@ -214,7 +214,7 @@
               allowfullscreen
             ></iframe>
             <div class="lb-caption">
-              <h6>Portfolio Playlist</h6>
+              <h6>Video &amp; Motion Graphics Playlist</h6>
             </div>
           </div>
         </div>

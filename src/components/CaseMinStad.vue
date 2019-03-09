@@ -16,15 +16,15 @@
         <router-link to="/minstad">
           <div class="case-link">Details</div>
         </router-link>
-        <a href="https://itunes.apple.com/us/app/min-stad/id1126354459?mt=8" target="_black">
+        <a href="https://itunes.apple.com/us/app/min-stad/id1126354459?mt=8" target="_blank">
           <div class="external-link">App Store</div>
         </a>
-        <a href="https://play.google.com/store/apps/details?id=com.agency9.minstad" target="_black">
+        <a href="https://play.google.com/store/apps/details?id=com.agency9.minstad" target="_blank">
           <div class="external-link">Google Play</div>
         </a>
       </div>
 
-      <h6>Role: Product &amp; Interface Design, Logo Design, UX &amp; Development Management, English Copy</h6>
+      <h6>Role: Product &amp; Interface Design, Logo Design, UX &amp; Development Management, English Copywriting</h6>
     </div>
   </div>
 </template>

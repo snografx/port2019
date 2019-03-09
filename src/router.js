@@ -41,16 +41,19 @@ export default new Router({
       path: '/export.video',
       name: 'export.video',
       component: () => import('./views/CPExportVideo.vue')
-    }, {
+    },
+    {
       path: '/mobile.create',
       name: 'mobile.create',
       component: () => import('./views/CPMobileCreate.vue')
     },
+    /*
     {
       path: '/cityplanner',
       name: 'cityplanner',
       component: () => import('./views/CityPlanner.vue')
     },
+    */
     {
       path: '/panorama',
       name: 'panorama',
@@ -66,6 +69,7 @@ export default new Router({
       name: 'snografx',
       component: () => import('./views/Snografx.vue')
     },
+    /*
     {
       path: '/datamanager',
       name: 'datamanager',
@@ -81,6 +85,7 @@ export default new Router({
       name: 'template',
       component: () => import('./views/TemplateSingle.vue')
     },
+    */
   ],
 
   scrollBehavior(to, from, savedPosition) {
