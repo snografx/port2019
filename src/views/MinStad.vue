@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <div id="overview" class="case case-centre case-overview">
+    <div id="overview" class="case case-left case-overview">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
@@ -63,13 +63,13 @@
       <div class="about">
         <h1>Product Overview</h1>
         <p>
-          In 2016 Gothenburg's Department of Urban Planning commissioned a mobile app version of
+          In 2016 Gothenburg's Department of Urban Planning commissioned a mobile version of
           <a
             href="http://minstad.goteborg.se"
             target="_blank"
-          >Min Stad</a> – their successful web &amp; showroom platform. The objective was to continue to increase publicity and cultivate a deeper dialogue with residents via interactive technology.
+          >Min Stad</a> – their successful web and showroom platform. The objective was to increase publicity and cultivate deeper dialogue with residents via interactive technology.
         </p>
-        <p>I designed the visuals, features, and interface with city stakeholders. Along with Agency9's project manager, we leveraged the department's own assets for prototyping, user testing, and feedback while working agile with a development team in Ukraine to deliver this multi-platform product.</p>
+        <p>I designed the visuals, features, and interface with city stakeholders. The department's internal assets were leveraged for prototyping and user testing while managing an agile development team to deliver this multi-platform product.</p>
 
         <h6>Role: Product Design, UX, Interface, &amp; Visual Design, English Copywriting</h6>
       </div>
@@ -224,7 +224,7 @@
         <h1>Graphic Design</h1>
         <h4>Logo &amp; Branding</h4>
         <p>Several strong concepts were considered for the app logo. The genesis of the winning concept came from a city employee, with their rough idea being polished into the final design. It consists of two placemarks forming a heart-shape.</p>
-        <p>I've shared several proposals and refinements to illustrate the design process.</p>
+        <p>I've shared several proposals and refinements to briefly illustrate the design process.</p>
         <h6>Tools: CorelDraw, Photoshop, Sketch</h6>
       </div>
     </div>
@@ -281,8 +281,8 @@
       <div class="about">
         <h1>The Result</h1>
         <h4>Satisfied Customer</h4>
-        <p>After 10 months of development Min Stad was released to the App Store and Google Play in September of 2016. It received a lot of publicity in Göteborg, being featured in several local media publications.</p>
-        <p>The customer was very pleased the number of installs and submissions, with over 1300 posts having been made since the first version was released.</p>
+        <p>After 10 months of development, Min Stad was released to the App Store and Google Play in September of 2016. It received a lot of publicity in Göteborg, being featured in several local media publications.</p>
+        <p>The customer was very pleased with the number of installs and submissions, with over 1300 posts having been made since the first version was released.</p>
         <div class="case-links">
           <a href="https://itunes.apple.com/us/app/min-stad/id1126354459?mt=8" target="_blank">
             <div class="external-link">App Store</div>
@@ -348,7 +348,7 @@
             target="_blank"
           >Ingress</a> by Niantic, the game would have seen the denizens of Gothenburg traverse the city to earn points by visiting urban planning projects in person and interacting with other users.
         </p>
-        <p>The city was keen to "gamify urban planning". The app launched months before the Pokémon Go craze swept the world, but unfortunately the game was postponed due to development cost.</p>
+        <p>The city was keen to "gamify urban planning" and the app launched months before the Pokémon Go craze swept the world, but unfortunately the game was postponed due to development cost.</p>
         <h6>
           <br>
         </h6>
