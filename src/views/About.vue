@@ -46,7 +46,7 @@
       <div class="about">
         <h1>Background</h1>
         <p>I grew up in an Italian-Norwegian family in a Japanese community in the New York City area. I also lived in Montréal for 10 years before moving permanently to Scandinavia. Stockholm has been home since 2012.</p>
-        <p>English is my first language and I also speak Swedish fluently (if not as eloquently). Language is one of my favourite hobbies along with cycling, photography, tennis, architecture, and travel.</p>
+        <p>English is my first language and I also speak Swedish fluently (if not as eloquently). Language is one of my favourite hobbies along with modern art, cycling, fuzzy music, street photography, tennis, brutalist architecture, and Oxford commas.</p>
         <h6>Citizen of Italy &amp; USA, Resident of Sweden</h6>
       </div>
     </div>
@@ -198,7 +198,7 @@
           <a href="https://www.linkedin.com/in/julianminervini/" target="_blank">
             <div class="external-link">LinkedIn</div>
           </a>
-          <a href="mailto:julian@icyicy.com.com?Subject=Hey,%20cool%20portfolio" target="_top">
+          <a href="mailto:julian@icyicy.com?Subject=Hey,%20cool%20portfolio" target="_top">
             <div class="external-link">E-mail</div>
           </a>
         </div>

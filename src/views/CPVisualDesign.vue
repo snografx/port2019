@@ -44,7 +44,10 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'ID-Glyph.svg'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
             <slide>
@@ -57,7 +60,10 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'ID-Logo.svg'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
             <slide>
@@ -70,7 +76,10 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'ID-Anatomy.svg'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
             <slide>
@@ -83,7 +92,10 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'ID-Wordmarks.svg'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
           </carousel>
@@ -114,7 +126,10 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Icon-Angles.svg'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
             <slide>
@@ -143,7 +158,10 @@
         <p>CityPlanner requires a custom Icon Library to communicate advanced concepts – while building a strong visual brand. Studies of possible and existing solutions are made before translating the best design language to CityPlanner's dialect.</p>
         <p>The CityPlanner logo tapers to 60° angle. Angles of 60° and 30° were therefore used as a unifying design element wherever possible – in both interface and publicity.</p>
         <div class="case-links">
-          <a href="#" target="_blank">
+          <a
+            href="https://www.figma.com/file/B7IFdCb1TRctSPXRaedzrO70/Icon-Library"
+            target="_blank"
+          >
             <div class="external-link">Icon Library</div>
           </a>
         </div>
@@ -160,26 +178,49 @@
             <slide>
               <img src="@/assets/VisualDesign/Style-Cats.svg">
               <div class="lb-caption">
-                <h6></h6>
+                <h6>Dialogue Palette</h6>
               </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Style-Cats.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
-              <img src="@/assets/VisualDesign/Style-Palette.svg">
+              <img src="@/assets/VisualDesign/Style-Palette2.svg">
               <div class="lb-caption">
-                <h6></h6>
+                <h6>Product Palette</h6>
               </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Style-Palette2.svg'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
             </slide>
             <slide>
               <img src="@/assets/VisualDesign/Style-Kit.png">
               <div class="lb-caption">
-                <h6></h6>
+                <h6>Press Kit</h6>
               </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Style-Kit.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
           </carousel>
@@ -237,79 +278,108 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/VisualDesign/Pub-Vegas.png">
-              <div class="lb-caption">
-                <h6></h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Pub-Vegas.png'"
-              >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
-            </slide>
-            <slide>
-              <img src="@/assets/VisualDesign/Pub-Outlines.png">
-              <div class="lb-caption">
-                <h6></h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Pub-Outlines.png'"
-              >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
-            </slide>
-            <slide>
               <img src="@/assets/VisualDesign/Pub-Knights.png">
               <div class="lb-caption">
-                <h6></h6>
+                <h6>Event Tweet</h6>
               </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Pub-Knights.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
             <slide>
-              <img src="@/assets/VisualDesign/Pub-101.png">
+              <img src="@/assets/VisualDesign/Blog6x.png">
               <div class="lb-caption">
-                <h6></h6>
+                <h6>Blog Posts</h6>
               </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Pub-101.png'"
+                v-on:click="lightbox = 'show', src = 'Blog6x.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/VisualDesign/Pub-Outlines.png">
+              <div class="lb-caption">
+                <h6>Tips &amp; Tricks Tweet</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Pub-Outlines.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/VisualDesign/Tuts.png">
+              <div class="lb-caption">
+                <h6>Tutorials</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Tuts.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
             <slide>
               <img src="@/assets/VisualDesign/Pub-Norge.png">
               <div class="lb-caption">
-                <h6></h6>
+                <h6>Customer Tweet</h6>
               </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Pub-Norge.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
               </a>
             </slide>
           </carousel>
         </div>
       </div>
       <div class="about">
-        <h1>Publicity</h1>
-        <h4>Blog, Social Media, Graphics, Tutorials</h4>
-        <p>The core of the CityPlanner's marketing message is simple. It's powerful, modern, and easy to use. This message reverberates in an industry cluttered with overly technical applications.</p>
-        <p>CityPlanner products are designed for a broad spectrum of users – from plan architects doing shadow analyses to children using touch tables. We've endeavoured to make our software fun for everyone and the marketing reflects that.</p>
-        <h6>Tools: Sketch, XD, Illustrator, Photoshop</h6>
+        <h1>Information &amp; Publicity</h1>
+        <h4>Graphics, Blog, Tutorials, Social Media,</h4>
+        <p>The core of the CityPlanner's marketing message is simple. It's powerful, cutting-edge, and easy to use – a message which reverberates in an industry populated with overly technical applications. CityPlanner products are designed for a broad spectrum of users – from plan architects doing shadow analyses to children using touch tables. We've endeavoured to make our software fun for everyone and the marketing reflects that.</p>
+        <p>I wrote all of the tutorials and most of blog posts on the CityPlanner Guide, while creating diverse graphics and managing Agency9's social media pages.</p>
+        <div class="case-links">
+          <a
+            href="https://cityplanneronline.com/help/index.php/cityplanner-project-design-101/"
+            target="_blank"
+          >
+            <div class="external-link">Design 101</div>
+          </a>
+          <a href="https://cityplanneronline.com/help/index.php/custom-type-tips/" target="_blank">
+            <div class="external-link">Typography Tips</div>
+          </a>
+          <a href="https://cityplanneronline.com/help/index.php/tutorial/" target="_blank">
+            <div class="external-link">Tutorials</div>
+          </a>
+        </div>
+        <h6>Tools: Illustrator, Sketch, XD, Photoshop</h6>
       </div>
     </div>
 
@@ -328,7 +398,10 @@
               v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
               v-on:click="lightbox = 'show', src = 'Print-Card.png'"
             >
-              <img v-bind:src="require('@/assets/FullscreenOn.svg')">
+              <img
+                v-bind:src="require('@/assets/FullscreenOn.svg')"
+                v-tooltip.left="{ content: 'Fullscreen' }"
+              >
             </a>
           </slide>
         </carousel>
@@ -353,7 +426,10 @@
           v-bind:class="{ 'active': lightbox == 'hide'}"
           v-on:click="lightbox = 'hide'"
         >
-          <img v-bind:src="require('@/assets/FullscreenOff.svg')">
+          <img
+            v-bind:src="require('@/assets/FullscreenOn.svg')"
+            v-tooltip.left="{ content: 'Fullscreen' }"
+          >
         </a>
       </div>
     </transition>

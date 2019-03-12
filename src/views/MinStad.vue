@@ -12,8 +12,8 @@
         <a href="#" v-scroll-to="'#overview'">
           <div class="case-link-overview">Overview</div>
         </a>
-        <a href="#" v-scroll-to="'#visual'">
-          <div class="case-link">Visual &amp; UI</div>
+        <a href="#" v-scroll-to="'#interface'">
+          <div class="case-link">Interface</div>
         </a>
         <a href="#" v-scroll-to="'#graphic'">
           <div class="case-link">Graphic Design</div>
@@ -77,7 +77,7 @@
 
     <ArrowUp/>
 
-    <div id="visual" class="case case-right">
+    <div id="interface" class="case case-right">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
@@ -163,12 +163,12 @@
         </div>
       </div>
       <div class="about">
-        <h1>Visual &amp; Interface Design</h1>
-        <h4>Design &amp; Development</h4>
+        <h1>Interface Design</h1>
+        <h4>Prototypes &amp; Iterative Design</h4>
         <p>The interface is the result of successfully marrying the Min Stad web app and CityPlanner with Google's Material Design.</p>
         <p>The chief design challenge was translating the customer's complicated requirements into a fun and usable interactive experience. It began with a design study on the best map, messaging, and augmented reality apps to create the winning design proposal.</p>
         <p>Development in Ukraine was managed via Jira, with iterations delivered to the customer in Göteborg for testing.</p>
-        <h6>Tools &amp; methodology: Sketch, Pixate, Jira, Kanban</h6>
+        <h6>Tools: Sketch, Pixate</h6>
       </div>
     </div>
 
@@ -225,7 +225,7 @@
         <h4>Logo &amp; Branding</h4>
         <p>Several strong concepts were considered for the app logo. The genesis of the winning concept came from a city employee, with their rough idea being polished into the final design. It consists of two placemarks forming a heart-shape.</p>
         <p>I've shared several proposals and refinements to briefly illustrate the design process.</p>
-        <h6>Tools: CorelDraw, Photoshop, Sketch</h6>
+        <h6>Tools: CorelDraw, Sketch, Photoshop</h6>
       </div>
     </div>
 
@@ -280,7 +280,7 @@
       </div>
       <div class="about">
         <h1>The Result</h1>
-        <h4>Satisfied Customer</h4>
+        <h4>Released in Q4 2016</h4>
         <p>After 10 months of development, Min Stad was released to the App Store and Google Play in September of 2016. It received a lot of publicity in Göteborg, being featured in several local media publications.</p>
         <p>The customer was very pleased with the number of installs and submissions, with over 1300 posts having been made since the first version was released.</p>
         <div class="case-links">
@@ -297,9 +297,7 @@
             <div class="external-link">Visual Arena</div>
           </a>
         </div>
-        <h6>
-          <br>
-        </h6>
+        <h6>Tools &mp; methodology: Jira, Kanban</h6>
       </div>
     </div>
 

@@ -5,7 +5,7 @@
       <br>
       <i class="material-icons md-48 md-light">
         <a
-          href="mailto:julian@icyicy.com.com?Subject=Hey%20there,%20cool%20portfolio"
+          href="mailto:julian@icyicy.com?Subject=Hey%20there,%20cool%20portfolio"
           target="_top"
         >email</a>
       </i>

@@ -23,11 +23,11 @@
         <a href="#" v-scroll-to="'#process'">
           <div class="case-link">Process</div>
         </a>
-        <a href="#" v-scroll-to="'#prototype'">
-          <div class="case-link">Prototype</div>
+        <a href="#" v-scroll-to="'#interface'">
+          <div class="case-link">Interface</div>
         </a>
-        <a href="#" v-scroll-to="'#dev'">
-          <div class="case-link">Development</div>
+        <a href="#" v-scroll-to="'#result'">
+          <div class="case-link">Result</div>
         </a>
       </div>
     </div>
@@ -91,6 +91,14 @@
         <h1>Product Overview</h1>
         <p>The basic web interface consists of a ribbon, content buttons, toolbar, and interactive components – designed to elegantly scale up to showroom sized touchscreens.</p>
         <p>These elements require translation for alternative views. Mobiles can finally handle our 3D WebGL platform so we started designing and developing a mobile-first UI in 2018.</p>
+        <div class="case-links">
+          <a href="https://youtu.be/iENjf-LLYpk" target="_blank">
+            <div class="external-link">Promo Video</div>
+          </a>
+          <a href="https://cityplanneronline.com/site/" target="_blank">
+            <div class="external-link">CityPlanner Website</div>
+          </a>
+        </div>
         <h6>
           <br>
         </h6>
@@ -104,8 +112,8 @@
         <h1>Mobile Create Tools</h1>
         <h4>Case Analysis</h4>
         <p>"Dialogue" is a CityPlanner module for creating geospatial forms. The mobile version launched without it's premier feature – Create Tools – which allow end-users to place markers and draw lines/areas in the 3D world.</p>
-        <p>The missing feature was highly requested by customers but due to complexity it was planned for the second release – allowing us to study and learn from from the initial deployment.</p>
-        <h6>Role: Product Design, UX &amp; Interface Design</h6>
+        <p>The missing feature was highly requested by customers but, due to complexity, was planned for the second release. This allowed us to analyse, study, and learn from the initial deployment.</p>
+        <h6>Role: UX &amp; Interface Design</h6>
       </div>
     </div>
 
@@ -214,16 +222,16 @@
       </div>
       <div class="about">
         <h1>Research &amp; Process</h1>
-        <h4>Design Investigation</h4>
+        <h4>Design, Planning, Testing</h4>
         <p>Initial designs were based on internal research and data from the ongoing development of the base platform. Personas are based on close relationships with both customers and end-users.</p>
-        <p>Interface usability research focused primarily on blending mobile map and drawing app conventions. An organisational priority of adopting scalable mobile-first solutions were an important consideration.</p>
+        <p>Interface usability research focused primarily on blending mobile map and drawing app conventions. An organisational priority of adopting scalable mobile-first solutions was an important consideration.</p>
         <h6>Tools: Milanote</h6>
       </div>
     </div>
 
     <ArrowUp/>
 
-    <div id="prototype" class="case case-left">
+    <div id="interface" class="case case-left">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
@@ -297,31 +305,31 @@
       </div>
 
       <div class="about">
-        <h1>UI Prototypes</h1>
-        <h4>Testing &amp; Iterative Design</h4>
-        <p>Basic wireframes of different layout styles were tested in Adobe XD. Internal feedback informed advanced prototypes, developed in Figma, for presentation to stakeholders as well as user and device testing.</p>
+        <h1>Interface Design</h1>
+        <h4>Prototypes &amp; Iterative Design</h4>
+        <p>Basic wireframes of different layout styles were created and tested in Figma. Internal feedback informed advanced prototypes for presentation to stakeholders as well as more advanced user and device testing.</p>
         <p>Workshopping prototypes with test-users yielded many improvements such as changing the location and style of modal windows, streamlining select and delete workflows, and addressing design inconsistencies.</p>
         <div class="case-links">
           <a
-            href="https://www.figma.com/file/r7GWbuS9T2ZnCb1kVvofCj/Mobile-Create-Tools?node-id=0%3A1"
+            href="https://www.figma.com/file/q8eZ3ooa8SQ5U6AmoMXnhd/Create-Tools-4.3.1-F?node-id=0%3A1"
             target="_blank"
           >
-            <div class="external-link">Version 4 Design</div>
+            <div class="external-link">Figma Design</div>
           </a>
           <a
-            href="https://www.figma.com/proto/r7GWbuS9T2ZnCb1kVvofCj/Mobile-Create-Tools?node-id=0%3A1&viewport=352%2C210%2C0.139796&scaling=scale-down"
+            href="https://www.figma.com/proto/q8eZ3ooa8SQ5U6AmoMXnhd/Create-Tools-4.3.1-F?node-id=793%3A3727&viewport=392%2C117%2C0.124055&scaling=scale-down"
             target="_blank"
           >
-            <div class="external-link">Version 4 Prototype</div>
+            <div class="external-link">Figma Prototype</div>
           </a>
         </div>
-        <h6>Tools: Figma, XD, Workshops</h6>
+        <h6>Tools: Figma, Zeplin, Workshops</h6>
       </div>
     </div>
 
     <ArrowUp/>
 
-    <div id="dev" class="case case-right">
+    <div id="result" class="case case-centre">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
@@ -378,22 +386,13 @@
       </div>
 
       <div class="about">
-        <h1>Development</h1>
+        <h1>The Result</h1>
         <h4>Released in March 2019</h4>
-        <p>As of writing, the project has moved into the development phase. A final Figma prototype was approved, along with Zeplin exports and Jira issues.</p>
-        <p>Development is planned and managed over bi-weekly sprints, with continual testing and design improvements.</p>
+        <p>Dialogue was hot in 2018 and is projected to be even hotter in 2019, with several customers champing at the bit to release new projects utilising the brand new feature.</p>
+        <p>We forthwith began tracking usage of each element and researching what to include in future releases. Successful interface designs will inform desktop and showroom versions of Create Tools while work continues on driving the mobile interface forward.</p>
         <div class="case-links">
-          <a
-            href="https://www.figma.com/file/r7GWbuS9T2ZnCb1kVvofCj/Mobile-Create-Tools?node-id=0%3A1"
-            target="_blank"
-          >
-            <div class="external-link">Final Design</div>
-          </a>
-          <a
-            href="https://www.figma.com/proto/r7GWbuS9T2ZnCb1kVvofCj/Mobile-Create-Tools?node-id=0%3A1&viewport=352%2C210%2C0.139796&scaling=scale-down"
-            target="_blank"
-          >
-            <div class="external-link">Final Prototype</div>
+          <a href="#" target="_blank">
+            <div class="external-link">Live Demo</div>
           </a>
         </div>
         <h6>Tools &amp; methodology: Jira, Kanban</h6>

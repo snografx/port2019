@@ -12,7 +12,7 @@
         <a href="#" v-scroll-to="'#overview'">
           <div class="case-link-overview">Overview</div>
         </a>
-        <a href="#" v-scroll-to="'#goals'">
+        <a href="#" v-scroll-to="'#analysis'">
           <div class="case-link">Goals</div>
         </a>
         <a href="#" v-scroll-to="'#process'">
@@ -54,26 +54,25 @@
         </div>
       </div>
       <div class="about">
-        <h1>360° Panorama</h1>
-        <h4>Project Overview</h4>
+        <h1>Product Overview</h1>
         <p>Around the world, many potential end-users lack cutting edge mobiles or reside in places with slow or limited bandwidth. A product which could reach this caste of potential users was therefore required to deliver on the marketing message that CityPlanner serves all demographics.</p>
         <p>360° Panorama solves this problem by offering a lightweight 3D experience, packaged with the advantage of delivering a more focused end-user experience.</p>
-        <h6>Role: Product &amp; Interface Design, UX, Branding</h6>
+        <h6>
+          <br>
+        </h6>
       </div>
     </div>
 
     <ArrowUp/>
 
-    <div id="goals" class="case case-text">
+    <div id="analysis" class="case case-text">
       <div class="about">
-        <h1>Project Goals</h1>
-        <h4>CityPlanner for Everyone</h4>
+        <h1>360° Panorama</h1>
+        <h4>Case Analysis</h4>
         <p>This project was undertaken in cooperation with the City of Umeå, northern Sweden's largest metropolis, as their project requirements corresponded with our product roadmap.</p>
         <p>The prerequisites were to support low-end / lower-bandwidth devices, Virtual Reality via Google Cardboard, and integrate a new 'time slider' component.</p>
         <p>An internal emphasis was also placed on designing an interface which could form the foundation of CityPlanner's forthcoming mobile UI.</p>
-        <h6>
-          <br>
-        </h6>
+        <h6>Role: Product, Interface, &amp; UX Design / Visual Design</h6>
       </div>
     </div>
 
@@ -123,7 +122,7 @@
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = '360Meets2.png'"
+                v-on:click="lightbox = 'show', src = '360Meets3.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"
@@ -152,7 +151,7 @@
       </div>
       <div class="about">
         <h1>Research &amp; Process</h1>
-        <h4>CityPlanner Pocket</h4>
+        <h4>Design, Planning, Testing</h4>
         <p>The primary challenge was to construct a plan for mapping all of CityPlanner's existing features to the small screen – while also planning support for multiple new features across the entire product line.</p>
         <p>A design system was crafted to translate every feature into a compatible interface which would subsequently be constructed on the 360° Panorama bedrock.</p>
 
@@ -255,7 +254,7 @@
 
       <div class="about">
         <h1>Interface Design</h1>
-        <h4>Testing &amp; Iterative Design</h4>
+        <h4>Prototypes &amp; Iterative Design</h4>
         <p>We went through many iterations with our partners in Umeå who conducted workshops with local youth which informed the initial design.</p>
         <p>The city had a tight deadline, so 360° Panorama was soft-launched – without promotion – in the autumn of 2018 as a beta preview. We took advantage of this necessity to fast-track rapid iterations and improvements.</p>
         <p>In late 2018 we leveraged an event at Sweco to workshop the released beta. Improvements continue ahead of an publicity in 2019.</p>
@@ -329,7 +328,7 @@
             <slide>
               <img src="@/assets/360Panorama/Logo-App.svg">
               <div class="lb-caption">
-                <h6>Debranded / App Icon Logo</h6>
+                <h6>De-branded / App Icon Logo</h6>
               </div>
               <a
                 class="lb-button"
@@ -347,7 +346,7 @@
       </div>
       <div class="about">
         <h1>Visual Design</h1>
-        <h4>Product Identity</h4>
+        <h4>Logos &amp; Branding</h4>
         <p>Several identities were designed during the development process, complicated by Agency9 being acquired before the product was officially launched.</p>
         <p>'CityPlanner Pocket' was the proposed product name, now used for internal development. 'VRPanorama' was used to promote Google Cardboard-specific events before settling on the more generic and inclusive '360° Panorama', as VR is not required to enjoy the product.</p>
         <h6>Tools: Illustrator, Figma</h6>
@@ -356,7 +355,7 @@
 
     <ArrowUp/>
 
-    <div id="dev" class="case case-left">
+    <div id="dev" class="case case-centre">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
