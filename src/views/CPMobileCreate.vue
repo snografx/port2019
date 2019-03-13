@@ -236,6 +236,38 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
+              <img src="@/assets/MobileCreate/DesignF.png">
+              <div class="lb-caption">
+                <h6>Final Design</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Design3.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/MobileCreate/PrototypeF.png">
+              <div class="lb-caption">
+                <h6>Final Prototype</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'Prototype3.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
               <img src="@/assets/MobileCreate/Notes4.png">
               <div class="lb-caption">
                 <h6>Design Notes</h6>
@@ -252,39 +284,6 @@
               </a>
             </slide>
             <slide>
-              <img src="@/assets/MobileCreate/Design3.png">
-              <div class="lb-caption">
-                <h6>Design Version 3</h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Design3.png'"
-              >
-                <img
-                  v-bind:src="require('@/assets/FullscreenOn.svg')"
-                  v-tooltip.left="{ content: 'Fullscreen' }"
-                >
-              </a>
-            </slide>
-            <slide>
-              <img src="@/assets/MobileCreate/Prototype3.png">
-              <div class="lb-caption">
-                <h6>Prototype Version 3</h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Prototype3.png'"
-              >
-                <img
-                  v-bind:src="require('@/assets/FullscreenOn.svg')"
-                  v-tooltip.left="{ content: 'Fullscreen' }"
-                >
-              </a>
-            </slide>
-
-            <slide>
               <img src="@/assets/MobileCreate/Iterations.png">
               <div class="lb-caption">
                 <h6>Design Iterations</h6>
@@ -293,6 +292,22 @@
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Iterations.png'"
+              >
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>
+            </slide>
+            <slide>
+              <img src="@/assets/MobileCreate/ZeplinF.png">
+              <div class="lb-caption">
+                <h6>Zeplin Export</h6>
+              </div>
+              <a
+                class="lb-button"
+                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
+                v-on:click="lightbox = 'show', src = 'ZeplinF.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"
@@ -334,14 +349,14 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MobileCreate/DesignF.png">
+              <img src="@/assets/MobileCreate/Live-Export.png">
               <div class="lb-caption">
-                <h6>Final Design</h6>
+                <h6>Live Screenshots</h6>
               </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'DesignF.png'"
+                v-on:click="lightbox = 'show', src = 'Live-Export.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"
@@ -349,15 +364,16 @@
                 >
               </a>
             </slide>
+
             <slide>
-              <img src="@/assets/MobileCreate/PrototypeF.png">
+              <img src="@/assets/MobileCreate/Visit-Export.png">
               <div class="lb-caption">
-                <h6>Final Prototype</h6>
+                <h6>Next: Visit Creation &amp; Show as Image</h6>
               </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'PrototypeF.png'"
+                v-on:click="lightbox = 'show', src = 'Visit-Export.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"
@@ -365,15 +381,16 @@
                 >
               </a>
             </slide>
+
             <slide>
-              <img src="@/assets/MobileCreate/ZeplinF.png">
+              <img src="@/assets/MobileCreate/ExtraWide-Design.png">
               <div class="lb-caption">
-                <h6>Zeplin Export</h6>
+                <h6>Next: Visit Creation &amp; Show as Image</h6>
               </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'ZeplinF.png'"
+                v-on:click="lightbox = 'show', src = 'ExtraWide-Design.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"
@@ -390,9 +407,22 @@
         <h4>Released in March 2019</h4>
         <p>Dialogue was hot in 2018 and is projected to be even hotter in 2019, with several customers champing at the bit to release new projects utilising the brand new feature.</p>
         <p>We forthwith began tracking usage of each element and researching what to include in future releases. Successful interface designs will inform desktop and showroom versions of Create Tools while work continues on driving the mobile interface forward.</p>
+        <p>Click below to try a demo or see minor improvements already in the pipeline.</p>
         <div class="case-links">
           <a href="#" target="_blank">
             <div class="external-link">Live Demo</div>
+          </a>
+          <a
+            href="https://www.figma.com/file/CinfqQfQQuEA09KLHDmwDw/Create-Tools-Visit-and-Image"
+            target="_blank"
+          >
+            <div class="external-link">Visit Creation</div>
+          </a>
+          <a
+            href="https://www.figma.com/file/UrZBH6HCGbrb50xK2rrbCe/Mobile-Extra-Wide"
+            target="_blank"
+          >
+            <div class="external-link">Extra Wide</div>
           </a>
         </div>
         <h6>Tools &amp; methodology: Jira, Kanban</h6>
