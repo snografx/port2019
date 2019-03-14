@@ -368,3 +368,16 @@
  .vue-tooltip.tooltip-custom .tooltip-arrow {
    border-color: $background !important;
  }
+
+ .vue-tooltip.tooltip-dark {
+   @include sofia(500);
+   font-size: .7rem;
+   text-transform: uppercase;
+   letter-spacing: 0.07rem;
+   color: $theme1;
+   background: $text;
+ }
+
+ .vue-tooltip.tooltip-dark .tooltip-arrow {
+   border-color: $text !important;
+ }

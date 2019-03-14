@@ -368,7 +368,7 @@
             <slide>
               <img src="@/assets/MobileCreate/Visit-Export.png">
               <div class="lb-caption">
-                <h6>Next: Visit Creation &amp; Show as Image</h6>
+                <h6>Pipeline: Visit Creation &amp; Show as Image</h6>
               </div>
               <a
                 class="lb-button"
@@ -385,7 +385,7 @@
             <slide>
               <img src="@/assets/MobileCreate/ExtraWide-Design.png">
               <div class="lb-caption">
-                <h6>Next: Visit Creation &amp; Show as Image</h6>
+                <h6>Pipeline: Responsive Fixes</h6>
               </div>
               <a
                 class="lb-button"
@@ -409,7 +409,11 @@
         <p>We forthwith began tracking usage of each element and researching what to include in future releases. Successful interface designs will inform desktop and showroom versions of Create Tools while work continues on driving the mobile interface forward.</p>
         <p>Click below to try a demo or see minor improvements already in the pipeline.</p>
         <div class="case-links">
-          <a href="#" target="_blank">
+          <a
+            href="#"
+            target="_blank"
+            v-tooltip.top="{ class: 'tooltip-dark' , content: 'Coming Soon' }"
+          >
             <div class="external-link">Live Demo</div>
           </a>
           <a

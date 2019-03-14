@@ -193,7 +193,10 @@
 
         <div class="case-links">
           <a href="#" target="_blank">
-            <div class="case-link">PDF Résumé</div>
+            <div
+              class="case-link"
+              v-tooltip.top="{ class: 'tooltip-dark' , content: 'Coming Soon' }"
+            >PDF Résumé</div>
           </a>
           <a href="https://www.linkedin.com/in/julianminervini/" target="_blank">
             <div class="external-link">LinkedIn</div>
