@@ -349,14 +349,14 @@
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
             <slide>
-              <img src="@/assets/MobileCreate/Live-Export.png">
+              <img src="@/assets/MobileCreate/Screenshots.png">
               <div class="lb-caption">
                 <h6>Live Screenshots</h6>
               </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Live-Export.png'"
+                v-on:click="lightbox = 'show', src = 'Screenshots.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"

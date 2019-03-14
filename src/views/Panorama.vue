@@ -114,22 +114,7 @@
                 >
               </a>
             </slide>
-            <slide>
-              <img src="@/assets/360Panorama/360Meets3.png">
-              <div class="lb-caption">
-                <h6>Project Planning: Presentation</h6>
-              </div>
-              <a
-                class="lb-button"
-                v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = '360Meets3.png'"
-              >
-                <img
-                  v-bind:src="require('@/assets/FullscreenOn.svg')"
-                  v-tooltip.left="{ content: 'Fullscreen' }"
-                >
-              </a>
-            </slide>
+
             <slide>
               <img src="@/assets/360Panorama/WCAG.png">
               <div class="lb-caption">
