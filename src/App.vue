@@ -24,7 +24,7 @@
       </transition>
     </div>
 
-    <Contact phrase="Send me a message"/>
+    <Contact phrase="Let's make great things together"/>
   </div>
 </template>
 

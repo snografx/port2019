@@ -9,10 +9,7 @@
    width: 100%;
    opacity: 0.95;
 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+   @include flex-centre;
 
    height: 100vh;
 
@@ -30,6 +27,9 @@
        transform: scale(.8);
      }
 
+     @media #{$heightbreak} {
+       transform: scale(.7);
+     }
 
 
      div.pop-link {
@@ -39,12 +39,23 @@
          transform: scale(1.1);
        }
      }
+
+     div.pop-link-x {
+       @include transition(0.3s);
+       //background: lime;
+
+       &:hover {
+         transform: scale(1.3);
+       }
+     }
+
+
    }
 
    div a {
      color: white !important;
-     font-size: 1.7rem;
-     line-height: 2.7rem;
+     font-size: 1.3rem;
+     line-height: 2.0rem;
      @include orpheus;
 
      @media #{$mobilebreak} {
@@ -56,19 +67,22 @@
 
    .close-pop {
      font-size: 3rem;
-     margin: 1rem;
+     line-height: 100%;
+     margin: .5rem;
 
      @media #{$mobilebreak} {
-       margin: .5rem;
+       margin: .25rem;
      }
    }
 
    .head-pop {
      @include sofia(500);
      margin: 1rem 0 .4rem;
-     font-size: .9rem;
+     font-size: .8rem;
      text-transform: uppercase;
      letter-spacing: 0.07rem;
+     color: $theme1;
+     background: $background;
 
      @media #{$mobilebreak} {
        font-size: .7rem;
@@ -161,15 +175,10 @@
      height: 56px;
    }
 
-   background: $background;
-   border: 3px solid $theme2;
-   color: $theme1;
 
-
-
+   filter: grayscale(0%);
    font-size: 1.2rem;
 
-   border-radius: 50%;
    position: fixed;
    bottom: 24px;
    right: 24px;
@@ -177,15 +186,55 @@
    @include transition(0.3s);
 
    &:hover {
-     border: $theme1 3px solid;
+
      transform: scale(1.1);
    }
 
-   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+   .fab {
+     width: 56px;
+     height: 56px;
+     background-image: url("~@/assets/Burger.svg");
+     background-position: 0 0;
+     background-repeat: no-repeat;
+     background-size: 56px 56px;
+
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+     border-radius: 50%;
+
+
+     &:hover {
+       background-image: url("~@/assets/BurgerInv.svg");
+     }
+   }
+
+
+
 
  }
 
+ body:after {
+   display: none;
+   content: url("~@/assets/BurgerInv.svg");
+ }
 
+ /*
+   .fab {
+     width: 56px;
+     height: 56px;
+     background: url("~@/assets/BurgerSprite.svg") 0 0 no-repeat;
+     background-size: 56px 56px;
+
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.24);
+     border-radius: 50%;
+
+
+     &:hover {
+       background: url("~@/assets/BurgerSprite.svg") 0 56px;
+       background-size: 56px 56px;
+     }
+   }
+
+   */
 
 
  .fab-container.magic {
@@ -303,4 +352,32 @@
      letter-spacing: normal;
      opacity: 1;
    }
+ }
+
+ //Tooltips
+
+ .vue-tooltip.tooltip-custom {
+   @include sofia(500);
+   font-size: .7rem;
+   text-transform: uppercase;
+   letter-spacing: 0.07rem;
+   color: $theme1;
+   background: $background;
+ }
+
+ .vue-tooltip.tooltip-custom .tooltip-arrow {
+   border-color: $background !important;
+ }
+
+ .vue-tooltip.tooltip-dark {
+   @include sofia(500);
+   font-size: .7rem;
+   text-transform: uppercase;
+   letter-spacing: 0.07rem;
+   color: $theme1;
+   background: $text;
+ }
+
+ .vue-tooltip.tooltip-dark .tooltip-arrow {
+   border-color: $text !important;
  }

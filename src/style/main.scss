@@ -11,6 +11,7 @@ html {
 
 body {
   margin: 0;
+
 }
 
 // MAIN
@@ -22,6 +23,8 @@ body {
   text-align: center;
   background: $background;
   color: $text;
+  background-image: url("~@/assets/App-Background-Dots.png");
+  background-repeat: repeat-x;
 
   .max-width {
     max-width: $width;
@@ -112,8 +115,41 @@ body {
   background: $base2;
 }
 
-// RESPONSIVE
+.pointer {
+  cursor: pointer;
+}
 
+// FIGMA EMBED
+
+.slide-bg {
+  //@include flex-centre;
+  display: contents;
+
+  .figma {
+    padding: 25px;
+    //border-radius: 17px;
+    //background-image: url("../public/grid.png");
+  }
+}
+
+.slide-placeholder {
+  padding: 25px;
+  //border-radius: 17px;
+  //background-image: url("../public/grid.png");
+  @include flex-centre(transparent);
+  min-height: 330px;
+  max-width: 500px;
+  color: $text;
+
+}
+
+.slide-ph {
+  color: $theme1;
+  height: 100%;
+  @include flex-centre(lighten($theme1, 45%));
+}
+
+// RESPONSIVE
 
 
 .mobile-only {

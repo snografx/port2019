@@ -16,8 +16,8 @@
         <router-link to="/panorama">
           <div class="case-link">Case Study</div>
         </router-link>
-        <a href="#">
-          <div class="external-link">Demo</div>
+        <a href="http://bit.ly/stadshagen-en" target="_blank">
+          <div class="external-link">Live Demo Project</div>
         </a>
       </div>
 

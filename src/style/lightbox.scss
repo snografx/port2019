@@ -1,0 +1,113 @@
+.lb-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+
+    img {
+        height: 34px;
+        width: 43px;
+        background: none;
+        opacity: .75;
+        transform: scale(.75);
+        filter: saturate(0);
+        @include transition(0.1s);
+
+        &:hover {
+            opacity: 1;
+            transform: scale(.85);
+            filter: saturate(1);
+        }
+    }
+}
+
+.visual-video .lb-caption {
+    bottom: -5% !important;
+
+    h6 {
+        padding: 0 19px;
+        opacity: .95;
+        border-radius: 20px;
+        background: $background;
+        display: inline-block;
+    }
+}
+
+.lb-caption {
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+    color: $text;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+
+    h6 {
+        margin: 0 !important;
+    }
+
+    line-height: 1rem;
+
+    @media #{$mobilebreak} {
+        font-size: .6rem;
+    }
+}
+
+.lb-magic {
+    position: fixed;
+    z-index: 30000;
+    background: rgba(255, 255, 255, 0.98) url("~@/assets/Visual-Background-Dots-Pattern.png") center center !important;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    @include flex-centre;
+
+    height: 100vh;
+
+    & img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .lb-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 10px 15px;
+
+        img {
+            height: 34px;
+            width: 43px;
+            background: none;
+            filter: saturate(0);
+            opacity: .75;
+            transform: scale(1.25);
+            @include transition(0.3s);
+
+            &:hover {
+                transform: scale(1.35);
+                filter: saturate(1);
+                opacity: 1;
+            }
+        }
+    }
+
+
+}
+
+// Transition
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to
+
+/* .fade-leave-active below version 2.1.8 */
+    {
+    opacity: 0;
+}

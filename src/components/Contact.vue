@@ -4,7 +4,10 @@
       <h2>{{phrase}}</h2>
       <br>
       <i class="material-icons md-48 md-light">
-        <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">email</a>
+        <a
+          href="mailto:julian@icyicy.com?Subject=Hey%20there,%20cool%20portfolio"
+          target="_top"
+        >email</a>
       </i>
     </div>
   </footer>
@@ -52,11 +55,11 @@ footer {
   }
   .material-icons.md-light a {
     color: $background !important;
+    border-radius: 10rem;
 
     &:hover {
       //color: lighten($theme1, 30%) !important;
       border: 4px solid $background;
-      border-radius: 10rem;
     }
   }
 }

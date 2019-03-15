@@ -10,6 +10,16 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
+import Tooltip from 'vue-directive-tooltip';
+import 'vue-directive-tooltip/css/index.css';
+
+
+Vue.use(Tooltip, {
+  delay: 80,
+  offset: 12,
+  class: 'tooltip-custom tooltip-other-custom',
+});
+
 /*
 import PaletteIcon from "vue-material-design-icons/Palette.vue"
 Vue.component("palette-icon", PaletteIcon)
