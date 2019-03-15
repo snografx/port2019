@@ -69,6 +69,11 @@ export default new Router({
       name: 'snografx',
       component: () => import('./views/Snografx.vue')
     },
+    {
+      path: '/soon',
+      name: 'soon',
+      component: () => import('./views/Soon.vue')
+    },
     /*
     {
       path: '/datamanager',

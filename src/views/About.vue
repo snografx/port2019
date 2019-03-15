@@ -192,12 +192,20 @@
         <p>For more information, you can download a hard copy of my CV, visit LinkedIn, or contact me.</p>
 
         <div class="case-links">
-          <a href="#" target="_blank">
+          <router-link
+            to="/soon"
+            v-tooltip.top="{ class: 'tooltip-dark' , content: 'Coming Soon' }"
+          >
+            <div class="case-link">PDF Résumé</div>
+          </router-link>
+
+          <!--
+            <a href="#" target="_blank">
             <div
               class="case-link"
               v-tooltip.top="{ class: 'tooltip-dark' , content: 'Coming Soon' }"
             >PDF Résumé</div>
-          </a>
+          </a>-->
           <a href="https://www.linkedin.com/in/julianminervini/" target="_blank">
             <div class="external-link">LinkedIn</div>
           </a>
