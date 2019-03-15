@@ -171,7 +171,7 @@
         </p>
         <p>In larger organisations, I use agile methodology to manage product development.</p>
         <div class="case-links">
-          <a href="https://github.com/snografx/port2019">
+          <a href="https://github.com/snografx/port2019" target="_blank">
             <div class="external-link">Portfolio on GitHub</div>
           </a>
         </div>
