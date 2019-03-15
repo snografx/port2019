@@ -8,7 +8,7 @@
 
     <div class="page">
       <h3>
-        <router-link to="/" @click="projects = !projects">Return Home</router-link>
+        <router-link to="/" @click="projects = !projects">Return home…</router-link>
       </h3>
     </div>
   </div>

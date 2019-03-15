@@ -1,3 +1,9 @@
 module.exports = {
-  publicPath: 'port2019'
+  publicPath: 'portfolio',
+  outputDir: undefined,
+  assetsDir: undefined,
+  runtimeCompiler: undefined,
+  productionSourceMap: undefined,
+  parallel: undefined,
+  css: undefined
 }

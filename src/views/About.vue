@@ -181,10 +181,7 @@
 
     <ArrowUp/>
 
-    <div id="cv" class="case case-centre">
-      <div class="visual">
-        <img src="@/assets/CaseSnografx-DropF1.png">
-      </div>
+    <div id="cv" class="case case-text">
       <div class="about">
         <h1>Curriculum Vitae</h1>
         <h4>Résumé &amp; Links</h4>
