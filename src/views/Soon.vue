@@ -16,21 +16,11 @@
 
 <script>
 import Title from "@/components/Title.vue";
-import ArrowUp from "@/components/ArrowUp.vue";
-import { Carousel, Slide } from "vue-carousel";
 
 export default {
   name: "home",
   components: {
-    Title,
-    ArrowUp,
-    Carousel,
-    Slide
-  },
-  data() {
-    return {
-      lightbox: "hide"
-    };
+    Title
   }
 };
 </script>
