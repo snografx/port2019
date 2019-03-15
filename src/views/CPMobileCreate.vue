@@ -243,7 +243,7 @@
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Design3.png'"
+                v-on:click="lightbox = 'show', src = 'DesignF.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"
@@ -259,7 +259,7 @@
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
-                v-on:click="lightbox = 'show', src = 'Prototype3.png'"
+                v-on:click="lightbox = 'show', src = 'PrototypeF.png'"
               >
                 <img
                   v-bind:src="require('@/assets/FullscreenOn.svg')"

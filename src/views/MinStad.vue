@@ -34,28 +34,34 @@
             <slide>
               <img src="@/assets/MinStad/Screen-2021.png">
               <div class="lb-caption">
-                <h6></h6>
+                <h6>Desktop Version 2014</h6>
               </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Screen-2021.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
             <slide>
               <img src="@/assets/MinStad/Screen-Dia.png">
               <div class="lb-caption">
-                <h6></h6>
+                <h6>3D Dialogue Suggestion</h6>
               </div>
               <a
                 class="lb-button"
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Screen-Dia.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
           </carousel>
         </div>
@@ -91,8 +97,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Design-Paper.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
             <slide>
               <img src="@/assets/MinStad/Design-Whiteboard.png">
@@ -104,8 +113,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Design-Whiteboard.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
             <slide>
               <img src="@/assets/MinStad/Design-Sketch1.png">
@@ -117,8 +129,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Design-Sketch1.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
             <slide>
               <img src="@/assets/MinStad/Design-Sketch2.png">
@@ -130,8 +145,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Design-Sketch2.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
             <slide>
               <img src="@/assets/MinStad/Design-Expo.png">
@@ -143,8 +161,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Design-Expo.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
             <slide>
               <img src="@/assets/MinStad/Design-Markers.png">
@@ -156,8 +177,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Design-Markers.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
           </carousel>
         </div>
@@ -188,8 +212,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Logo-Final.svg'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
             <slide>
               <img src="@/assets/MinStad/Logo-Versions.png">
@@ -201,8 +228,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Logo-Versions.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
             <slide>
               <img src="@/assets/MinStad/Logo-Proposal.png">
@@ -214,8 +244,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Logo-Proposal.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
           </carousel>
         </div>
@@ -245,8 +278,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Android-Screens.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
             <slide>
               <img src="@/assets/MinStad/Feature-Graphic.png">
@@ -258,8 +294,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Feature-Graphic.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
 
             <slide>
@@ -272,8 +311,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Publicity.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
           </carousel>
         </div>
@@ -297,7 +339,7 @@
             <div class="external-link">Visual Arena</div>
           </a>
         </div>
-        <h6>Tools &mp; methodology: Jira, Kanban</h6>
+        <h6>Tools &amp; methodology: Jira, Kanban</h6>
       </div>
     </div>
 
@@ -317,8 +359,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Game-Screens.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
             <slide>
               <img src="@/assets/MinStad/Game-Presentation.png">
@@ -330,8 +375,11 @@
                 v-bind:class="{ 'lb-button-active': lightbox == 'show'}"
                 v-on:click="lightbox = 'show', src = 'Game-Presentation.png'"
               >
-                <img v-bind:src="require('@/assets/FullscreenOn.svg')">
-              </a>
+                <img
+                  v-bind:src="require('@/assets/FullscreenOn.svg')"
+                  v-tooltip.left="{ content: 'Fullscreen' }"
+                >
+              </a>              </a>
             </slide>
           </carousel>
         </div>

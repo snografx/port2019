@@ -2,7 +2,7 @@
   <div class="text-shrink">
     <Title
       title="360° Panorama"
-      blurb="360° Panorama is CityPlanner spin-off product for low-end and mobile devices. It uses exported viewpoints from CityPlanner's fully 3D world to create a focused on-the-rails visual experience."
+      blurb="360° Panorama is a CityPlanner spin-off product for low-end and mobile devices. It uses exported viewpoints from CityPlanner's fully 3D world to create a focused on-the-rails visual experience."
       tags
     />
 
@@ -380,7 +380,7 @@
             <slide>
               <img src="@/assets/360Panorama/Cardboard.png">
               <div class="lb-caption">
-                <h6>Google Cardboard Event Design</h6>
+                <h6>Google Cardboard Event Design Prototype</h6>
               </div>
               <a
                 class="lb-button"
