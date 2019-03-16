@@ -326,13 +326,13 @@
         <p>Workshopping prototypes with test-users yielded many improvements such as changing the location and style of modal windows, streamlining select and delete workflows, and addressing design inconsistencies.</p>
         <div class="case-links">
           <a
-            href="https://www.figma.com/file/q8eZ3ooa8SQ5U6AmoMXnhd/Create-Tools-4.3.1-F?node-id=0%3A1"
+            href="https://www.figma.com/file/q8eZ3ooa8SQ5U6AmoMXnhd/Create-Tools-4.3.1-F"
             target="_blank"
           >
             <div class="external-link">Figma Design</div>
           </a>
           <a
-            href="https://www.figma.com/proto/q8eZ3ooa8SQ5U6AmoMXnhd/Create-Tools-4.3.1-F?node-id=793%3A3727&viewport=392%2C117%2C0.124055&scaling=scale-down"
+            href="https://www.figma.com/proto/q8eZ3ooa8SQ5U6AmoMXnhd/Create-Tools-4.3.1-F&scaling=scale-down"
             target="_blank"
           >
             <div class="external-link">Figma Prototype</div>
@@ -409,6 +409,13 @@
         <p>We forthwith began tracking usage of each element and researching what to include in future releases. Successful interface designs will inform desktop and showroom versions of Create Tools while work continues on driving the mobile interface forward.</p>
         <p>Click below to try a demo or see minor improvements already in the pipeline.</p>
         <div class="case-links">
+          <router-link
+            to="/soon"
+            v-tooltip.top="{ class: 'tooltip-dark' , content: 'Coming Soon' }"
+          >
+            <div class="case-link">Live Demo</div>
+          </router-link>
+          <!--
           <a
             href="#"
             target="_blank"
@@ -416,6 +423,7 @@
           >
             <div class="external-link">Live Demo</div>
           </a>
+          -->
           <a
             href="https://www.figma.com/file/CinfqQfQQuEA09KLHDmwDw/Create-Tools-Visit-and-Image"
             target="_blank"

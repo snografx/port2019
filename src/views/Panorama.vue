@@ -78,7 +78,7 @@
 
     <ArrowUp/>
 
-    <div id="process" class="case case-centre">
+    <div id="process" class="case case-left">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
@@ -148,7 +148,7 @@
 
     <ArrowUp/>
 
-    <div id="prototype" class="case case-left">
+    <div id="prototype" class="case case-centre">
       <div class="visual">
         <div class="carousel-container">
           <carousel :perPage="1" :navigationEnabled="false" paginationColor paginationActiveColor>
@@ -242,7 +242,7 @@
         <h4>Prototypes &amp; Iterative Design</h4>
         <p>We went through many iterations with our partners in Umeå who conducted workshops with local youth which informed the initial design.</p>
         <p>The city had a tight deadline, so 360° Panorama was soft-launched – without promotion – in the autumn of 2018 as a beta preview. We took advantage of this necessity to fast-track rapid iterations and improvements.</p>
-        <p>In late 2018 we leveraged an event at Sweco to workshop the released beta. Improvements continue ahead of an publicity in 2019.</p>
+        <p>In late 2018 we leveraged an event at Sweco to workshop the released beta. Improvements continue ahead product promotion in 2019.</p>
         <p></p>
         <div class="case-links">
           <a href="https://youtu.be/H2RI0sGmBzQ" target="_blank">
