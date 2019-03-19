@@ -399,17 +399,20 @@
       <div class="about">
         <h1>The Result</h1>
         <h4>Soft Release in Q4 2018</h4>
-        <p>The soft release was a victory for our partners in Umeå. Several other clients have already published projects and we are eagerly incorporating feedback into improving the base product and mobile interface.</p>
+        <p>The soft release was a victory for our partners in Umeå. Several other clients have already published projects – see links below – and we are eagerly incorporating feedback into improving the base product and mobile interface.</p>
         <p>Rapid development allowed CityPlanner's native mobile interface to launch shortly after 360° Panorama, quickly aligning the mobile portfolio, while designs are being made for translating new features for Desktop and Tablet views.</p>
         <div class="case-links">
           <a href="http://bit.ly/stadshagen-en" target="_blank">
-            <div class="external-link">Demo (English)</div>
+            <div class="external-link">Demo (Eng)</div>
+          </a>
+          <a href="http://bit.ly/vasterteg" target="_blank">
+            <div class="external-link">Umeå</div>
+          </a>
+          <a href="http://bit.ly/j-berg" target="_blank">
+            <div class="external-link">Karlstad</div>
           </a>
           <a href="http://bit.ly/vallentuna3d" target="_blank">
             <div class="external-link">Vallentuna</div>
-          </a>
-          <a href="http://bit.ly/masholmen" target="_blank">
-            <div class="external-link">Stockholm</div>
           </a>
         </div>
         <h6>Tools &amp; methodology: Jira, Kanban</h6>
